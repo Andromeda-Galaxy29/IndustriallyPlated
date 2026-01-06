@@ -1,0 +1,13 @@
+{
+  "itemGroup.industrially_plated": "Example Mod Tab",
+  "block.industrially_plated.example_block": "Example Block",
+  "item.industrially_plated.example_item": "Example Item",
+
+  "industrially_plated.configuration.title": "Industrially Plated Configs",
+  "industrially_plated.configuration.section.industrially_plated.common.toml": "Industrially Plated Configs",
+  "industrially_plated.configuration.section.industrially_plated.common.toml.title": "Industrially Plated Configs",
+  "industrially_plated.configuration.items": "Item List",
+  "industrially_plated.configuration.logDirtBlock": "Log Dirt Block",
+  "industrially_plated.configuration.magicNumberIntroduction": "Magic Number Text",
+  "industrially_plated.configuration.magicNumber": "Magic Number"
+}
