@@ -1,13 +1,20 @@
 {
-  "itemGroup.industrially_plated": "Example Mod Tab",
-  "block.industrially_plated.example_block": "Example Block",
-  "item.industrially_plated.example_item": "Example Item",
+  "itemGroup.industrially_plated": "Industrially Plated",
 
-  "industrially_plated.configuration.title": "Industrially Plated Configs",
-  "industrially_plated.configuration.section.industrially_plated.common.toml": "Industrially Plated Configs",
-  "industrially_plated.configuration.section.industrially_plated.common.toml.title": "Industrially Plated Configs",
-  "industrially_plated.configuration.items": "Item List",
-  "industrially_plated.configuration.logDirtBlock": "Log Dirt Block",
-  "industrially_plated.configuration.magicNumberIntroduction": "Magic Number Text",
-  "industrially_plated.configuration.magicNumber": "Magic Number"
+  "block.industrially_plated.white_plating_block": "White Plating Block",
+  "block.industrially_plated.light_gray_plating_block": "Light Gray Plating Block",
+  "block.industrially_plated.gray_plating_block": "Gray Plating Block",
+  "block.industrially_plated.black_plating_block": "Black Plating Block",
+  "block.industrially_plated.brown_plating_block": "Brown Plating Block",
+  "block.industrially_plated.red_plating_block": "Red Plating Block",
+  "block.industrially_plated.orange_plating_block": "Orange Plating Block",
+  "block.industrially_plated.yellow_plating_block": "Yellow Plating Block",
+  "block.industrially_plated.lime_plating_block": "Lime Plating Block",
+  "block.industrially_plated.green_plating_block": "Green Plating Block",
+  "block.industrially_plated.cyan_plating_block": "Cyan Plating Block",
+  "block.industrially_plated.light_blue_plating_block": "Light Blue Plating Block",
+  "block.industrially_plated.blue_plating_block": "Blue Plating Block",
+  "block.industrially_plated.purple_plating_block": "Purple Plating Block",
+  "block.industrially_plated.magenta_plating_block": "Magenta Plating Block",
+  "block.industrially_plated.pink_plating_block": "Pink Plating Block"
 }

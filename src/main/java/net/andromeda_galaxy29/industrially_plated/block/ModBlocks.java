@@ -8,18 +8,30 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.MapColor;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.function.Supplier;
 
 public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(IndustriallyPlated.MODID);
 
-    public static final DeferredBlock<Block> GRAY_PLATING = registerBlockWithItem("gray_plating_block",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.COPPER_BLOCK).mapColor(DyeColor.GRAY)));
+    // Plating blocks
+    public static final Map<DyeColor, DeferredBlock<Block>> PLATING_BLOCKS = registerDyedBlocks("plating_block",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.COPPER_BLOCK).mapColor(MapColor.METAL)));
+
+    public static <T extends Block> Map<DyeColor, DeferredBlock<T>> registerDyedBlocks(String nameTemplate, Supplier<T> supplier) {
+        Map<DyeColor, DeferredBlock<T>> map = new HashMap<>();
+        for (DyeColor color : DyeColor.values()) {
+            map.put(color, registerBlockWithItem(color.getName() + "_" + nameTemplate, supplier));
+        }
+        return map;
+    }
 
     public static <T extends Block> DeferredBlock<T> registerBlockWithItem(String name, Supplier<T> supplier) {
         DeferredBlock<T> deferredBlock = BLOCKS.register(name, supplier);
