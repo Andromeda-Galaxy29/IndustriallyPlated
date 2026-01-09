@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "industrially_plated:block/yellow_cut_plating"
+  }
+}

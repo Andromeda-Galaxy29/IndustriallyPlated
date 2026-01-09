@@ -7,6 +7,7 @@ import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.WaterloggedTransparentBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
 import net.neoforged.bus.api.IEventBus;
@@ -24,6 +25,12 @@ public class ModBlocks {
     // Plating blocks
     public static final Map<DyeColor, DeferredBlock<Block>> PLATING_BLOCKS = registerDyedBlocks("plating_block",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.COPPER_BLOCK).mapColor(MapColor.METAL)));
+
+    public static final Map<DyeColor, DeferredBlock<Block>> CUT_PLATING = registerDyedBlocks("cut_plating",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.CUT_COPPER).mapColor(MapColor.METAL)));
+
+    public static final Map<DyeColor, DeferredBlock<WaterloggedTransparentBlock>> PLATING_GRATES = registerDyedBlocks("plating_grate",
+            () -> new WaterloggedTransparentBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.COPPER_GRATE).mapColor(MapColor.METAL)));
 
     public static <T extends Block> Map<DyeColor, DeferredBlock<T>> registerDyedBlocks(String nameTemplate, Supplier<T> supplier) {
         Map<DyeColor, DeferredBlock<T>> map = new HashMap<>();

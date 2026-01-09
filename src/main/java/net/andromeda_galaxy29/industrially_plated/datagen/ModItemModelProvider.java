@@ -17,6 +17,8 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         for (DyeColor color : DyeColor.values()) {
             simpleBlockItem(ModBlocks.PLATING_BLOCKS.get(color).get());
+            simpleBlockItem(ModBlocks.CUT_PLATING.get(color).get());
+            simpleBlockItem(ModBlocks.PLATING_GRATES.get(color).get());
         }
     }
 }
