@@ -22,13 +22,22 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
             simpleBlock(ModBlocks.PLATING_BLOCKS.get(color).get());
 
+            DeferredBlock<WaterloggedTransparentBlock> platingGrate = ModBlocks.PLATING_GRATES.get(color);
+            simpleBlock(platingGrate.get(), models().withExistingParent(name(platingGrate), mcLoc("cube_all"))
+                    .texture("all", modLoc("block/" + name(platingGrate)))
+                    .renderType(mcLoc("cutout"))
+            );
+
             simpleBlock(ModBlocks.CUT_PLATING.get(color).get());
 
-            DeferredBlock<WaterloggedTransparentBlock> platingGrate = ModBlocks.PLATING_GRATES.get(color);
-            simpleBlock(platingGrate.get(),
-                    models().withExistingParent(name(platingGrate), mcLoc("cube_all"))
-                            .texture("all", modLoc("block/" + name(platingGrate)))
-                            .renderType(mcLoc("cutout")));
+            stairsBlock(ModBlocks.CUT_PLATING_STAIRS.get(color).get(),
+                    modLoc("block/" + name(ModBlocks.CUT_PLATING.get(color)))
+            );
+
+            slabBlock(ModBlocks.CUT_PLATING_SLABS.get(color).get(),
+                    modLoc("block/" + name(ModBlocks.CUT_PLATING.get(color))),
+                    modLoc("block/" + name(ModBlocks.CUT_PLATING.get(color)))
+            );
         }
     }
 

@@ -29,8 +29,10 @@ public class ModCreativeTabs {
 
                         for (DyeColor color : dyeOrder) {
                             output.accept(ModBlocks.PLATING_BLOCKS.get(color));
-                            output.accept(ModBlocks.CUT_PLATING.get(color));
                             output.accept(ModBlocks.PLATING_GRATES.get(color));
+                            output.accept(ModBlocks.CUT_PLATING.get(color));
+                            output.accept(ModBlocks.CUT_PLATING_STAIRS.get(color));
+                            output.accept(ModBlocks.CUT_PLATING_SLABS.get(color));
                         }
                     }).build());
 

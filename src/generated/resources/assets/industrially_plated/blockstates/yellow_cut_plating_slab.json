@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "industrially_plated:block/yellow_cut_plating_slab"
+    },
+    "type=double": {
+      "model": "industrially_plated:block/yellow_cut_plating"
+    },
+    "type=top": {
+      "model": "industrially_plated:block/yellow_cut_plating_slab_top"
+    }
+  }
+}
