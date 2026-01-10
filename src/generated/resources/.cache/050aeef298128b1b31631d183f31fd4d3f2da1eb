@@ -1,0 +1,18 @@
+// 1.21.1	2026-01-10T20:02:30.9802396	Tags for minecraft:item mod id industrially_plated
+6982885a94abd934c426794354b3c3387cacbc4b data/c/tags/item/dyed.json
+e562908d0e376bc7ee6d77243a8c13811178ae78 data/c/tags/item/dyed/black.json
+b6159b15cca253bd65e31c0a687fcb97257c249e data/c/tags/item/dyed/blue.json
+ae647fa256eaa7d988e819fd342b967d95947ae4 data/c/tags/item/dyed/brown.json
+0820d16c6e7ba2b651f6c777346a8ce0a72b0b64 data/c/tags/item/dyed/cyan.json
+d148a0e89cb31005b63f5fc8b6efee7dc8404347 data/c/tags/item/dyed/gray.json
+c87c32e88495c5a8fca890395582416d00154d91 data/c/tags/item/dyed/green.json
+a615b1e9fe76853f599e9901b33ae02bd636cfbb data/c/tags/item/dyed/light_blue.json
+3083b335362441cab73b1bc8443b6da592ef1ad3 data/c/tags/item/dyed/light_gray.json
+4409d1b47073bc2965e75cccd32c59779a89b188 data/c/tags/item/dyed/lime.json
+2d962d774db332e001afde5341671f9d41d306f6 data/c/tags/item/dyed/magenta.json
+2493723b2197c8d47958a95355e87a528cc9046b data/c/tags/item/dyed/orange.json
+eca92661259c8a4fe4b87535716d92152caa42b1 data/c/tags/item/dyed/pink.json
+db26b9a87b4bb4be1f35233ccd8fae3b02294f00 data/c/tags/item/dyed/purple.json
+666337a71d16d60b298b570a9eafd2e69ce3383f data/c/tags/item/dyed/red.json
+9babbd7ba8d99fd011c717b78f463c168e33b2a1 data/c/tags/item/dyed/white.json
+5f700d407e120f54c045668f193cf45a8245ee12 data/c/tags/item/dyed/yellow.json

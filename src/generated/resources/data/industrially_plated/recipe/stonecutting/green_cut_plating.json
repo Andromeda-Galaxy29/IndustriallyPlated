@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "industrially_plated:green_plating_block"
+  },
+  "result": {
+    "count": 4,
+    "id": "industrially_plated:green_cut_plating"
+  }
+}

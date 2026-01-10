@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "industrially_plated:blue_plating_block"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "industrially_plated:blocks/blue_plating_block"
+}

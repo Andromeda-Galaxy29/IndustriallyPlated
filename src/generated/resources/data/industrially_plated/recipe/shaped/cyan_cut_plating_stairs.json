@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "industrially_plated:cut_plating_stairs",
+  "key": {
+    "C": {
+      "item": "industrially_plated:cyan_cut_plating"
+    }
+  },
+  "pattern": [
+    "C  ",
+    "CC ",
+    "CCC"
+  ],
+  "result": {
+    "count": 4,
+    "id": "industrially_plated:cyan_cut_plating_stairs"
+  }
+}

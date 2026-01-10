@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "c:ingots/iron"
+  },
+  "result": {
+    "count": 1,
+    "id": "industrially_plated:gray_plating_block"
+  }
+}

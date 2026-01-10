@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "industrially_plated:red_plating_block"
+  },
+  "result": {
+    "count": 4,
+    "id": "industrially_plated:red_cut_plating_stairs"
+  }
+}
