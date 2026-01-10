@@ -6,7 +6,6 @@ import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.SlabBlock;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Set;
@@ -39,5 +38,8 @@ public class ModBlockLootSubProvider extends BlockLootSubProvider {
             Block cutPlatingSlab = ModBlocks.CUT_PLATING_SLABS.get(color).get();
             add(cutPlatingSlab, createSlabItemTable(cutPlatingSlab));
         }
+        dropSelf(ModBlocks.HAZARD_STRIPE_BLOCK.get());
+        dropSelf(ModBlocks.RADIATION_HAZARD_STRIPE_BLOCK.get());
+        dropSelf(ModBlocks.CAUTION_STRIPE_BLOCK.get());
     }
 }

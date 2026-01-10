@@ -7,6 +7,7 @@ import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.MapColor;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -48,6 +49,24 @@ public class ModBlocks {
     public static final Map<DyeColor, DeferredBlock<SlabBlock>> CUT_PLATING_SLABS = registerDyedBlocks("cut_plating_slab",
             (color) -> new SlabBlock(
                     BlockBehaviour.Properties.ofFullCopy(Blocks.CUT_COPPER_SLAB).mapColor(color)
+            )
+    );
+
+    public static final DeferredBlock<Block> HAZARD_STRIPE_BLOCK = registerBlockWithItem("hazard_stripe_block",
+            () -> new Block(
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.CUT_COPPER).mapColor(MapColor.TERRACOTTA_YELLOW)
+            )
+    );
+
+    public static final DeferredBlock<Block> RADIATION_HAZARD_STRIPE_BLOCK = registerBlockWithItem("radiation_hazard_stripe_block",
+            () -> new Block(
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.CUT_COPPER).mapColor(MapColor.TERRACOTTA_MAGENTA)
+            )
+    );
+
+    public static final DeferredBlock<Block> CAUTION_STRIPE_BLOCK = registerBlockWithItem("caution_stripe_block",
+            () -> new Block(
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.CUT_COPPER).mapColor(MapColor.COLOR_PINK)
             )
     );
 

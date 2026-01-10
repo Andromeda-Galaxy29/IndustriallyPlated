@@ -142,6 +142,27 @@ public class ModRecipeProvider extends RecipeProvider {
                     .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
                     .save(recipeOutput, modLoc("stonecutting/" + name(cutPlatingSlab) + "_from_plating_block"));
         }
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.HAZARD_STRIPE_BLOCK.get(), 2)
+                .requires(ModTags.Items.PLATING_BLOCKS)
+                .requires(Tags.Items.DYES_YELLOW)
+                .requires(Tags.Items.DYES_BLACK)
+                .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
+                .save(recipeOutput, modLoc("shapeless/" + name(ModBlocks.HAZARD_STRIPE_BLOCK.get())));
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RADIATION_HAZARD_STRIPE_BLOCK.get(), 2)
+                .requires(ModTags.Items.PLATING_BLOCKS)
+                .requires(Tags.Items.DYES_YELLOW)
+                .requires(Tags.Items.DYES_MAGENTA)
+                .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
+                .save(recipeOutput, modLoc("shapeless/" + name(ModBlocks.RADIATION_HAZARD_STRIPE_BLOCK.get())));
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CAUTION_STRIPE_BLOCK.get(), 2)
+                .requires(ModTags.Items.PLATING_BLOCKS)
+                .requires(Tags.Items.DYES_RED)
+                .requires(Tags.Items.DYES_WHITE)
+                .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
+                .save(recipeOutput, modLoc("shapeless/" + name(ModBlocks.CAUTION_STRIPE_BLOCK.get())));
     }
 
     private String name(Block block) {

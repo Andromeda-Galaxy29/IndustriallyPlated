@@ -4,7 +4,6 @@ import net.andromeda_galaxy29.industrially_plated.IndustriallyPlated;
 import net.andromeda_galaxy29.industrially_plated.block.ModBlocks;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.item.DyeColor;
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.WaterloggedTransparentBlock;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
@@ -39,6 +38,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
                     modLoc("block/" + name(ModBlocks.CUT_PLATING.get(color)))
             );
         }
+        simpleBlock(ModBlocks.HAZARD_STRIPE_BLOCK.get());
+        simpleBlock(ModBlocks.RADIATION_HAZARD_STRIPE_BLOCK.get());
+        simpleBlock(ModBlocks.CAUTION_STRIPE_BLOCK.get());
     }
 
     private String name(DeferredBlock deferredBlock) {

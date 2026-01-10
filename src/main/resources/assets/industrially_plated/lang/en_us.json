@@ -84,5 +84,9 @@
   "block.industrially_plated.blue_cut_plating_slab": "Blue Cut Plating Slab",
   "block.industrially_plated.purple_cut_plating_slab": "Purple Cut Plating Slab",
   "block.industrially_plated.magenta_cut_plating_slab": "Magenta Cut Plating Slab",
-  "block.industrially_plated.pink_cut_plating_slab": "Pink Cut Plating Slab"
+  "block.industrially_plated.pink_cut_plating_slab": "Pink Cut Plating Slab",
+
+  "block.industrially_plated.hazard_stripe_block": "Hazard Stripe Block",
+  "block.industrially_plated.radiation_hazard_stripe_block": "Radiation Hazard Stripe Block",
+  "block.industrially_plated.caution_stripe_block": "Caution Stripe Block"
 }

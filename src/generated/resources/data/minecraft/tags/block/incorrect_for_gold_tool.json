@@ -79,6 +79,9 @@
     "industrially_plated:black_plating_grate",
     "industrially_plated:black_cut_plating",
     "industrially_plated:black_cut_plating_stairs",
-    "industrially_plated:black_cut_plating_slab"
+    "industrially_plated:black_cut_plating_slab",
+    "industrially_plated:hazard_stripe_block",
+    "industrially_plated:radiation_hazard_stripe_block",
+    "industrially_plated:caution_stripe_block"
   ]
 }

@@ -22,5 +22,8 @@ public class ModItemModelProvider extends ItemModelProvider {
             simpleBlockItem(ModBlocks.CUT_PLATING_STAIRS.get(color).get());
             simpleBlockItem(ModBlocks.CUT_PLATING_SLABS.get(color).get());
         }
+        simpleBlockItem(ModBlocks.HAZARD_STRIPE_BLOCK.get());
+        simpleBlockItem(ModBlocks.RADIATION_HAZARD_STRIPE_BLOCK.get());
+        simpleBlockItem(ModBlocks.CAUTION_STRIPE_BLOCK.get());
     }
 }
