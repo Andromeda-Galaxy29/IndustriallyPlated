@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "industrially_plated:cut_plating_dyeing",
+  "key": {
+    "D": {
+      "tag": "c:dyes/cyan"
+    },
+    "P": {
+      "tag": "industrially_plated:cut_plating"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "PDP",
+    "PPP"
+  ],
+  "result": {
+    "count": 8,
+    "id": "industrially_plated:cyan_cut_plating"
+  }
+}

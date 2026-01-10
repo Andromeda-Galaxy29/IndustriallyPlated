@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "industrially_plated:cut_plating_stairs_dyeing",
+  "key": {
+    "D": {
+      "tag": "c:dyes/purple"
+    },
+    "P": {
+      "tag": "industrially_plated:cut_plating_stairs"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "PDP",
+    "PPP"
+  ],
+  "result": {
+    "count": 8,
+    "id": "industrially_plated:purple_cut_plating_stairs"
+  }
+}

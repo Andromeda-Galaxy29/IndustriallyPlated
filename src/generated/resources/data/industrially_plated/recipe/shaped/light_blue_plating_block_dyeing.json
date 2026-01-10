@@ -7,7 +7,7 @@
       "tag": "c:dyes/light_blue"
     },
     "P": {
-      "item": "industrially_plated:gray_plating_block"
+      "tag": "industrially_plated:plating_blocks"
     }
   },
   "pattern": [

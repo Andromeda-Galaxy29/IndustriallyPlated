@@ -2,6 +2,7 @@ package net.andromeda_galaxy29.industrially_plated.datagen;
 
 import net.andromeda_galaxy29.industrially_plated.IndustriallyPlated;
 import net.andromeda_galaxy29.industrially_plated.block.ModBlocks;
+import net.andromeda_galaxy29.industrially_plated.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
@@ -35,11 +36,10 @@ public class ModRecipeProvider extends RecipeProvider {
                     .pattern("PPP")
                     .pattern("PDP")
                     .pattern("PPP")
-                    .define('P', grayPlatingBlock)
+                    .define('P', ModTags.Items.PLATING_BLOCKS)
                     .define('D', color.getTag())
                     .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
                     .save(recipeOutput, modLoc("shaped/" + name(platingBlock) + "_dyeing"));
-            //TODO: More dyeing recipes, make them accept any color of block
 
             Block platingGrate = ModBlocks.PLATING_GRATES.get(color).get();
             ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, platingGrate, 4)
@@ -50,6 +50,16 @@ public class ModRecipeProvider extends RecipeProvider {
                     .define('P', platingBlock)
                     .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
                     .save(recipeOutput, modLoc("shaped/" + name(platingGrate)));
+
+            ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, platingGrate, 8)
+                    .group(modLocString("plating_grate_dyeing"))
+                    .pattern("PPP")
+                    .pattern("PDP")
+                    .pattern("PPP")
+                    .define('P', ModTags.Items.PLATING_GRATES)
+                    .define('D', color.getTag())
+                    .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
+                    .save(recipeOutput, modLoc("shaped/" + name(platingGrate) + "_dyeing"));
 
             SingleItemRecipeBuilder.stonecutting(Ingredient.of(platingBlock), RecipeCategory.BUILDING_BLOCKS, platingGrate, 4)
                     .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
@@ -64,6 +74,16 @@ public class ModRecipeProvider extends RecipeProvider {
                     .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
                     .save(recipeOutput, modLoc("shaped/" + name(cutPlating)));
 
+            ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, cutPlating, 8)
+                    .group(modLocString("cut_plating_dyeing"))
+                    .pattern("PPP")
+                    .pattern("PDP")
+                    .pattern("PPP")
+                    .define('P', ModTags.Items.CUT_PLATING)
+                    .define('D', color.getTag())
+                    .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
+                    .save(recipeOutput, modLoc("shaped/" + name(cutPlating) + "_dyeing"));
+
             SingleItemRecipeBuilder.stonecutting(Ingredient.of(platingBlock), RecipeCategory.BUILDING_BLOCKS, cutPlating, 4)
                     .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
                     .save(recipeOutput, modLoc("stonecutting/" + name(cutPlating)));
@@ -77,6 +97,16 @@ public class ModRecipeProvider extends RecipeProvider {
                     .define('C', cutPlating)
                     .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
                     .save(recipeOutput, modLoc("shaped/" + name(cutPlatingStairs)));
+
+            ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, cutPlatingStairs, 8)
+                    .group(modLocString("cut_plating_stairs_dyeing"))
+                    .pattern("PPP")
+                    .pattern("PDP")
+                    .pattern("PPP")
+                    .define('P', ModTags.Items.CUT_PLATING_STAIRS)
+                    .define('D', color.getTag())
+                    .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
+                    .save(recipeOutput, modLoc("shaped/" + name(cutPlatingStairs) + "_dyeing"));
 
             SingleItemRecipeBuilder.stonecutting(Ingredient.of(cutPlating), RecipeCategory.BUILDING_BLOCKS, cutPlatingStairs, 1)
                     .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
@@ -93,6 +123,16 @@ public class ModRecipeProvider extends RecipeProvider {
                     .define('C', cutPlating)
                     .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
                     .save(recipeOutput, modLoc("shaped/" + name(cutPlatingSlab)));
+
+            ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, cutPlatingSlab, 8)
+                    .group(modLocString("cut_plating_slab_dyeing"))
+                    .pattern("PPP")
+                    .pattern("PDP")
+                    .pattern("PPP")
+                    .define('P', ModTags.Items.CUT_PLATING_SLABS)
+                    .define('D', color.getTag())
+                    .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
+                    .save(recipeOutput, modLoc("shaped/" + name(cutPlatingSlab) + "_dyeing"));
 
             SingleItemRecipeBuilder.stonecutting(Ingredient.of(cutPlating), RecipeCategory.BUILDING_BLOCKS, cutPlatingSlab, 2)
                     .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))

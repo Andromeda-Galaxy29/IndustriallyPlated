@@ -2,6 +2,7 @@ package net.andromeda_galaxy29.industrially_plated.datagen;
 
 import net.andromeda_galaxy29.industrially_plated.IndustriallyPlated;
 import net.andromeda_galaxy29.industrially_plated.block.ModBlocks;
+import net.andromeda_galaxy29.industrially_plated.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
@@ -39,6 +40,12 @@ public class ModItemTagsProvider extends ItemTagsProvider {
                     .add(ModBlocks.CUT_PLATING.get(color).get().asItem())
                     .add(ModBlocks.CUT_PLATING_STAIRS.get(color).get().asItem())
                     .add(ModBlocks.CUT_PLATING_SLABS.get(color).get().asItem());
+
+            tag(ModTags.Items.PLATING_BLOCKS).add(ModBlocks.PLATING_BLOCKS.get(color).get().asItem());
+            tag(ModTags.Items.PLATING_GRATES).add(ModBlocks.PLATING_GRATES.get(color).get().asItem());
+            tag(ModTags.Items.CUT_PLATING).add(ModBlocks.CUT_PLATING.get(color).get().asItem());
+            tag(ModTags.Items.CUT_PLATING_STAIRS).add(ModBlocks.CUT_PLATING_STAIRS.get(color).get().asItem());
+            tag(ModTags.Items.CUT_PLATING_SLABS).add(ModBlocks.CUT_PLATING_SLABS.get(color).get().asItem());
         }
     }
 }

@@ -7,7 +7,7 @@
       "tag": "c:dyes/pink"
     },
     "P": {
-      "item": "industrially_plated:gray_plating_block"
+      "tag": "industrially_plated:plating_blocks"
     }
   },
   "pattern": [
