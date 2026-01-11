@@ -37,7 +37,6 @@ public class ModCreativeTabs {
 
                         output.accept(ModBlocks.HAZARD_STRIPE_BLOCK);
                         output.accept(ModBlocks.RADIATION_HAZARD_STRIPE_BLOCK);
-                        output.accept(ModBlocks.CAUTION_STRIPE_BLOCK);
 
                         output.accept(ModBlocks.BLANK_HAZARD_SIGN);
                     }).build());

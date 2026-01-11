@@ -46,7 +46,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         simpleBlock(ModBlocks.HAZARD_STRIPE_BLOCK.get());
         simpleBlock(ModBlocks.RADIATION_HAZARD_STRIPE_BLOCK.get());
-        simpleBlock(ModBlocks.CAUTION_STRIPE_BLOCK.get());
 
         signageBlock(ModBlocks.BLANK_HAZARD_SIGN.get(),
                 models().withExistingParent(name(ModBlocks.BLANK_HAZARD_SIGN), modLoc("sign"))

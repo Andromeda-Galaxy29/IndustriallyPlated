@@ -25,7 +25,6 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleBlockItem(ModBlocks.HAZARD_STRIPE_BLOCK.get());
         simpleBlockItem(ModBlocks.RADIATION_HAZARD_STRIPE_BLOCK.get());
-        simpleBlockItem(ModBlocks.CAUTION_STRIPE_BLOCK.get());
 
         simpleBlockItem(ModBlocks.BLANK_HAZARD_SIGN.get());
     }

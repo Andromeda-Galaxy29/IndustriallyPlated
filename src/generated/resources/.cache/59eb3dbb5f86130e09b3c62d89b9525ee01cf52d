@@ -1,4 +1,4 @@
-// 1.21.1	2026-01-10T23:48:22.3115592	Loot Tables
+// 1.21.1	2026-01-11T16:49:06.2898651	Loot Tables
 5b73504f80d0686a1780c854cad51822e926bc46 data/industrially_plated/loot_table/blocks/black_cut_plating.json
 ada582db327d3ff1e149d17f0ef8a8e76cae7c8d data/industrially_plated/loot_table/blocks/black_cut_plating_slab.json
 7a28b9d544b77b769ad83b28c6ec9d8d1fe07f21 data/industrially_plated/loot_table/blocks/black_cut_plating_stairs.json
@@ -15,7 +15,6 @@ e754f1ceb68e476f2254af60efa388a2a0ceee74 data/industrially_plated/loot_table/blo
 2f329c8bf8e54a03b49c343755df32d690315662 data/industrially_plated/loot_table/blocks/brown_cut_plating_stairs.json
 8d92a15b9248bbb180bf64094382421a8b8e7326 data/industrially_plated/loot_table/blocks/brown_plating_block.json
 c74bfebdad4cd86f93421ea38d13fbc98bf5f29d data/industrially_plated/loot_table/blocks/brown_plating_grate.json
-9a35b36987500a448cade6587b8c58a58ed238b7 data/industrially_plated/loot_table/blocks/caution_stripe_block.json
 f9c162893fd4a2861b6bcc52d5bf242d0a813cc5 data/industrially_plated/loot_table/blocks/cyan_cut_plating.json
 f3a8db7323904361895747c8eb3eab5347131d17 data/industrially_plated/loot_table/blocks/cyan_cut_plating_slab.json
 6829d75522aed80c5ffc236cdc489e299caae874 data/industrially_plated/loot_table/blocks/cyan_cut_plating_stairs.json

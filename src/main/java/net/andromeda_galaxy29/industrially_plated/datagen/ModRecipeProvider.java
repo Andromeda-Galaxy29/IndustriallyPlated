@@ -163,13 +163,6 @@ public class ModRecipeProvider extends RecipeProvider {
                 .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
                 .save(recipeOutput, modLoc("shapeless/" + name(ModBlocks.RADIATION_HAZARD_STRIPE_BLOCK)));
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CAUTION_STRIPE_BLOCK, 2)
-                .requires(ModTags.Items.PLATING_BLOCKS)
-                .requires(Tags.Items.DYES_RED)
-                .requires(Tags.Items.DYES_WHITE)
-                .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
-                .save(recipeOutput, modLoc("shapeless/" + name(ModBlocks.CAUTION_STRIPE_BLOCK)));
-
         // Hazard signs
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModTags.Items.HAZARD_SIGNAGE), RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLANK_HAZARD_SIGN, 1)
                 .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))

@@ -46,9 +46,6 @@ public class ModBlocks {
     public static final DeferredBlock<Block> RADIATION_HAZARD_STRIPE_BLOCK = registerBlockWithItem("radiation_hazard_stripe_block",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.CUT_COPPER).mapColor(MapColor.TERRACOTTA_YELLOW)));
 
-    public static final DeferredBlock<Block> CAUTION_STRIPE_BLOCK = registerBlockWithItem("caution_stripe_block",
-            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.CUT_COPPER).mapColor(DyeColor.PINK)));
-
     public static final DeferredBlock<SignageBlock> BLANK_HAZARD_SIGN = registerBlockWithItem("blank_hazard_sign",
             () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.CUT_COPPER)
                     .noOcclusion()

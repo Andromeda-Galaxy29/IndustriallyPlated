@@ -1,4 +1,4 @@
-// 1.21.1	2026-01-10T23:48:22.3274365	Item Models: industrially_plated
+// 1.21.1	2026-01-11T16:49:06.3192043	Item Models: industrially_plated
 dc2f80720e1c08d57fb475ffbb52b242bf8191e3 assets/industrially_plated/models/item/black_cut_plating.json
 ae17b963490f68f39626b946357e9458e4d2c08f assets/industrially_plated/models/item/black_cut_plating_slab.json
 caed4d8896cb8599152d58539e9702ebe5f02c52 assets/industrially_plated/models/item/black_cut_plating_stairs.json
@@ -15,7 +15,6 @@ ba4bae4b2051ea7b5ea354c5d3180bdbbf058f73 assets/industrially_plated/models/item/
 904a70d249c83551381e70d918294ca9ce53ce32 assets/industrially_plated/models/item/brown_cut_plating_stairs.json
 0e6f438fa24b7d761f504c9d09fac68a1ca71a3f assets/industrially_plated/models/item/brown_plating_block.json
 203aa1e0e87fdfb13383eb72bf9e64121c1a98c9 assets/industrially_plated/models/item/brown_plating_grate.json
-5fd110d1b18718e9fed34e4a2d4816ec12e8e304 assets/industrially_plated/models/item/caution_stripe_block.json
 a71a10da9063314f9d39a1d3ac7b7c69a7cae89f assets/industrially_plated/models/item/cyan_cut_plating.json
 4943125a17b563bf9292a5f2bdca301e12f636a3 assets/industrially_plated/models/item/cyan_cut_plating_slab.json
 be2430d5c29a8109aff7a86ea1b044895514d696 assets/industrially_plated/models/item/cyan_cut_plating_stairs.json
