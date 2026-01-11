@@ -4,15 +4,14 @@ import net.andromeda_galaxy29.industrially_plated.IndustriallyPlated;
 import net.andromeda_galaxy29.industrially_plated.block.ModBlocks;
 import net.andromeda_galaxy29.industrially_plated.util.ModTags;
 import net.minecraft.core.HolderLookup;
-import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.common.Tags;
+import net.neoforged.neoforge.registries.DeferredBlock;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.concurrent.CompletableFuture;
@@ -24,13 +23,15 @@ public class ModRecipeProvider extends RecipeProvider {
 
     @Override
     protected void buildRecipes(@NotNull RecipeOutput recipeOutput) {
-        Block grayPlatingBlock = ModBlocks.PLATING_BLOCKS.get(DyeColor.GRAY).get();
+        DeferredBlock grayPlatingBlock = ModBlocks.PLATING_BLOCKS.get(DyeColor.GRAY);
+
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(Tags.Items.INGOTS_IRON), RecipeCategory.BUILDING_BLOCKS, grayPlatingBlock)
                 .unlockedBy("has_iron_ingot", has(Items.IRON_INGOT))
                 .save(recipeOutput, modLoc("stonecutting/" + name(grayPlatingBlock)));
 
         for (DyeColor color : DyeColor.values()) {
-            Block platingBlock = ModBlocks.PLATING_BLOCKS.get(color).get();
+            // Plating Block
+            DeferredBlock platingBlock = ModBlocks.PLATING_BLOCKS.get(color);
             ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, platingBlock, 8)
                     .group(modLocString("plating_block_dyeing"))
                     .pattern("PPP")
@@ -41,7 +42,8 @@ public class ModRecipeProvider extends RecipeProvider {
                     .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
                     .save(recipeOutput, modLoc("shaped/" + name(platingBlock) + "_dyeing"));
 
-            Block platingGrate = ModBlocks.PLATING_GRATES.get(color).get();
+            // Plating Grate
+            DeferredBlock platingGrate = ModBlocks.PLATING_GRATES.get(color);
             ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, platingGrate, 4)
                     .group(modLocString("plating_grates"))
                     .pattern(" P ")
@@ -65,7 +67,8 @@ public class ModRecipeProvider extends RecipeProvider {
                     .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
                     .save(recipeOutput, modLoc("stonecutting/" + name(platingGrate)));
 
-            Block cutPlating = ModBlocks.CUT_PLATING.get(color).get();
+            // Cut Plating
+            DeferredBlock cutPlating = ModBlocks.CUT_PLATING.get(color);
             ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, cutPlating, 4)
                     .group(modLocString("cut_plating"))
                     .pattern("PP")
@@ -88,7 +91,8 @@ public class ModRecipeProvider extends RecipeProvider {
                     .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
                     .save(recipeOutput, modLoc("stonecutting/" + name(cutPlating)));
 
-            Block cutPlatingStairs = ModBlocks.CUT_PLATING_STAIRS.get(color).get();
+            // Cut Plating Stairs
+            DeferredBlock cutPlatingStairs = ModBlocks.CUT_PLATING_STAIRS.get(color);
             ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, cutPlatingStairs, 4)
                     .group(modLocString("cut_plating_stairs"))
                     .pattern("C  ")
@@ -116,7 +120,8 @@ public class ModRecipeProvider extends RecipeProvider {
                     .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
                     .save(recipeOutput, modLoc("stonecutting/" + name(cutPlatingStairs) + "_from_plating_block"));
 
-            Block cutPlatingSlab = ModBlocks.CUT_PLATING_SLABS.get(color).get();
+            // Cut Plating Slab
+            DeferredBlock cutPlatingSlab = ModBlocks.CUT_PLATING_SLABS.get(color);
             ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, cutPlatingSlab, 6)
                     .group(modLocString("cut_plating_slabs"))
                     .pattern("CCC")
@@ -143,30 +148,40 @@ public class ModRecipeProvider extends RecipeProvider {
                     .save(recipeOutput, modLoc("stonecutting/" + name(cutPlatingSlab) + "_from_plating_block"));
         }
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.HAZARD_STRIPE_BLOCK.get(), 2)
+        // Stripe blocks
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.HAZARD_STRIPE_BLOCK, 2)
                 .requires(ModTags.Items.PLATING_BLOCKS)
                 .requires(Tags.Items.DYES_YELLOW)
                 .requires(Tags.Items.DYES_BLACK)
                 .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
-                .save(recipeOutput, modLoc("shapeless/" + name(ModBlocks.HAZARD_STRIPE_BLOCK.get())));
+                .save(recipeOutput, modLoc("shapeless/" + name(ModBlocks.HAZARD_STRIPE_BLOCK)));
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RADIATION_HAZARD_STRIPE_BLOCK.get(), 2)
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.RADIATION_HAZARD_STRIPE_BLOCK, 2)
                 .requires(ModTags.Items.PLATING_BLOCKS)
                 .requires(Tags.Items.DYES_YELLOW)
                 .requires(Tags.Items.DYES_MAGENTA)
                 .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
-                .save(recipeOutput, modLoc("shapeless/" + name(ModBlocks.RADIATION_HAZARD_STRIPE_BLOCK.get())));
+                .save(recipeOutput, modLoc("shapeless/" + name(ModBlocks.RADIATION_HAZARD_STRIPE_BLOCK)));
 
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CAUTION_STRIPE_BLOCK.get(), 2)
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, ModBlocks.CAUTION_STRIPE_BLOCK, 2)
                 .requires(ModTags.Items.PLATING_BLOCKS)
                 .requires(Tags.Items.DYES_RED)
                 .requires(Tags.Items.DYES_WHITE)
                 .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
-                .save(recipeOutput, modLoc("shapeless/" + name(ModBlocks.CAUTION_STRIPE_BLOCK.get())));
+                .save(recipeOutput, modLoc("shapeless/" + name(ModBlocks.CAUTION_STRIPE_BLOCK)));
+
+        // Hazard signs
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModTags.Items.HAZARD_SIGNAGE), RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLANK_HAZARD_SIGN, 1)
+                .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
+                .save(recipeOutput, modLoc("stonecutting/hazard_sign_clearing"));
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PLATING_BLOCKS.get(DyeColor.YELLOW)), RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLANK_HAZARD_SIGN, 4)
+                .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
+                .save(recipeOutput, modLoc("stonecutting/" + name(ModBlocks.BLANK_HAZARD_SIGN)));
     }
 
-    private String name(Block block) {
-        return BuiltInRegistries.ITEM.getKey(block.asItem()).getPath();
+    private String name(DeferredBlock deferredBlock) {
+        return deferredBlock.getKey().location().getPath();
     }
 
     public ResourceLocation modLoc(String name) {

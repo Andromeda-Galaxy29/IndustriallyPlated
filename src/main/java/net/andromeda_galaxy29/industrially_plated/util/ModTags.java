@@ -25,5 +25,6 @@ public class ModTags {
         public static final TagKey<Item> CUT_PLATING = createTag("cut_plating");
         public static final TagKey<Item> CUT_PLATING_STAIRS = createTag("cut_plating_stairs");
         public static final TagKey<Item> CUT_PLATING_SLABS = createTag("cut_plating_slabs");
+        public static final TagKey<Item> HAZARD_SIGNAGE = createTag("hazard_signage");
     }
 }

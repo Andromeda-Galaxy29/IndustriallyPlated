@@ -26,18 +26,21 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
                     .add(ModBlocks.CUT_PLATING.get(color).get())
                     .add(ModBlocks.CUT_PLATING_STAIRS.get(color).get())
                     .add(ModBlocks.CUT_PLATING_SLABS.get(color).get());
+
             tag(BlockTags.NEEDS_STONE_TOOL)
                     .add(ModBlocks.PLATING_BLOCKS.get(color).get())
                     .add(ModBlocks.PLATING_GRATES.get(color).get())
                     .add(ModBlocks.CUT_PLATING.get(color).get())
                     .add(ModBlocks.CUT_PLATING_STAIRS.get(color).get())
                     .add(ModBlocks.CUT_PLATING_SLABS.get(color).get());
+
             tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
                     .add(ModBlocks.PLATING_BLOCKS.get(color).get())
                     .add(ModBlocks.PLATING_GRATES.get(color).get())
                     .add(ModBlocks.CUT_PLATING.get(color).get())
                     .add(ModBlocks.CUT_PLATING_STAIRS.get(color).get())
                     .add(ModBlocks.CUT_PLATING_SLABS.get(color).get());
+
             tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
                     .add(ModBlocks.PLATING_BLOCKS.get(color).get())
                     .add(ModBlocks.PLATING_GRATES.get(color).get())
@@ -45,21 +48,29 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
                     .add(ModBlocks.CUT_PLATING_STAIRS.get(color).get())
                     .add(ModBlocks.CUT_PLATING_SLABS.get(color).get());
         }
+
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.HAZARD_STRIPE_BLOCK.get())
                 .add(ModBlocks.RADIATION_HAZARD_STRIPE_BLOCK.get())
-                .add(ModBlocks.CAUTION_STRIPE_BLOCK.get());
+                .add(ModBlocks.CAUTION_STRIPE_BLOCK.get())
+                .add(ModBlocks.BLANK_HAZARD_SIGN.get());
+
         tag(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.HAZARD_STRIPE_BLOCK.get())
                 .add(ModBlocks.RADIATION_HAZARD_STRIPE_BLOCK.get())
-                .add(ModBlocks.CAUTION_STRIPE_BLOCK.get());
+                .add(ModBlocks.CAUTION_STRIPE_BLOCK.get())
+                .add(ModBlocks.BLANK_HAZARD_SIGN.get());
+
         tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
                 .add(ModBlocks.HAZARD_STRIPE_BLOCK.get())
                 .add(ModBlocks.RADIATION_HAZARD_STRIPE_BLOCK.get())
-                .add(ModBlocks.CAUTION_STRIPE_BLOCK.get());
+                .add(ModBlocks.CAUTION_STRIPE_BLOCK.get())
+                .add(ModBlocks.BLANK_HAZARD_SIGN.get());
+
         tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
                 .add(ModBlocks.HAZARD_STRIPE_BLOCK.get())
                 .add(ModBlocks.RADIATION_HAZARD_STRIPE_BLOCK.get())
-                .add(ModBlocks.CAUTION_STRIPE_BLOCK.get());
+                .add(ModBlocks.CAUTION_STRIPE_BLOCK.get())
+                .add(ModBlocks.BLANK_HAZARD_SIGN.get());
     }
 }

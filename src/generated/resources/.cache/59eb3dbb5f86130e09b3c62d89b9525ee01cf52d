@@ -1,9 +1,10 @@
-// 1.21.1	2026-01-10T22:08:11.1657408	Loot Tables
+// 1.21.1	2026-01-10T23:48:22.3115592	Loot Tables
 5b73504f80d0686a1780c854cad51822e926bc46 data/industrially_plated/loot_table/blocks/black_cut_plating.json
 ada582db327d3ff1e149d17f0ef8a8e76cae7c8d data/industrially_plated/loot_table/blocks/black_cut_plating_slab.json
 7a28b9d544b77b769ad83b28c6ec9d8d1fe07f21 data/industrially_plated/loot_table/blocks/black_cut_plating_stairs.json
 223b3dc16237e630d0aa27edca70baf89a9c49ba data/industrially_plated/loot_table/blocks/black_plating_block.json
 e35a7b675bcfdf64ae80e67dd79d2800b5fbba62 data/industrially_plated/loot_table/blocks/black_plating_grate.json
+5b0b216bc7def66613b9f997ef85b4be4ef8c516 data/industrially_plated/loot_table/blocks/blank_hazard_sign.json
 6dca8fa0fa9cc7cab0d4e946b6daa83eda94b054 data/industrially_plated/loot_table/blocks/blue_cut_plating.json
 e754f1ceb68e476f2254af60efa388a2a0ceee74 data/industrially_plated/loot_table/blocks/blue_cut_plating_slab.json
 0da658af4ed056440d1af6c36ded0c175130f901 data/industrially_plated/loot_table/blocks/blue_cut_plating_stairs.json

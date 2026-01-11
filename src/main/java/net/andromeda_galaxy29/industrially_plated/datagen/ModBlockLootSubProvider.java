@@ -28,18 +28,18 @@ public class ModBlockLootSubProvider extends BlockLootSubProvider {
     protected void generate() {
         for (DyeColor color : DyeColor.values()) {
             dropSelf(ModBlocks.PLATING_BLOCKS.get(color).get());
-
             dropSelf(ModBlocks.PLATING_GRATES.get(color).get());
-
             dropSelf(ModBlocks.CUT_PLATING.get(color).get());
-
             dropSelf(ModBlocks.CUT_PLATING_STAIRS.get(color).get());
 
             Block cutPlatingSlab = ModBlocks.CUT_PLATING_SLABS.get(color).get();
             add(cutPlatingSlab, createSlabItemTable(cutPlatingSlab));
         }
+
         dropSelf(ModBlocks.HAZARD_STRIPE_BLOCK.get());
         dropSelf(ModBlocks.RADIATION_HAZARD_STRIPE_BLOCK.get());
         dropSelf(ModBlocks.CAUTION_STRIPE_BLOCK.get());
+
+        dropSelf(ModBlocks.BLANK_HAZARD_SIGN.get());
     }
 }

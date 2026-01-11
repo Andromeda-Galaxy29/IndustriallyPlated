@@ -1,9 +1,10 @@
-// 1.21.1	2026-01-10T22:08:11.1859905	Item Models: industrially_plated
+// 1.21.1	2026-01-10T23:48:22.3274365	Item Models: industrially_plated
 dc2f80720e1c08d57fb475ffbb52b242bf8191e3 assets/industrially_plated/models/item/black_cut_plating.json
 ae17b963490f68f39626b946357e9458e4d2c08f assets/industrially_plated/models/item/black_cut_plating_slab.json
 caed4d8896cb8599152d58539e9702ebe5f02c52 assets/industrially_plated/models/item/black_cut_plating_stairs.json
 724e6e8f3b65236c7770c40edefbabee13e6b819 assets/industrially_plated/models/item/black_plating_block.json
 267dbac00dd6d97d988ff64eee40293ec58613e7 assets/industrially_plated/models/item/black_plating_grate.json
+66628aa02d73166e751251888a1c4fe5f868b275 assets/industrially_plated/models/item/blank_hazard_sign.json
 467b9f81d54fae09ce3ca75c296eeaa1d2de29bc assets/industrially_plated/models/item/blue_cut_plating.json
 24219a94174f5e832683e549066e965f3b6adadf assets/industrially_plated/models/item/blue_cut_plating_slab.json
 ba4bae4b2051ea7b5ea354c5d3180bdbbf058f73 assets/industrially_plated/models/item/blue_cut_plating_stairs.json
