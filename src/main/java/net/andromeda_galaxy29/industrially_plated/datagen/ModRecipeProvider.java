@@ -164,13 +164,49 @@ public class ModRecipeProvider extends RecipeProvider {
                 .save(recipeOutput, modLoc("shapeless/" + name(ModBlocks.RADIATION_HAZARD_STRIPE_BLOCK)));
 
         // Hazard signs
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModTags.Items.HAZARD_SIGNAGE), RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLANK_HAZARD_SIGN, 1)
-                .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
-                .save(recipeOutput, modLoc("stonecutting/hazard_sign_clearing"));
-
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PLATING_BLOCKS.get(DyeColor.YELLOW)), RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLANK_HAZARD_SIGN, 4)
                 .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
+                .save(recipeOutput, modLoc("stonecutting/" + name(ModBlocks.BLANK_HAZARD_SIGN) + "_from_plating_block"));
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModTags.Items.HAZARD_SIGNAGE), RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLANK_HAZARD_SIGN, 1)
+                .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
                 .save(recipeOutput, modLoc("stonecutting/" + name(ModBlocks.BLANK_HAZARD_SIGN)));
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModTags.Items.HAZARD_SIGNAGE), RecipeCategory.BUILDING_BLOCKS, ModBlocks.GENERIC_HAZARD_SIGN, 1)
+                .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
+                .save(recipeOutput, modLoc("stonecutting/" + name(ModBlocks.GENERIC_HAZARD_SIGN)));
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModTags.Items.HAZARD_SIGNAGE), RecipeCategory.BUILDING_BLOCKS, ModBlocks.FALLING_HAZARD_SIGN, 1)
+                .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
+                .save(recipeOutput, modLoc("stonecutting/" + name(ModBlocks.FALLING_HAZARD_SIGN)));
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModTags.Items.HAZARD_SIGNAGE), RecipeCategory.BUILDING_BLOCKS, ModBlocks.TOXICITY_HAZARD_SIGN, 1)
+                .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
+                .save(recipeOutput, modLoc("stonecutting/" + name(ModBlocks.TOXICITY_HAZARD_SIGN)));
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModTags.Items.HAZARD_SIGNAGE), RecipeCategory.BUILDING_BLOCKS, ModBlocks.ELECTRICITY_HAZARD_SIGN, 1)
+                .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
+                .save(recipeOutput, modLoc("stonecutting/" + name(ModBlocks.ELECTRICITY_HAZARD_SIGN)));
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModTags.Items.HAZARD_SIGNAGE), RecipeCategory.BUILDING_BLOCKS, ModBlocks.FIRE_HAZARD_SIGN, 1)
+                .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
+                .save(recipeOutput, modLoc("stonecutting/" + name(ModBlocks.FIRE_HAZARD_SIGN)));
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModTags.Items.HAZARD_SIGNAGE), RecipeCategory.BUILDING_BLOCKS, ModBlocks.HEAT_HAZARD_SIGN, 1)
+                .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
+                .save(recipeOutput, modLoc("stonecutting/" + name(ModBlocks.HEAT_HAZARD_SIGN)));
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModTags.Items.HAZARD_SIGNAGE), RecipeCategory.BUILDING_BLOCKS, ModBlocks.RADIATION_HAZARD_SIGN, 1)
+                .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
+                .save(recipeOutput, modLoc("stonecutting/" + name(ModBlocks.RADIATION_HAZARD_SIGN)));
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModTags.Items.HAZARD_SIGNAGE), RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGENTA_RADIATION_HAZARD_SIGN, 1)
+                .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
+                .save(recipeOutput, modLoc("stonecutting/" + name(ModBlocks.MAGENTA_RADIATION_HAZARD_SIGN)));
+
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModTags.Items.HAZARD_SIGNAGE), RecipeCategory.BUILDING_BLOCKS, ModBlocks.BIOHAZARD_SIGN, 1)
+                .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
+                .save(recipeOutput, modLoc("stonecutting/" + name(ModBlocks.BIOHAZARD_SIGN)));
     }
 
     private String name(DeferredBlock deferredBlock) {

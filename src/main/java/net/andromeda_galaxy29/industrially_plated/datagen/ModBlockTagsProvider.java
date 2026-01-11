@@ -52,21 +52,57 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(ModBlocks.HAZARD_STRIPE_BLOCK.get())
                 .add(ModBlocks.RADIATION_HAZARD_STRIPE_BLOCK.get())
-                .add(ModBlocks.BLANK_HAZARD_SIGN.get());
+                .add(ModBlocks.BLANK_HAZARD_SIGN.get())
+                .add(ModBlocks.GENERIC_HAZARD_SIGN.get())
+                .add(ModBlocks.FALLING_HAZARD_SIGN.get())
+                .add(ModBlocks.TOXICITY_HAZARD_SIGN.get())
+                .add(ModBlocks.ELECTRICITY_HAZARD_SIGN.get())
+                .add(ModBlocks.FIRE_HAZARD_SIGN.get())
+                .add(ModBlocks.HEAT_HAZARD_SIGN.get())
+                .add(ModBlocks.RADIATION_HAZARD_SIGN.get())
+                .add(ModBlocks.MAGENTA_RADIATION_HAZARD_SIGN.get())
+                .add(ModBlocks.BIOHAZARD_SIGN.get());
 
         tag(BlockTags.NEEDS_STONE_TOOL)
                 .add(ModBlocks.HAZARD_STRIPE_BLOCK.get())
                 .add(ModBlocks.RADIATION_HAZARD_STRIPE_BLOCK.get())
-                .add(ModBlocks.BLANK_HAZARD_SIGN.get());
+                .add(ModBlocks.BLANK_HAZARD_SIGN.get())
+                .add(ModBlocks.GENERIC_HAZARD_SIGN.get())
+                .add(ModBlocks.FALLING_HAZARD_SIGN.get())
+                .add(ModBlocks.TOXICITY_HAZARD_SIGN.get())
+                .add(ModBlocks.ELECTRICITY_HAZARD_SIGN.get())
+                .add(ModBlocks.FIRE_HAZARD_SIGN.get())
+                .add(ModBlocks.HEAT_HAZARD_SIGN.get())
+                .add(ModBlocks.RADIATION_HAZARD_SIGN.get())
+                .add(ModBlocks.MAGENTA_RADIATION_HAZARD_SIGN.get())
+                .add(ModBlocks.BIOHAZARD_SIGN.get());
 
         tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL)
                 .add(ModBlocks.HAZARD_STRIPE_BLOCK.get())
                 .add(ModBlocks.RADIATION_HAZARD_STRIPE_BLOCK.get())
-                .add(ModBlocks.BLANK_HAZARD_SIGN.get());
+                .add(ModBlocks.BLANK_HAZARD_SIGN.get())
+                .add(ModBlocks.GENERIC_HAZARD_SIGN.get())
+                .add(ModBlocks.FALLING_HAZARD_SIGN.get())
+                .add(ModBlocks.TOXICITY_HAZARD_SIGN.get())
+                .add(ModBlocks.ELECTRICITY_HAZARD_SIGN.get())
+                .add(ModBlocks.FIRE_HAZARD_SIGN.get())
+                .add(ModBlocks.HEAT_HAZARD_SIGN.get())
+                .add(ModBlocks.RADIATION_HAZARD_SIGN.get())
+                .add(ModBlocks.MAGENTA_RADIATION_HAZARD_SIGN.get())
+                .add(ModBlocks.BIOHAZARD_SIGN.get());
 
         tag(BlockTags.INCORRECT_FOR_GOLD_TOOL)
                 .add(ModBlocks.HAZARD_STRIPE_BLOCK.get())
                 .add(ModBlocks.RADIATION_HAZARD_STRIPE_BLOCK.get())
-                .add(ModBlocks.BLANK_HAZARD_SIGN.get());
+                .add(ModBlocks.BLANK_HAZARD_SIGN.get())
+                .add(ModBlocks.GENERIC_HAZARD_SIGN.get())
+                .add(ModBlocks.FALLING_HAZARD_SIGN.get())
+                .add(ModBlocks.TOXICITY_HAZARD_SIGN.get())
+                .add(ModBlocks.ELECTRICITY_HAZARD_SIGN.get())
+                .add(ModBlocks.FIRE_HAZARD_SIGN.get())
+                .add(ModBlocks.HEAT_HAZARD_SIGN.get())
+                .add(ModBlocks.RADIATION_HAZARD_SIGN.get())
+                .add(ModBlocks.MAGENTA_RADIATION_HAZARD_SIGN.get())
+                .add(ModBlocks.BIOHAZARD_SIGN.get());
     }
 }

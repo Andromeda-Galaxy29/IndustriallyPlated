@@ -47,13 +47,26 @@ public class ModBlockStateProvider extends BlockStateProvider {
         simpleBlock(ModBlocks.HAZARD_STRIPE_BLOCK.get());
         simpleBlock(ModBlocks.RADIATION_HAZARD_STRIPE_BLOCK.get());
 
-        signageBlock(ModBlocks.BLANK_HAZARD_SIGN.get(),
-                models().withExistingParent(name(ModBlocks.BLANK_HAZARD_SIGN), modLoc("sign"))
-                        .texture("front", modLoc("block/" + name(ModBlocks.BLANK_HAZARD_SIGN))));
+        signageBlock(ModBlocks.BLANK_HAZARD_SIGN);
+        signageBlock(ModBlocks.GENERIC_HAZARD_SIGN);
+        signageBlock(ModBlocks.FALLING_HAZARD_SIGN);
+        signageBlock(ModBlocks.TOXICITY_HAZARD_SIGN);
+        signageBlock(ModBlocks.ELECTRICITY_HAZARD_SIGN);
+        signageBlock(ModBlocks.FIRE_HAZARD_SIGN);
+        signageBlock(ModBlocks.HEAT_HAZARD_SIGN);
+        signageBlock(ModBlocks.RADIATION_HAZARD_SIGN);
+        signageBlock(ModBlocks.MAGENTA_RADIATION_HAZARD_SIGN);
+        signageBlock(ModBlocks.BIOHAZARD_SIGN);
+
     }
 
     private String name(DeferredBlock deferredBlock) {
         return deferredBlock.getKey().location().getPath();
+    }
+
+    private <T extends Block> void signageBlock(DeferredBlock<T> deferredBlock) {
+        signageBlock(deferredBlock.get(), models().withExistingParent(name(deferredBlock), modLoc("sign"))
+                .texture("front", modLoc("block/" + name(deferredBlock))));
     }
 
     private void signageBlock(Block block, ModelFile model){

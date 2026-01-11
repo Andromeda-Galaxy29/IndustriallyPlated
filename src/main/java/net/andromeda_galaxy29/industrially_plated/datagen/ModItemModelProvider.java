@@ -27,5 +27,14 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleBlockItem(ModBlocks.RADIATION_HAZARD_STRIPE_BLOCK.get());
 
         simpleBlockItem(ModBlocks.BLANK_HAZARD_SIGN.get());
+        simpleBlockItem(ModBlocks.GENERIC_HAZARD_SIGN.get());
+        simpleBlockItem(ModBlocks.FALLING_HAZARD_SIGN.get());
+        simpleBlockItem(ModBlocks.TOXICITY_HAZARD_SIGN.get());
+        simpleBlockItem(ModBlocks.ELECTRICITY_HAZARD_SIGN.get());
+        simpleBlockItem(ModBlocks.FIRE_HAZARD_SIGN.get());
+        simpleBlockItem(ModBlocks.HEAT_HAZARD_SIGN.get());
+        simpleBlockItem(ModBlocks.RADIATION_HAZARD_SIGN.get());
+        simpleBlockItem(ModBlocks.MAGENTA_RADIATION_HAZARD_SIGN.get());
+        simpleBlockItem(ModBlocks.BIOHAZARD_SIGN.get());
     }
 }

@@ -40,5 +40,14 @@ public class ModBlockLootSubProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.RADIATION_HAZARD_STRIPE_BLOCK.get());
 
         dropSelf(ModBlocks.BLANK_HAZARD_SIGN.get());
+        dropSelf(ModBlocks.GENERIC_HAZARD_SIGN.get());
+        dropSelf(ModBlocks.FALLING_HAZARD_SIGN.get());
+        dropSelf(ModBlocks.TOXICITY_HAZARD_SIGN.get());
+        dropSelf(ModBlocks.ELECTRICITY_HAZARD_SIGN.get());
+        dropSelf(ModBlocks.FIRE_HAZARD_SIGN.get());
+        dropSelf(ModBlocks.HEAT_HAZARD_SIGN.get());
+        dropSelf(ModBlocks.RADIATION_HAZARD_SIGN.get());
+        dropSelf(ModBlocks.MAGENTA_RADIATION_HAZARD_SIGN.get());
+        dropSelf(ModBlocks.BIOHAZARD_SIGN.get());
     }
 }

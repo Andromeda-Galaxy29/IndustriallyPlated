@@ -47,6 +47,15 @@ public class ModItemTagsProvider extends ItemTagsProvider {
         }
 
         tag(ModTags.Items.HAZARD_SIGNAGE)
-                .add(ModBlocks.BLANK_HAZARD_SIGN.asItem());
+                .add(ModBlocks.BLANK_HAZARD_SIGN.asItem())
+                .add(ModBlocks.GENERIC_HAZARD_SIGN.asItem())
+                .add(ModBlocks.FALLING_HAZARD_SIGN.asItem())
+                .add(ModBlocks.TOXICITY_HAZARD_SIGN.asItem())
+                .add(ModBlocks.ELECTRICITY_HAZARD_SIGN.asItem())
+                .add(ModBlocks.FIRE_HAZARD_SIGN.asItem())
+                .add(ModBlocks.HEAT_HAZARD_SIGN.asItem())
+                .add(ModBlocks.RADIATION_HAZARD_SIGN.asItem())
+                .add(ModBlocks.MAGENTA_RADIATION_HAZARD_SIGN.asItem())
+                .add(ModBlocks.BIOHAZARD_SIGN.asItem());
     }
 }

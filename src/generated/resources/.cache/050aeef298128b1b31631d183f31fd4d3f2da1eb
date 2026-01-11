@@ -1,4 +1,4 @@
-// 1.21.1	2026-01-11T16:25:33.215643	Tags for minecraft:item mod id industrially_plated
+// 1.21.1	2026-01-11T17:24:40.4233856	Tags for minecraft:item mod id industrially_plated
 6982885a94abd934c426794354b3c3387cacbc4b data/c/tags/item/dyed.json
 e562908d0e376bc7ee6d77243a8c13811178ae78 data/c/tags/item/dyed/black.json
 b6159b15cca253bd65e31c0a687fcb97257c249e data/c/tags/item/dyed/blue.json
@@ -19,6 +19,6 @@ db26b9a87b4bb4be1f35233ccd8fae3b02294f00 data/c/tags/item/dyed/purple.json
 ea92f55e5e371d3ced9dc308ae90d3841d814072 data/industrially_plated/tags/item/cut_plating.json
 5c86f63e187ee74e860abbb8f8d1b7c57adcc493 data/industrially_plated/tags/item/cut_plating_slabs.json
 df00ce2bd6cfd02f6ae2ef4cfda74a299f7de557 data/industrially_plated/tags/item/cut_plating_stairs.json
-969e9d3a631ba74771fc815ff291c44b7eb38b50 data/industrially_plated/tags/item/hazard_signage.json
+f5ad8374e519ade56d34c86bedd330de3cfba785 data/industrially_plated/tags/item/hazard_signage.json
 63d6144d6b43e32dcdbbaa5bed0b0549604d2fb8 data/industrially_plated/tags/item/plating_blocks.json
 755e019f1c78abe376e40763925ead0e73a32916 data/industrially_plated/tags/item/plating_grates.json

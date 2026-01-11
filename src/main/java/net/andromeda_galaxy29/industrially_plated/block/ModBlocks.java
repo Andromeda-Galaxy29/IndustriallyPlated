@@ -51,6 +51,35 @@ public class ModBlocks {
                     .noOcclusion()
                     .mapColor(DyeColor.YELLOW)));
 
+    public static final DeferredBlock<SignageBlock> GENERIC_HAZARD_SIGN = registerBlockWithItem("generic_hazard_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_HAZARD_SIGN.get())));
+
+    public static final DeferredBlock<SignageBlock> FALLING_HAZARD_SIGN = registerBlockWithItem("falling_hazard_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_HAZARD_SIGN.get())));
+
+    public static final DeferredBlock<SignageBlock> TOXICITY_HAZARD_SIGN = registerBlockWithItem("toxicity_hazard_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_HAZARD_SIGN.get())));
+
+    public static final DeferredBlock<SignageBlock> ELECTRICITY_HAZARD_SIGN = registerBlockWithItem("electricity_hazard_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_HAZARD_SIGN.get())));
+
+    public static final DeferredBlock<SignageBlock> FIRE_HAZARD_SIGN = registerBlockWithItem("fire_hazard_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_HAZARD_SIGN.get())));
+
+    public static final DeferredBlock<SignageBlock> HEAT_HAZARD_SIGN = registerBlockWithItem("heat_hazard_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_HAZARD_SIGN.get())));
+
+    public static final DeferredBlock<SignageBlock> RADIATION_HAZARD_SIGN = registerBlockWithItem("radiation_hazard_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_HAZARD_SIGN.get())));
+
+    public static final DeferredBlock<SignageBlock> MAGENTA_RADIATION_HAZARD_SIGN = registerBlockWithItem("magenta_radiation_hazard_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_HAZARD_SIGN.get())));
+
+    public static final DeferredBlock<SignageBlock> BIOHAZARD_SIGN = registerBlockWithItem("biohazard_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_HAZARD_SIGN.get())));
+
+
+
     public static <T extends Block> Map<DyeColor, DeferredBlock<T>> registerDyedBlocks(String nameTemplate, Function<DyeColor, T> function) {
         Map<DyeColor, DeferredBlock<T>> map = new HashMap<>();
         for (DyeColor color : DyeColor.values()) {

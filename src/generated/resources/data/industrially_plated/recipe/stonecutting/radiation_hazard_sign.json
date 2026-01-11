@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "industrially_plated:hazard_signage"
+  },
+  "result": {
+    "count": 1,
+    "id": "industrially_plated:radiation_hazard_sign"
+  }
+}

@@ -39,6 +39,15 @@ public class ModCreativeTabs {
                         output.accept(ModBlocks.RADIATION_HAZARD_STRIPE_BLOCK);
 
                         output.accept(ModBlocks.BLANK_HAZARD_SIGN);
+                        output.accept(ModBlocks.GENERIC_HAZARD_SIGN);
+                        output.accept(ModBlocks.FALLING_HAZARD_SIGN);
+                        output.accept(ModBlocks.TOXICITY_HAZARD_SIGN);
+                        output.accept(ModBlocks.ELECTRICITY_HAZARD_SIGN);
+                        output.accept(ModBlocks.FIRE_HAZARD_SIGN);
+                        output.accept(ModBlocks.HEAT_HAZARD_SIGN);
+                        output.accept(ModBlocks.RADIATION_HAZARD_SIGN);
+                        output.accept(ModBlocks.MAGENTA_RADIATION_HAZARD_SIGN);
+                        output.accept(ModBlocks.BIOHAZARD_SIGN);
                     }).build());
 
     public static void register(IEventBus eventBus) {

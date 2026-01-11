@@ -1,5 +1,5 @@
-// 1.21.1	2026-01-11T16:49:06.2878631	Tags for minecraft:block mod id industrially_plated
-66f3838f6735033c970308f781787db1f53c4031 data/minecraft/tags/block/incorrect_for_gold_tool.json
-66f3838f6735033c970308f781787db1f53c4031 data/minecraft/tags/block/incorrect_for_wooden_tool.json
-66f3838f6735033c970308f781787db1f53c4031 data/minecraft/tags/block/mineable/pickaxe.json
-66f3838f6735033c970308f781787db1f53c4031 data/minecraft/tags/block/needs_stone_tool.json
+// 1.21.1	2026-01-11T17:24:40.362172	Tags for minecraft:block mod id industrially_plated
+09d94171d4feb1f3f8f837559d25f07270aa47a1 data/minecraft/tags/block/incorrect_for_gold_tool.json
+09d94171d4feb1f3f8f837559d25f07270aa47a1 data/minecraft/tags/block/incorrect_for_wooden_tool.json
+09d94171d4feb1f3f8f837559d25f07270aa47a1 data/minecraft/tags/block/mineable/pickaxe.json
+09d94171d4feb1f3f8f837559d25f07270aa47a1 data/minecraft/tags/block/needs_stone_tool.json
