@@ -48,6 +48,9 @@ public class ModCreativeTabs {
                         output.accept(ModBlocks.RADIATION_HAZARD_SIGN);
                         output.accept(ModBlocks.MAGENTA_RADIATION_HAZARD_SIGN);
                         output.accept(ModBlocks.BIOHAZARD_SIGN);
+
+                        output.accept(ModBlocks.BLANK_SAFETY_SIGN);
+                        output.accept(ModBlocks.ARROW_SIGN);
                     }).build());
 
     public static void register(IEventBus eventBus) {

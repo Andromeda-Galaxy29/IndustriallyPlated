@@ -57,5 +57,9 @@ public class ModItemTagsProvider extends ItemTagsProvider {
                 .add(ModBlocks.RADIATION_HAZARD_SIGN.asItem())
                 .add(ModBlocks.MAGENTA_RADIATION_HAZARD_SIGN.asItem())
                 .add(ModBlocks.BIOHAZARD_SIGN.asItem());
+
+        tag(ModTags.Items.SAFETY_SIGNAGE)
+                .add(ModBlocks.BLANK_SAFETY_SIGN.asItem())
+                .add(ModBlocks.ARROW_SIGN.asItem());
     }
 }

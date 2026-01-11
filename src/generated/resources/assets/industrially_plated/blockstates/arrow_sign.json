@@ -1,0 +1,428 @@
+{
+  "variants": {
+    "direction=down,face=ceiling,facing=east": {
+      "model": "industrially_plated:block/arrow_sign_down",
+      "x": -180,
+      "y": 90
+    },
+    "direction=down,face=ceiling,facing=north": {
+      "model": "industrially_plated:block/arrow_sign_down",
+      "x": -180
+    },
+    "direction=down,face=ceiling,facing=south": {
+      "model": "industrially_plated:block/arrow_sign_down",
+      "x": -180,
+      "y": 180
+    },
+    "direction=down,face=ceiling,facing=west": {
+      "model": "industrially_plated:block/arrow_sign_down",
+      "x": -180,
+      "y": 270
+    },
+    "direction=down,face=floor,facing=east": {
+      "model": "industrially_plated:block/arrow_sign_down",
+      "y": 90
+    },
+    "direction=down,face=floor,facing=north": {
+      "model": "industrially_plated:block/arrow_sign_down"
+    },
+    "direction=down,face=floor,facing=south": {
+      "model": "industrially_plated:block/arrow_sign_down",
+      "y": 180
+    },
+    "direction=down,face=floor,facing=west": {
+      "model": "industrially_plated:block/arrow_sign_down",
+      "y": 270
+    },
+    "direction=down,face=wall,facing=east": {
+      "model": "industrially_plated:block/arrow_sign_down",
+      "x": -90,
+      "y": 270
+    },
+    "direction=down,face=wall,facing=north": {
+      "model": "industrially_plated:block/arrow_sign_down",
+      "x": -90,
+      "y": 180
+    },
+    "direction=down,face=wall,facing=south": {
+      "model": "industrially_plated:block/arrow_sign_down",
+      "x": -90
+    },
+    "direction=down,face=wall,facing=west": {
+      "model": "industrially_plated:block/arrow_sign_down",
+      "x": -90,
+      "y": 90
+    },
+    "direction=down_left,face=ceiling,facing=east": {
+      "model": "industrially_plated:block/arrow_sign_down_left",
+      "x": -180,
+      "y": 90
+    },
+    "direction=down_left,face=ceiling,facing=north": {
+      "model": "industrially_plated:block/arrow_sign_down_left",
+      "x": -180
+    },
+    "direction=down_left,face=ceiling,facing=south": {
+      "model": "industrially_plated:block/arrow_sign_down_left",
+      "x": -180,
+      "y": 180
+    },
+    "direction=down_left,face=ceiling,facing=west": {
+      "model": "industrially_plated:block/arrow_sign_down_left",
+      "x": -180,
+      "y": 270
+    },
+    "direction=down_left,face=floor,facing=east": {
+      "model": "industrially_plated:block/arrow_sign_down_left",
+      "y": 90
+    },
+    "direction=down_left,face=floor,facing=north": {
+      "model": "industrially_plated:block/arrow_sign_down_left"
+    },
+    "direction=down_left,face=floor,facing=south": {
+      "model": "industrially_plated:block/arrow_sign_down_left",
+      "y": 180
+    },
+    "direction=down_left,face=floor,facing=west": {
+      "model": "industrially_plated:block/arrow_sign_down_left",
+      "y": 270
+    },
+    "direction=down_left,face=wall,facing=east": {
+      "model": "industrially_plated:block/arrow_sign_down_left",
+      "x": -90,
+      "y": 270
+    },
+    "direction=down_left,face=wall,facing=north": {
+      "model": "industrially_plated:block/arrow_sign_down_left",
+      "x": -90,
+      "y": 180
+    },
+    "direction=down_left,face=wall,facing=south": {
+      "model": "industrially_plated:block/arrow_sign_down_left",
+      "x": -90
+    },
+    "direction=down_left,face=wall,facing=west": {
+      "model": "industrially_plated:block/arrow_sign_down_left",
+      "x": -90,
+      "y": 90
+    },
+    "direction=down_right,face=ceiling,facing=east": {
+      "model": "industrially_plated:block/arrow_sign_down_right",
+      "x": -180,
+      "y": 90
+    },
+    "direction=down_right,face=ceiling,facing=north": {
+      "model": "industrially_plated:block/arrow_sign_down_right",
+      "x": -180
+    },
+    "direction=down_right,face=ceiling,facing=south": {
+      "model": "industrially_plated:block/arrow_sign_down_right",
+      "x": -180,
+      "y": 180
+    },
+    "direction=down_right,face=ceiling,facing=west": {
+      "model": "industrially_plated:block/arrow_sign_down_right",
+      "x": -180,
+      "y": 270
+    },
+    "direction=down_right,face=floor,facing=east": {
+      "model": "industrially_plated:block/arrow_sign_down_right",
+      "y": 90
+    },
+    "direction=down_right,face=floor,facing=north": {
+      "model": "industrially_plated:block/arrow_sign_down_right"
+    },
+    "direction=down_right,face=floor,facing=south": {
+      "model": "industrially_plated:block/arrow_sign_down_right",
+      "y": 180
+    },
+    "direction=down_right,face=floor,facing=west": {
+      "model": "industrially_plated:block/arrow_sign_down_right",
+      "y": 270
+    },
+    "direction=down_right,face=wall,facing=east": {
+      "model": "industrially_plated:block/arrow_sign_down_right",
+      "x": -90,
+      "y": 270
+    },
+    "direction=down_right,face=wall,facing=north": {
+      "model": "industrially_plated:block/arrow_sign_down_right",
+      "x": -90,
+      "y": 180
+    },
+    "direction=down_right,face=wall,facing=south": {
+      "model": "industrially_plated:block/arrow_sign_down_right",
+      "x": -90
+    },
+    "direction=down_right,face=wall,facing=west": {
+      "model": "industrially_plated:block/arrow_sign_down_right",
+      "x": -90,
+      "y": 90
+    },
+    "direction=left,face=ceiling,facing=east": {
+      "model": "industrially_plated:block/arrow_sign_left",
+      "x": -180,
+      "y": 90
+    },
+    "direction=left,face=ceiling,facing=north": {
+      "model": "industrially_plated:block/arrow_sign_left",
+      "x": -180
+    },
+    "direction=left,face=ceiling,facing=south": {
+      "model": "industrially_plated:block/arrow_sign_left",
+      "x": -180,
+      "y": 180
+    },
+    "direction=left,face=ceiling,facing=west": {
+      "model": "industrially_plated:block/arrow_sign_left",
+      "x": -180,
+      "y": 270
+    },
+    "direction=left,face=floor,facing=east": {
+      "model": "industrially_plated:block/arrow_sign_left",
+      "y": 90
+    },
+    "direction=left,face=floor,facing=north": {
+      "model": "industrially_plated:block/arrow_sign_left"
+    },
+    "direction=left,face=floor,facing=south": {
+      "model": "industrially_plated:block/arrow_sign_left",
+      "y": 180
+    },
+    "direction=left,face=floor,facing=west": {
+      "model": "industrially_plated:block/arrow_sign_left",
+      "y": 270
+    },
+    "direction=left,face=wall,facing=east": {
+      "model": "industrially_plated:block/arrow_sign_left",
+      "x": -90,
+      "y": 270
+    },
+    "direction=left,face=wall,facing=north": {
+      "model": "industrially_plated:block/arrow_sign_left",
+      "x": -90,
+      "y": 180
+    },
+    "direction=left,face=wall,facing=south": {
+      "model": "industrially_plated:block/arrow_sign_left",
+      "x": -90
+    },
+    "direction=left,face=wall,facing=west": {
+      "model": "industrially_plated:block/arrow_sign_left",
+      "x": -90,
+      "y": 90
+    },
+    "direction=right,face=ceiling,facing=east": {
+      "model": "industrially_plated:block/arrow_sign_right",
+      "x": -180,
+      "y": 90
+    },
+    "direction=right,face=ceiling,facing=north": {
+      "model": "industrially_plated:block/arrow_sign_right",
+      "x": -180
+    },
+    "direction=right,face=ceiling,facing=south": {
+      "model": "industrially_plated:block/arrow_sign_right",
+      "x": -180,
+      "y": 180
+    },
+    "direction=right,face=ceiling,facing=west": {
+      "model": "industrially_plated:block/arrow_sign_right",
+      "x": -180,
+      "y": 270
+    },
+    "direction=right,face=floor,facing=east": {
+      "model": "industrially_plated:block/arrow_sign_right",
+      "y": 90
+    },
+    "direction=right,face=floor,facing=north": {
+      "model": "industrially_plated:block/arrow_sign_right"
+    },
+    "direction=right,face=floor,facing=south": {
+      "model": "industrially_plated:block/arrow_sign_right",
+      "y": 180
+    },
+    "direction=right,face=floor,facing=west": {
+      "model": "industrially_plated:block/arrow_sign_right",
+      "y": 270
+    },
+    "direction=right,face=wall,facing=east": {
+      "model": "industrially_plated:block/arrow_sign_right",
+      "x": -90,
+      "y": 270
+    },
+    "direction=right,face=wall,facing=north": {
+      "model": "industrially_plated:block/arrow_sign_right",
+      "x": -90,
+      "y": 180
+    },
+    "direction=right,face=wall,facing=south": {
+      "model": "industrially_plated:block/arrow_sign_right",
+      "x": -90
+    },
+    "direction=right,face=wall,facing=west": {
+      "model": "industrially_plated:block/arrow_sign_right",
+      "x": -90,
+      "y": 90
+    },
+    "direction=up,face=ceiling,facing=east": {
+      "model": "industrially_plated:block/arrow_sign_up",
+      "x": -180,
+      "y": 90
+    },
+    "direction=up,face=ceiling,facing=north": {
+      "model": "industrially_plated:block/arrow_sign_up",
+      "x": -180
+    },
+    "direction=up,face=ceiling,facing=south": {
+      "model": "industrially_plated:block/arrow_sign_up",
+      "x": -180,
+      "y": 180
+    },
+    "direction=up,face=ceiling,facing=west": {
+      "model": "industrially_plated:block/arrow_sign_up",
+      "x": -180,
+      "y": 270
+    },
+    "direction=up,face=floor,facing=east": {
+      "model": "industrially_plated:block/arrow_sign_up",
+      "y": 90
+    },
+    "direction=up,face=floor,facing=north": {
+      "model": "industrially_plated:block/arrow_sign_up"
+    },
+    "direction=up,face=floor,facing=south": {
+      "model": "industrially_plated:block/arrow_sign_up",
+      "y": 180
+    },
+    "direction=up,face=floor,facing=west": {
+      "model": "industrially_plated:block/arrow_sign_up",
+      "y": 270
+    },
+    "direction=up,face=wall,facing=east": {
+      "model": "industrially_plated:block/arrow_sign_up",
+      "x": -90,
+      "y": 270
+    },
+    "direction=up,face=wall,facing=north": {
+      "model": "industrially_plated:block/arrow_sign_up",
+      "x": -90,
+      "y": 180
+    },
+    "direction=up,face=wall,facing=south": {
+      "model": "industrially_plated:block/arrow_sign_up",
+      "x": -90
+    },
+    "direction=up,face=wall,facing=west": {
+      "model": "industrially_plated:block/arrow_sign_up",
+      "x": -90,
+      "y": 90
+    },
+    "direction=up_left,face=ceiling,facing=east": {
+      "model": "industrially_plated:block/arrow_sign_up_left",
+      "x": -180,
+      "y": 90
+    },
+    "direction=up_left,face=ceiling,facing=north": {
+      "model": "industrially_plated:block/arrow_sign_up_left",
+      "x": -180
+    },
+    "direction=up_left,face=ceiling,facing=south": {
+      "model": "industrially_plated:block/arrow_sign_up_left",
+      "x": -180,
+      "y": 180
+    },
+    "direction=up_left,face=ceiling,facing=west": {
+      "model": "industrially_plated:block/arrow_sign_up_left",
+      "x": -180,
+      "y": 270
+    },
+    "direction=up_left,face=floor,facing=east": {
+      "model": "industrially_plated:block/arrow_sign_up_left",
+      "y": 90
+    },
+    "direction=up_left,face=floor,facing=north": {
+      "model": "industrially_plated:block/arrow_sign_up_left"
+    },
+    "direction=up_left,face=floor,facing=south": {
+      "model": "industrially_plated:block/arrow_sign_up_left",
+      "y": 180
+    },
+    "direction=up_left,face=floor,facing=west": {
+      "model": "industrially_plated:block/arrow_sign_up_left",
+      "y": 270
+    },
+    "direction=up_left,face=wall,facing=east": {
+      "model": "industrially_plated:block/arrow_sign_up_left",
+      "x": -90,
+      "y": 270
+    },
+    "direction=up_left,face=wall,facing=north": {
+      "model": "industrially_plated:block/arrow_sign_up_left",
+      "x": -90,
+      "y": 180
+    },
+    "direction=up_left,face=wall,facing=south": {
+      "model": "industrially_plated:block/arrow_sign_up_left",
+      "x": -90
+    },
+    "direction=up_left,face=wall,facing=west": {
+      "model": "industrially_plated:block/arrow_sign_up_left",
+      "x": -90,
+      "y": 90
+    },
+    "direction=up_right,face=ceiling,facing=east": {
+      "model": "industrially_plated:block/arrow_sign_up_right",
+      "x": -180,
+      "y": 90
+    },
+    "direction=up_right,face=ceiling,facing=north": {
+      "model": "industrially_plated:block/arrow_sign_up_right",
+      "x": -180
+    },
+    "direction=up_right,face=ceiling,facing=south": {
+      "model": "industrially_plated:block/arrow_sign_up_right",
+      "x": -180,
+      "y": 180
+    },
+    "direction=up_right,face=ceiling,facing=west": {
+      "model": "industrially_plated:block/arrow_sign_up_right",
+      "x": -180,
+      "y": 270
+    },
+    "direction=up_right,face=floor,facing=east": {
+      "model": "industrially_plated:block/arrow_sign_up_right",
+      "y": 90
+    },
+    "direction=up_right,face=floor,facing=north": {
+      "model": "industrially_plated:block/arrow_sign_up_right"
+    },
+    "direction=up_right,face=floor,facing=south": {
+      "model": "industrially_plated:block/arrow_sign_up_right",
+      "y": 180
+    },
+    "direction=up_right,face=floor,facing=west": {
+      "model": "industrially_plated:block/arrow_sign_up_right",
+      "y": 270
+    },
+    "direction=up_right,face=wall,facing=east": {
+      "model": "industrially_plated:block/arrow_sign_up_right",
+      "x": -90,
+      "y": 270
+    },
+    "direction=up_right,face=wall,facing=north": {
+      "model": "industrially_plated:block/arrow_sign_up_right",
+      "x": -90,
+      "y": 180
+    },
+    "direction=up_right,face=wall,facing=south": {
+      "model": "industrially_plated:block/arrow_sign_up_right",
+      "x": -90
+    },
+    "direction=up_right,face=wall,facing=west": {
+      "model": "industrially_plated:block/arrow_sign_up_right",
+      "x": -90,
+      "y": 90
+    }
+  }
+}

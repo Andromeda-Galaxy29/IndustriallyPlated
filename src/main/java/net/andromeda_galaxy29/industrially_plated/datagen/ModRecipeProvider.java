@@ -163,50 +163,45 @@ public class ModRecipeProvider extends RecipeProvider {
                 .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
                 .save(recipeOutput, modLoc("shapeless/" + name(ModBlocks.RADIATION_HAZARD_STRIPE_BLOCK)));
 
-        // Hazard signs
+        // Hazard signage
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PLATING_BLOCKS.get(DyeColor.YELLOW)), RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLANK_HAZARD_SIGN, 4)
                 .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
                 .save(recipeOutput, modLoc("stonecutting/" + name(ModBlocks.BLANK_HAZARD_SIGN) + "_from_plating_block"));
 
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModTags.Items.HAZARD_SIGNAGE), RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLANK_HAZARD_SIGN, 1)
-                .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
-                .save(recipeOutput, modLoc("stonecutting/" + name(ModBlocks.BLANK_HAZARD_SIGN)));
+        DeferredBlock[] hazardSignage = {
+                ModBlocks.BLANK_HAZARD_SIGN,
+                ModBlocks.GENERIC_HAZARD_SIGN,
+                ModBlocks.FALLING_HAZARD_SIGN,
+                ModBlocks.TOXICITY_HAZARD_SIGN,
+                ModBlocks.ELECTRICITY_HAZARD_SIGN,
+                ModBlocks.FIRE_HAZARD_SIGN,
+                ModBlocks.HEAT_HAZARD_SIGN,
+                ModBlocks.RADIATION_HAZARD_SIGN,
+                ModBlocks.MAGENTA_RADIATION_HAZARD_SIGN,
+                ModBlocks.BIOHAZARD_SIGN
+        };
 
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModTags.Items.HAZARD_SIGNAGE), RecipeCategory.BUILDING_BLOCKS, ModBlocks.GENERIC_HAZARD_SIGN, 1)
-                .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
-                .save(recipeOutput, modLoc("stonecutting/" + name(ModBlocks.GENERIC_HAZARD_SIGN)));
+        for (DeferredBlock hazardSign : hazardSignage) {
+            SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModTags.Items.HAZARD_SIGNAGE), RecipeCategory.BUILDING_BLOCKS, hazardSign, 1)
+                    .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
+                    .save(recipeOutput, modLoc("stonecutting/" + name(hazardSign)));
+        }
 
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModTags.Items.HAZARD_SIGNAGE), RecipeCategory.BUILDING_BLOCKS, ModBlocks.FALLING_HAZARD_SIGN, 1)
+        // Safety signage
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PLATING_BLOCKS.get(DyeColor.GREEN)), RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLANK_SAFETY_SIGN, 4)
                 .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
-                .save(recipeOutput, modLoc("stonecutting/" + name(ModBlocks.FALLING_HAZARD_SIGN)));
+                .save(recipeOutput, modLoc("stonecutting/" + name(ModBlocks.BLANK_SAFETY_SIGN) + "_from_plating_block"));
 
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModTags.Items.HAZARD_SIGNAGE), RecipeCategory.BUILDING_BLOCKS, ModBlocks.TOXICITY_HAZARD_SIGN, 1)
-                .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
-                .save(recipeOutput, modLoc("stonecutting/" + name(ModBlocks.TOXICITY_HAZARD_SIGN)));
+        DeferredBlock[] safetySignage = {
+                ModBlocks.BLANK_SAFETY_SIGN,
+                ModBlocks.ARROW_SIGN
+        };
 
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModTags.Items.HAZARD_SIGNAGE), RecipeCategory.BUILDING_BLOCKS, ModBlocks.ELECTRICITY_HAZARD_SIGN, 1)
-                .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
-                .save(recipeOutput, modLoc("stonecutting/" + name(ModBlocks.ELECTRICITY_HAZARD_SIGN)));
-
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModTags.Items.HAZARD_SIGNAGE), RecipeCategory.BUILDING_BLOCKS, ModBlocks.FIRE_HAZARD_SIGN, 1)
-                .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
-                .save(recipeOutput, modLoc("stonecutting/" + name(ModBlocks.FIRE_HAZARD_SIGN)));
-
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModTags.Items.HAZARD_SIGNAGE), RecipeCategory.BUILDING_BLOCKS, ModBlocks.HEAT_HAZARD_SIGN, 1)
-                .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
-                .save(recipeOutput, modLoc("stonecutting/" + name(ModBlocks.HEAT_HAZARD_SIGN)));
-
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModTags.Items.HAZARD_SIGNAGE), RecipeCategory.BUILDING_BLOCKS, ModBlocks.RADIATION_HAZARD_SIGN, 1)
-                .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
-                .save(recipeOutput, modLoc("stonecutting/" + name(ModBlocks.RADIATION_HAZARD_SIGN)));
-
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModTags.Items.HAZARD_SIGNAGE), RecipeCategory.BUILDING_BLOCKS, ModBlocks.MAGENTA_RADIATION_HAZARD_SIGN, 1)
-                .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
-                .save(recipeOutput, modLoc("stonecutting/" + name(ModBlocks.MAGENTA_RADIATION_HAZARD_SIGN)));
-
-        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModTags.Items.HAZARD_SIGNAGE), RecipeCategory.BUILDING_BLOCKS, ModBlocks.BIOHAZARD_SIGN, 1)
-                .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
-                .save(recipeOutput, modLoc("stonecutting/" + name(ModBlocks.BIOHAZARD_SIGN)));
+        for (DeferredBlock safetySign : safetySignage) {
+            SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModTags.Items.SAFETY_SIGNAGE), RecipeCategory.BUILDING_BLOCKS, safetySign, 1)
+                    .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
+                    .save(recipeOutput, modLoc("stonecutting/" + name(safetySign)));
+        }
     }
 
     private String name(DeferredBlock deferredBlock) {

@@ -2,8 +2,12 @@ package net.andromeda_galaxy29.industrially_plated.datagen;
 
 import net.andromeda_galaxy29.industrially_plated.IndustriallyPlated;
 import net.andromeda_galaxy29.industrially_plated.block.ModBlocks;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.DyeColor;
+import net.minecraft.world.level.block.Block;
+import net.neoforged.neoforge.client.model.generators.ItemModelBuilder;
 import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 
@@ -36,5 +40,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleBlockItem(ModBlocks.RADIATION_HAZARD_SIGN.get());
         simpleBlockItem(ModBlocks.MAGENTA_RADIATION_HAZARD_SIGN.get());
         simpleBlockItem(ModBlocks.BIOHAZARD_SIGN.get());
+
+        simpleBlockItem(ModBlocks.BLANK_SAFETY_SIGN.get());
+        customBlockItem(ModBlocks.ARROW_SIGN.get(), "block/arrow_sign_right");
+    }
+
+    public ItemModelBuilder customBlockItem(Block block, String path) {
+        ResourceLocation location = BuiltInRegistries.BLOCK.getKey(block);
+        return withExistingParent(location.toString(), ResourceLocation.fromNamespaceAndPath(location.getNamespace(), path));
     }
 }

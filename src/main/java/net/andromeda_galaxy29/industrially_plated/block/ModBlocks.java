@@ -1,6 +1,7 @@
 package net.andromeda_galaxy29.industrially_plated.block;
 
 import net.andromeda_galaxy29.industrially_plated.IndustriallyPlated;
+import net.andromeda_galaxy29.industrially_plated.block.signage.DirectionalSignageBlock;
 import net.andromeda_galaxy29.industrially_plated.block.signage.SignageBlock;
 import net.andromeda_galaxy29.industrially_plated.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -22,6 +23,7 @@ public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(IndustriallyPlated.MODID);
 
+    // Plating blocks
     public static final Map<DyeColor, DeferredBlock<Block>> PLATING_BLOCKS = registerDyedBlocks("plating_block",
             (color) -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.COPPER_BLOCK).mapColor(color)));
 
@@ -34,18 +36,19 @@ public class ModBlocks {
     public static final Map<DyeColor, DeferredBlock<StairBlock>> CUT_PLATING_STAIRS = registerDyedBlocks("cut_plating_stairs",
             (color) -> new StairBlock(
                     CUT_PLATING.get(color).get().defaultBlockState(),
-                    BlockBehaviour.Properties.ofFullCopy(Blocks.CUT_COPPER_STAIRS).mapColor(color)
-            ));
+                    BlockBehaviour.Properties.ofFullCopy(Blocks.CUT_COPPER_STAIRS).mapColor(color)));
 
     public static final Map<DyeColor, DeferredBlock<SlabBlock>> CUT_PLATING_SLABS = registerDyedBlocks("cut_plating_slab",
             (color) -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.CUT_COPPER_SLAB).mapColor(color)));
 
+    // Stripe blocks
     public static final DeferredBlock<Block> HAZARD_STRIPE_BLOCK = registerBlockWithItem("hazard_stripe_block",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.CUT_COPPER).mapColor(DyeColor.YELLOW)));
 
     public static final DeferredBlock<Block> RADIATION_HAZARD_STRIPE_BLOCK = registerBlockWithItem("radiation_hazard_stripe_block",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.CUT_COPPER).mapColor(MapColor.TERRACOTTA_YELLOW)));
 
+    // Hazard signage
     public static final DeferredBlock<SignageBlock> BLANK_HAZARD_SIGN = registerBlockWithItem("blank_hazard_sign",
             () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.CUT_COPPER)
                     .noOcclusion()
@@ -78,6 +81,13 @@ public class ModBlocks {
     public static final DeferredBlock<SignageBlock> BIOHAZARD_SIGN = registerBlockWithItem("biohazard_sign",
             () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_HAZARD_SIGN.get())));
 
+    // Safety signage
+    public static final DeferredBlock<SignageBlock> BLANK_SAFETY_SIGN = registerBlockWithItem("blank_safety_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_HAZARD_SIGN.get())
+                    .mapColor(DyeColor.GREEN)));
+
+    public static final DeferredBlock<DirectionalSignageBlock> ARROW_SIGN = registerBlockWithItem("arrow_sign",
+            () -> new DirectionalSignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_SAFETY_SIGN.get())));
 
 
     public static <T extends Block> Map<DyeColor, DeferredBlock<T>> registerDyedBlocks(String nameTemplate, Function<DyeColor, T> function) {

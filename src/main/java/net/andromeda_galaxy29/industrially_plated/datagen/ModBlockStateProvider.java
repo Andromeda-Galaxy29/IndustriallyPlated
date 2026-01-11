@@ -2,10 +2,13 @@ package net.andromeda_galaxy29.industrially_plated.datagen;
 
 import net.andromeda_galaxy29.industrially_plated.IndustriallyPlated;
 import net.andromeda_galaxy29.industrially_plated.block.ModBlocks;
+import net.andromeda_galaxy29.industrially_plated.block.signage.DirectionalSignageBlock;
+import net.andromeda_galaxy29.industrially_plated.block.signage.SignageDirection;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.WaterloggedTransparentBlock;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.AttachFace;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
@@ -15,6 +18,8 @@ import net.neoforged.neoforge.client.model.generators.ConfiguredModel;
 import net.neoforged.neoforge.client.model.generators.ModelFile;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.registries.DeferredBlock;
+
+import java.util.function.Function;
 
 public class ModBlockStateProvider extends BlockStateProvider {
 
@@ -58,24 +63,33 @@ public class ModBlockStateProvider extends BlockStateProvider {
         signageBlock(ModBlocks.MAGENTA_RADIATION_HAZARD_SIGN);
         signageBlock(ModBlocks.BIOHAZARD_SIGN);
 
+        signageBlock(ModBlocks.BLANK_SAFETY_SIGN);
+        directionalSignageBlock(ModBlocks.ARROW_SIGN);
     }
 
     private String name(DeferredBlock deferredBlock) {
         return deferredBlock.getKey().location().getPath();
     }
 
-    private <T extends Block> void signageBlock(DeferredBlock<T> deferredBlock) {
-        signageBlock(deferredBlock.get(), models().withExistingParent(name(deferredBlock), modLoc("sign"))
-                .texture("front", modLoc("block/" + name(deferredBlock))));
-    }
-
-    private void signageBlock(Block block, ModelFile model){
+    private void signageBlock(Block block, Function<BlockState, ModelFile> modelProvider){
         EnumProperty<AttachFace> face = BlockStateProperties.ATTACH_FACE;
         DirectionProperty facing = BlockStateProperties.HORIZONTAL_FACING;
         getVariantBuilder(block).forAllStates((state) -> ConfiguredModel.builder()
-                .modelFile(model)
+                .modelFile(modelProvider.apply(state))
                 .rotationX(state.getValue(face).ordinal() * -90)
                 .rotationY((int) (state.getValue(facing).toYRot() + (state.getValue(face) != AttachFace.WALL ? 180 : 0)) % 360)
                 .build());
+    }
+
+    private <T extends Block> void signageBlock(DeferredBlock<T> deferredBlock) {
+        signageBlock(deferredBlock.get(), (state) -> models().withExistingParent(name(deferredBlock), modLoc("sign"))
+                .texture("front", modLoc("block/" + name(deferredBlock))));
+    }
+
+    private <T extends Block> void directionalSignageBlock(DeferredBlock<T> deferredBlock) {
+        EnumProperty<SignageDirection> direction = DirectionalSignageBlock.DIRECTION;
+        signageBlock(deferredBlock.get(), (state) -> models().withExistingParent(
+                name(deferredBlock) + "_" + state.getValue(direction).getSerializedName(), modLoc("sign"))
+                .texture("front", modLoc("block/" + name(deferredBlock) + "_" + state.getValue(direction).getSerializedName())));
     }
 }
