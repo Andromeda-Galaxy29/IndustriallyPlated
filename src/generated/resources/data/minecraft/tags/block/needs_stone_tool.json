@@ -106,6 +106,7 @@
     "industrially_plated:no_mining_sign",
     "industrially_plated:no_cutting_trees_sign",
     "industrially_plated:no_shearing_sign",
+    "industrially_plated:no_littering_sign",
     "industrially_plated:blank_safety_sign",
     "industrially_plated:arrow_sign",
     "industrially_plated:exit_sign",
@@ -114,6 +115,14 @@
     "industrially_plated:stairs_sign",
     "industrially_plated:ladder_sign",
     "industrially_plated:medical_cross_sign",
+    "industrially_plated:blank_instruction_sign",
+    "industrially_plated:generic_instruction_sign",
+    "industrially_plated:wear_ear_protection_sign",
+    "industrially_plated:wear_head_protection_sign",
+    "industrially_plated:wear_eye_protection_sign",
+    "industrially_plated:wear_respirator_sign",
+    "industrially_plated:wear_safety_footwear_sign",
+    "industrially_plated:dispose_of_trash_properly_sign",
     "industrially_plated:fire_diamond_sign"
   ]
 }

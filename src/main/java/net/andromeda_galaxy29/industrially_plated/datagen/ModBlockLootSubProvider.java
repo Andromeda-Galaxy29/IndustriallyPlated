@@ -64,6 +64,7 @@ public class ModBlockLootSubProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.NO_MINING_SIGN.get());
         dropSelf(ModBlocks.NO_CUTTING_TREES_SIGN.get());
         dropSelf(ModBlocks.NO_SHEARING_SIGN.get());
+        dropSelf(ModBlocks.NO_LITTERING_SIGN.get());
 
         dropSelf(ModBlocks.BLANK_SAFETY_SIGN.get());
         dropSelf(ModBlocks.ARROW_SIGN.get());
@@ -73,6 +74,15 @@ public class ModBlockLootSubProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.STAIRS_SIGN.get());
         dropSelf(ModBlocks.LADDER_SIGN.get());
         dropSelf(ModBlocks.MEDICAL_CROSS_SIGN.get());
+
+        dropSelf(ModBlocks.BLANK_INSTRUCTION_SIGN.get());
+        dropSelf(ModBlocks.GENERIC_INSTRUCTION_SIGN.get());
+        dropSelf(ModBlocks.WEAR_EAR_PROTECTION_SIGN.get());
+        dropSelf(ModBlocks.WEAR_HEAD_PROTECTION_SIGN.get());
+        dropSelf(ModBlocks.WEAR_EYE_PROTECTION_SIGN.get());
+        dropSelf(ModBlocks.WEAR_RESPIRATOR_SIGN.get());
+        dropSelf(ModBlocks.WEAR_SAFETY_FOOTWEAR_SIGN.get());
+        dropSelf(ModBlocks.DISPOSE_OF_TRASH_PROPERLY_SIGN.get());
 
         dropSelf(ModBlocks.FIRE_DIAMOND_SIGN.get());
     }

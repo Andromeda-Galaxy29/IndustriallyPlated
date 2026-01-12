@@ -65,6 +65,7 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
                 ModBlocks.NO_MINING_SIGN.get(),
                 ModBlocks.NO_CUTTING_TREES_SIGN.get(),
                 ModBlocks.NO_SHEARING_SIGN.get(),
+                ModBlocks.NO_LITTERING_SIGN.get(),
                 // Safety signage
                 ModBlocks.BLANK_SAFETY_SIGN.get(),
                 ModBlocks.ARROW_SIGN.get(),
@@ -74,6 +75,15 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
                 ModBlocks.STAIRS_SIGN.get(),
                 ModBlocks.LADDER_SIGN.get(),
                 ModBlocks.MEDICAL_CROSS_SIGN.get(),
+                // Instruction signage
+                ModBlocks.BLANK_INSTRUCTION_SIGN.get(),
+                ModBlocks.GENERIC_INSTRUCTION_SIGN.get(),
+                ModBlocks.WEAR_EAR_PROTECTION_SIGN.get(),
+                ModBlocks.WEAR_HEAD_PROTECTION_SIGN.get(),
+                ModBlocks.WEAR_EYE_PROTECTION_SIGN.get(),
+                ModBlocks.WEAR_RESPIRATOR_SIGN.get(),
+                ModBlocks.WEAR_SAFETY_FOOTWEAR_SIGN.get(),
+                ModBlocks.DISPOSE_OF_TRASH_PROPERLY_SIGN.get(),
                 // Fire diamond
                 ModBlocks.FIRE_DIAMOND_SIGN.get()
         };

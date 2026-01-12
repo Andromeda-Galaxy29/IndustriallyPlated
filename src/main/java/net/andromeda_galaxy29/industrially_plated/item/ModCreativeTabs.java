@@ -69,6 +69,7 @@ public class ModCreativeTabs {
                         output.accept(ModBlocks.NO_MINING_SIGN);
                         output.accept(ModBlocks.NO_CUTTING_TREES_SIGN);
                         output.accept(ModBlocks.NO_SHEARING_SIGN);
+                        output.accept(ModBlocks.NO_LITTERING_SIGN);
                         // Safety signage
                         output.accept(ModBlocks.BLANK_SAFETY_SIGN);
                         output.accept(ModBlocks.ARROW_SIGN);
@@ -78,6 +79,15 @@ public class ModCreativeTabs {
                         output.accept(ModBlocks.STAIRS_SIGN);
                         output.accept(ModBlocks.LADDER_SIGN);
                         output.accept(ModBlocks.MEDICAL_CROSS_SIGN);
+                        // Instruction signage
+                        output.accept(ModBlocks.BLANK_INSTRUCTION_SIGN);
+                        output.accept(ModBlocks.GENERIC_INSTRUCTION_SIGN);
+                        output.accept(ModBlocks.WEAR_EAR_PROTECTION_SIGN);
+                        output.accept(ModBlocks.WEAR_HEAD_PROTECTION_SIGN);
+                        output.accept(ModBlocks.WEAR_EYE_PROTECTION_SIGN);
+                        output.accept(ModBlocks.WEAR_RESPIRATOR_SIGN);
+                        output.accept(ModBlocks.WEAR_SAFETY_FOOTWEAR_SIGN);
+                        output.accept(ModBlocks.DISPOSE_OF_TRASH_PROPERLY_SIGN);
                         // Fire diamond
                         output.accept(ModBlocks.FIRE_DIAMOND_SIGN);
                     }).build());

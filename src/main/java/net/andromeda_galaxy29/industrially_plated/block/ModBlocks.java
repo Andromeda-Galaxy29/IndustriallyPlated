@@ -126,6 +126,9 @@ public class ModBlocks {
     public static final DeferredBlock<SignageBlock> NO_SHEARING_SIGN = registerBlockWithItem("no_shearing_sign",
             () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_PROHIBITION_SIGN.get())));
 
+    public static final DeferredBlock<SignageBlock> NO_LITTERING_SIGN = registerBlockWithItem("no_littering_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_PROHIBITION_SIGN.get())));
+
     // Safety signage
     public static final DeferredBlock<SignageBlock> BLANK_SAFETY_SIGN = registerBlockWithItem("blank_safety_sign",
             () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_HAZARD_SIGN.get())
@@ -151,6 +154,32 @@ public class ModBlocks {
 
     public static final DeferredBlock<SignageBlock> MEDICAL_CROSS_SIGN = registerBlockWithItem("medical_cross_sign",
             () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_SAFETY_SIGN.get())));
+
+    // Instruction signage
+    public static final DeferredBlock<SignageBlock> BLANK_INSTRUCTION_SIGN = registerBlockWithItem("blank_instruction_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_HAZARD_SIGN.get())
+                    .mapColor(DyeColor.PINK)));
+
+    public static final DeferredBlock<SignageBlock> GENERIC_INSTRUCTION_SIGN = registerBlockWithItem("generic_instruction_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_INSTRUCTION_SIGN.get())));
+
+    public static final DeferredBlock<SignageBlock> WEAR_EAR_PROTECTION_SIGN = registerBlockWithItem("wear_ear_protection_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_INSTRUCTION_SIGN.get())));
+
+    public static final DeferredBlock<SignageBlock> WEAR_HEAD_PROTECTION_SIGN = registerBlockWithItem("wear_head_protection_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_INSTRUCTION_SIGN.get())));
+
+    public static final DeferredBlock<SignageBlock> WEAR_EYE_PROTECTION_SIGN = registerBlockWithItem("wear_eye_protection_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_INSTRUCTION_SIGN.get())));
+
+    public static final DeferredBlock<SignageBlock> WEAR_RESPIRATOR_SIGN = registerBlockWithItem("wear_respirator_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_INSTRUCTION_SIGN.get())));
+
+    public static final DeferredBlock<SignageBlock> WEAR_SAFETY_FOOTWEAR_SIGN = registerBlockWithItem("wear_safety_footwear_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_INSTRUCTION_SIGN.get())));
+
+    public static final DeferredBlock<SignageBlock> DISPOSE_OF_TRASH_PROPERLY_SIGN = registerBlockWithItem("dispose_of_trash_properly_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_INSTRUCTION_SIGN.get())));
 
     // Fire diamond
     public static final DeferredBlock<SignageBlock> FIRE_DIAMOND_SIGN = registerBlockWithItem("fire_diamond_sign",

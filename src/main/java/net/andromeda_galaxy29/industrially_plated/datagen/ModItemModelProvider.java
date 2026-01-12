@@ -55,6 +55,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleBlockItem(ModBlocks.NO_MINING_SIGN.get());
         simpleBlockItem(ModBlocks.NO_CUTTING_TREES_SIGN.get());
         simpleBlockItem(ModBlocks.NO_SHEARING_SIGN.get());
+        simpleBlockItem(ModBlocks.NO_LITTERING_SIGN.get());
 
         simpleBlockItem(ModBlocks.BLANK_SAFETY_SIGN.get());
         customBlockItem(ModBlocks.ARROW_SIGN.get(), "block/arrow_sign_right");
@@ -64,6 +65,15 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleBlockItem(ModBlocks.STAIRS_SIGN.get());
         simpleBlockItem(ModBlocks.LADDER_SIGN.get());
         simpleBlockItem(ModBlocks.MEDICAL_CROSS_SIGN.get());
+
+        simpleBlockItem(ModBlocks.BLANK_INSTRUCTION_SIGN.get());
+        simpleBlockItem(ModBlocks.GENERIC_INSTRUCTION_SIGN.get());
+        simpleBlockItem(ModBlocks.WEAR_EAR_PROTECTION_SIGN.get());
+        simpleBlockItem(ModBlocks.WEAR_HEAD_PROTECTION_SIGN.get());
+        simpleBlockItem(ModBlocks.WEAR_EYE_PROTECTION_SIGN.get());
+        simpleBlockItem(ModBlocks.WEAR_RESPIRATOR_SIGN.get());
+        simpleBlockItem(ModBlocks.WEAR_SAFETY_FOOTWEAR_SIGN.get());
+        simpleBlockItem(ModBlocks.DISPOSE_OF_TRASH_PROPERLY_SIGN.get());
 
         simpleBlockItem(ModBlocks.FIRE_DIAMOND_SIGN.get());
     }

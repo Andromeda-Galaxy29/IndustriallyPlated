@@ -13,6 +13,7 @@
     "industrially_plated:no_weapons_sign",
     "industrially_plated:no_mining_sign",
     "industrially_plated:no_cutting_trees_sign",
-    "industrially_plated:no_shearing_sign"
+    "industrially_plated:no_shearing_sign",
+    "industrially_plated:no_littering_sign"
   ]
 }

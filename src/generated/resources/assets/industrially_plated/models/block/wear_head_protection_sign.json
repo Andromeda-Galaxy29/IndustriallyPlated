@@ -1,0 +1,6 @@
+{
+  "parent": "industrially_plated:block/sign",
+  "textures": {
+    "front": "industrially_plated:block/wear_head_protection_sign"
+  }
+}

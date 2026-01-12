@@ -76,7 +76,8 @@ public class ModItemTagsProvider extends ItemTagsProvider {
                 .add(ModBlocks.NO_WEAPONS_SIGN.asItem())
                 .add(ModBlocks.NO_MINING_SIGN.asItem())
                 .add(ModBlocks.NO_CUTTING_TREES_SIGN.asItem())
-                .add(ModBlocks.NO_SHEARING_SIGN.asItem());
+                .add(ModBlocks.NO_SHEARING_SIGN.asItem())
+                .add(ModBlocks.NO_LITTERING_SIGN.asItem());
 
         tag(ModTags.Items.SAFETY_SIGNAGE)
                 .add(ModBlocks.BLANK_SAFETY_SIGN.asItem())
@@ -87,6 +88,16 @@ public class ModItemTagsProvider extends ItemTagsProvider {
                 .add(ModBlocks.STAIRS_SIGN.asItem())
                 .add(ModBlocks.LADDER_SIGN.asItem())
                 .add(ModBlocks.MEDICAL_CROSS_SIGN.asItem());
+
+        tag(ModTags.Items.INSTRUCTION_SIGNAGE)
+                .add(ModBlocks.BLANK_INSTRUCTION_SIGN.asItem())
+                .add(ModBlocks.GENERIC_INSTRUCTION_SIGN.asItem())
+                .add(ModBlocks.WEAR_EAR_PROTECTION_SIGN.asItem())
+                .add(ModBlocks.WEAR_HEAD_PROTECTION_SIGN.asItem())
+                .add(ModBlocks.WEAR_EYE_PROTECTION_SIGN.asItem())
+                .add(ModBlocks.WEAR_RESPIRATOR_SIGN.asItem())
+                .add(ModBlocks.WEAR_SAFETY_FOOTWEAR_SIGN.asItem())
+                .add(ModBlocks.DISPOSE_OF_TRASH_PROPERLY_SIGN.asItem());
 
         tag(ModTags.Items.FIRE_DIAMOND_MATERIALS)
                 .add(ModBlocks.PLATING_BLOCKS.get(DyeColor.BLUE).asItem())

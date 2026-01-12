@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "industrially_plated:instruction_signage"
+  },
+  "result": {
+    "count": 1,
+    "id": "industrially_plated:dispose_of_trash_properly_sign"
+  }
+}

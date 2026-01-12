@@ -1,0 +1,6 @@
+{
+  "parent": "industrially_plated:block/sign",
+  "textures": {
+    "front": "industrially_plated:block/wear_ear_protection_sign"
+  }
+}

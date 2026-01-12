@@ -75,6 +75,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         signageBlock(ModBlocks.NO_MINING_SIGN);
         signageBlock(ModBlocks.NO_CUTTING_TREES_SIGN);
         signageBlock(ModBlocks.NO_SHEARING_SIGN);
+        signageBlock(ModBlocks.NO_LITTERING_SIGN);
 
         signageBlock(ModBlocks.BLANK_SAFETY_SIGN);
         directionalSignageBlock(ModBlocks.ARROW_SIGN);
@@ -84,6 +85,15 @@ public class ModBlockStateProvider extends BlockStateProvider {
         mirrorableSignageBlock(ModBlocks.STAIRS_SIGN);
         signageBlock(ModBlocks.LADDER_SIGN);
         signageBlock(ModBlocks.MEDICAL_CROSS_SIGN);
+
+        signageBlock(ModBlocks.BLANK_INSTRUCTION_SIGN);
+        signageBlock(ModBlocks.GENERIC_INSTRUCTION_SIGN);
+        signageBlock(ModBlocks.WEAR_EAR_PROTECTION_SIGN);
+        signageBlock(ModBlocks.WEAR_HEAD_PROTECTION_SIGN);
+        signageBlock(ModBlocks.WEAR_EYE_PROTECTION_SIGN);
+        signageBlock(ModBlocks.WEAR_RESPIRATOR_SIGN);
+        signageBlock(ModBlocks.WEAR_SAFETY_FOOTWEAR_SIGN);
+        signageBlock(ModBlocks.DISPOSE_OF_TRASH_PROPERLY_SIGN);
 
         signageBlock(ModBlocks.FIRE_DIAMOND_SIGN, (state) -> models().getExistingFile(modLoc("block/fire_diamond_sign")));
     }

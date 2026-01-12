@@ -206,7 +206,8 @@ public class ModRecipeProvider extends RecipeProvider {
                 ModBlocks.NO_WEAPONS_SIGN,
                 ModBlocks.NO_MINING_SIGN,
                 ModBlocks.NO_CUTTING_TREES_SIGN,
-                ModBlocks.NO_SHEARING_SIGN
+                ModBlocks.NO_SHEARING_SIGN,
+                ModBlocks.NO_LITTERING_SIGN
         };
 
         for (DeferredBlock prohibitionSign : prohibitionSignage) {
@@ -235,6 +236,28 @@ public class ModRecipeProvider extends RecipeProvider {
             SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModTags.Items.SAFETY_SIGNAGE), RecipeCategory.BUILDING_BLOCKS, safetySign, 1)
                     .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
                     .save(recipeOutput, modLoc("stonecutting/" + name(safetySign)));
+        }
+
+        // Instruction signage
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PLATING_BLOCKS.get(DyeColor.BLUE)), RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLANK_INSTRUCTION_SIGN, 4)
+                .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
+                .save(recipeOutput, modLoc("stonecutting/" + name(ModBlocks.BLANK_INSTRUCTION_SIGN) + "_from_plating_block"));
+
+        DeferredBlock[] instructionSignage = {
+                ModBlocks.BLANK_INSTRUCTION_SIGN,
+                ModBlocks.GENERIC_INSTRUCTION_SIGN,
+                ModBlocks.WEAR_EAR_PROTECTION_SIGN,
+                ModBlocks.WEAR_HEAD_PROTECTION_SIGN,
+                ModBlocks.WEAR_EYE_PROTECTION_SIGN,
+                ModBlocks.WEAR_RESPIRATOR_SIGN,
+                ModBlocks.WEAR_SAFETY_FOOTWEAR_SIGN,
+                ModBlocks.DISPOSE_OF_TRASH_PROPERLY_SIGN
+        };
+
+        for (DeferredBlock instructionSign : instructionSignage) {
+            SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModTags.Items.INSTRUCTION_SIGNAGE), RecipeCategory.BUILDING_BLOCKS, instructionSign, 1)
+                    .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
+                    .save(recipeOutput, modLoc("stonecutting/" + name(instructionSign)));
         }
 
         // Fire diamond

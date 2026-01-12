@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "industrially_plated:instruction_signage"
+  },
+  "result": {
+    "count": 1,
+    "id": "industrially_plated:wear_eye_protection_sign"
+  }
+}
