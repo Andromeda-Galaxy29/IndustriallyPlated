@@ -113,6 +113,7 @@
     "industrially_plated:disabled_access_sign",
     "industrially_plated:stairs_sign",
     "industrially_plated:ladder_sign",
-    "industrially_plated:medical_cross_sign"
+    "industrially_plated:medical_cross_sign",
+    "industrially_plated:fire_diamond_sign"
   ]
 }

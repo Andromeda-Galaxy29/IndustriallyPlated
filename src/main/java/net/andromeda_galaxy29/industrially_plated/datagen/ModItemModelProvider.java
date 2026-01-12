@@ -64,6 +64,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleBlockItem(ModBlocks.STAIRS_SIGN.get());
         simpleBlockItem(ModBlocks.LADDER_SIGN.get());
         simpleBlockItem(ModBlocks.MEDICAL_CROSS_SIGN.get());
+
+        simpleBlockItem(ModBlocks.FIRE_DIAMOND_SIGN.get());
     }
 
     public ItemModelBuilder customBlockItem(Block block, String path) {

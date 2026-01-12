@@ -1,4 +1,4 @@
-// 1.21.1	2026-01-12T17:04:18.8555783	Block States: industrially_plated
+// 1.21.1	2026-01-12T18:04:38.0739778	Block States: industrially_plated
 d43328abd494798745b82a37ff40839bf4d21ede assets/industrially_plated/blockstates/arrow_sign.json
 6fbda21ccea82f72c172f2932c3089af86a6275d assets/industrially_plated/blockstates/biohazard_sign.json
 4fb4e439a10c01282bf0f30bd552d4edb223ab34 assets/industrially_plated/blockstates/black_cut_plating.json
@@ -28,6 +28,7 @@ bb66f4bf0a49134961a2cc7aa61609d8e346d059 assets/industrially_plated/blockstates/
 be533be985a37ac285da5415e6bf0955391d66bf assets/industrially_plated/blockstates/electricity_hazard_sign.json
 6d7a87b0e4a70fb24dd2cf2e16deb03086adb347 assets/industrially_plated/blockstates/exit_sign.json
 d4e7d0cdc41b113a4961996574490b9ff748ad68 assets/industrially_plated/blockstates/falling_hazard_sign.json
+74e0dd2631a0cb7017dbef9c3819e39c72ff70e9 assets/industrially_plated/blockstates/fire_diamond_sign.json
 8e9dca57d8efd5ccdc2793807224aa93ba74fda7 assets/industrially_plated/blockstates/fire_hazard_sign.json
 2259565ae3779444b64011514bb40fa30da233a1 assets/industrially_plated/blockstates/generic_hazard_sign.json
 88ba17e765d8a81973cf80f3eb4ec73fd7248d7a assets/industrially_plated/blockstates/generic_prohibition_sign.json

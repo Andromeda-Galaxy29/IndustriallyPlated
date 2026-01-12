@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "industrially_plated:fire_diamond_materials"
+  },
+  "result": {
+    "count": 4,
+    "id": "industrially_plated:fire_diamond_sign"
+  }
+}

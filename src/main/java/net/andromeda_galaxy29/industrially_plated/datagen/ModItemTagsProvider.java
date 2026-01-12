@@ -87,5 +87,11 @@ public class ModItemTagsProvider extends ItemTagsProvider {
                 .add(ModBlocks.STAIRS_SIGN.asItem())
                 .add(ModBlocks.LADDER_SIGN.asItem())
                 .add(ModBlocks.MEDICAL_CROSS_SIGN.asItem());
+
+        tag(ModTags.Items.FIRE_DIAMOND_MATERIALS)
+                .add(ModBlocks.PLATING_BLOCKS.get(DyeColor.BLUE).asItem())
+                .add(ModBlocks.PLATING_BLOCKS.get(DyeColor.RED).asItem())
+                .add(ModBlocks.PLATING_BLOCKS.get(DyeColor.YELLOW).asItem())
+                .add(ModBlocks.PLATING_BLOCKS.get(DyeColor.WHITE).asItem());
     }
 }

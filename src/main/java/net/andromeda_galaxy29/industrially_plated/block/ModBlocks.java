@@ -152,6 +152,11 @@ public class ModBlocks {
     public static final DeferredBlock<SignageBlock> MEDICAL_CROSS_SIGN = registerBlockWithItem("medical_cross_sign",
             () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_SAFETY_SIGN.get())));
 
+    // Fire diamond
+    public static final DeferredBlock<SignageBlock> FIRE_DIAMOND_SIGN = registerBlockWithItem("fire_diamond_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_HAZARD_SIGN.get())
+                    .mapColor(DyeColor.GRAY)));
+
 
     public static <T extends Block> Map<DyeColor, DeferredBlock<T>> registerDyedBlocks(String nameTemplate, Function<DyeColor, T> function) {
         Map<DyeColor, DeferredBlock<T>> map = new HashMap<>();

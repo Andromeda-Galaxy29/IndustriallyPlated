@@ -78,6 +78,8 @@ public class ModCreativeTabs {
                         output.accept(ModBlocks.STAIRS_SIGN);
                         output.accept(ModBlocks.LADDER_SIGN);
                         output.accept(ModBlocks.MEDICAL_CROSS_SIGN);
+                        // Fire diamond
+                        output.accept(ModBlocks.FIRE_DIAMOND_SIGN);
                     }).build());
 
     public static void register(IEventBus eventBus) {

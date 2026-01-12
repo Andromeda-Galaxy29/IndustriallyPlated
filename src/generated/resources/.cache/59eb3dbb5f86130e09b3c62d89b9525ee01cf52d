@@ -1,4 +1,4 @@
-// 1.21.1	2026-01-12T17:04:18.8909071	Loot Tables
+// 1.21.1	2026-01-12T18:04:38.1069781	Loot Tables
 122052943a386162ff09fc3176f99281ae9a86e6 data/industrially_plated/loot_table/blocks/arrow_sign.json
 2141359f786b94b6da50a58bb3e8ab42b52d9ba1 data/industrially_plated/loot_table/blocks/biohazard_sign.json
 5b73504f80d0686a1780c854cad51822e926bc46 data/industrially_plated/loot_table/blocks/black_cut_plating.json
@@ -28,6 +28,7 @@ b00af9edc2ba59bbbf78ea4a98fcdd3689bd02b6 data/industrially_plated/loot_table/blo
 cd5a1d927f5c8b7484d7bca40e530f8afa446924 data/industrially_plated/loot_table/blocks/electricity_hazard_sign.json
 8fb810a183e1761100d2f11b6daedb942c506687 data/industrially_plated/loot_table/blocks/exit_sign.json
 916e22b5c09ff9a2b59e2d22b905f00fd5a664f5 data/industrially_plated/loot_table/blocks/falling_hazard_sign.json
+aab96bd5cdf43e060a3e33b5578400840ec47382 data/industrially_plated/loot_table/blocks/fire_diamond_sign.json
 cc076d6508b40ca27c2b55c2d93fea06cef842ca data/industrially_plated/loot_table/blocks/fire_hazard_sign.json
 bdd758d29a18c0d2a4a4154d9ae0959f2da8a2f1 data/industrially_plated/loot_table/blocks/generic_hazard_sign.json
 203861a0c9ae807cafc44a9c9cd6fcde42adc8a7 data/industrially_plated/loot_table/blocks/generic_prohibition_sign.json

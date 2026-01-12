@@ -84,20 +84,26 @@ public class ModBlockStateProvider extends BlockStateProvider {
         mirrorableSignageBlock(ModBlocks.STAIRS_SIGN);
         signageBlock(ModBlocks.LADDER_SIGN);
         signageBlock(ModBlocks.MEDICAL_CROSS_SIGN);
+
+        signageBlock(ModBlocks.FIRE_DIAMOND_SIGN, (state) -> models().getExistingFile(modLoc("block/fire_diamond_sign")));
     }
 
     private String name(DeferredBlock deferredBlock) {
         return deferredBlock.getKey().location().getPath();
     }
 
-    private void signageBlock(Block block, Function<BlockState, ModelFile> modelProvider){
+    private void signageBlock(Block block, Function<BlockState, ModelFile> model){
         EnumProperty<AttachFace> face = BlockStateProperties.ATTACH_FACE;
         DirectionProperty facing = BlockStateProperties.HORIZONTAL_FACING;
         getVariantBuilder(block).forAllStates((state) -> ConfiguredModel.builder()
-                .modelFile(modelProvider.apply(state))
+                .modelFile(model.apply(state))
                 .rotationX(state.getValue(face).ordinal() * -90)
                 .rotationY((int) (state.getValue(facing).toYRot() + (state.getValue(face) != AttachFace.WALL ? 180 : 0)) % 360)
                 .build());
+    }
+
+    private <T extends Block> void signageBlock(DeferredBlock<T> deferredBlock, Function<BlockState, ModelFile> model) {
+        signageBlock(deferredBlock.get(), model);
     }
 
     private <T extends Block> void signageBlock(DeferredBlock<T> deferredBlock) {

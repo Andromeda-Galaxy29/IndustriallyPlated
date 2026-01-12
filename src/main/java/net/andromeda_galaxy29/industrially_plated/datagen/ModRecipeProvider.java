@@ -236,6 +236,12 @@ public class ModRecipeProvider extends RecipeProvider {
                     .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
                     .save(recipeOutput, modLoc("stonecutting/" + name(safetySign)));
         }
+
+        // Fire diamond
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModTags.Items.FIRE_DIAMOND_MATERIALS), RecipeCategory.BUILDING_BLOCKS, ModBlocks.FIRE_DIAMOND_SIGN, 4)
+                .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
+                .save(recipeOutput, modLoc("stonecutting/" + name(ModBlocks.FIRE_DIAMOND_SIGN)));
+
     }
 
     private String name(DeferredBlock deferredBlock) {
