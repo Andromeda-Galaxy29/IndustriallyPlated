@@ -1,5 +1,6 @@
 {
-  "itemGroup.industrially_plated": "Industrially Plated",
+  "itemGroup.industrially_plated_blocks": "Industrially Plated: Blocks",
+  "itemGroup.industrially_plated_signage": "Industrially Plated: Signage",
 
   "block.industrially_plated.white_plating_block": "White Plating Block",
   "block.industrially_plated.light_gray_plating_block": "Light Gray Plating Block",
@@ -88,5 +89,51 @@
 
   "block.industrially_plated.hazard_stripe_block": "Hazard Stripe Block",
   "block.industrially_plated.radiation_hazard_stripe_block": "Radiation Hazard Stripe Block",
-  "block.industrially_plated.caution_stripe_block": "Caution Stripe Block"
+
+  "block.industrially_plated.blank_hazard_sign": "Blank Hazard Sign",
+  "block.industrially_plated.generic_hazard_sign": "Generic Hazard Sign",
+  "block.industrially_plated.falling_hazard_sign": "Falling Hazard Sign",
+  "block.industrially_plated.toxicity_hazard_sign": "Toxicity Hazard Sign",
+  "block.industrially_plated.electricity_hazard_sign": "Electricity Hazard Sign",
+  "block.industrially_plated.fire_hazard_sign": "Fire Hazard Sign",
+  "block.industrially_plated.heat_hazard_sign": "Heat Hazard Sign",
+  "block.industrially_plated.radiation_hazard_sign": "Radiation Hazard Sign",
+  "block.industrially_plated.magenta_radiation_hazard_sign": "Magenta Radiation Hazard Sign",
+  "block.industrially_plated.biohazard_sign": "Biohazard Sign",
+
+  "block.industrially_plated.blank_prohibition_sign": "Blank Prohibition Sign",
+  "block.industrially_plated.generic_prohibition_sign": "Generic Prohibition Sign",
+  "block.industrially_plated.no_entry_sign": "No Entry Sign",
+  "block.industrially_plated.no_swimming_sign": "No Swimming Sign",
+  "block.industrially_plated.no_smoking_sign": "No Smoking Sign",
+  "block.industrially_plated.no_eating_sign": "No Eating Sign",
+  "block.industrially_plated.no_drinking_sign": "No Drinking Sign",
+  "block.industrially_plated.no_pets_sign": "No Pets Sign",
+  "block.industrially_plated.no_open_fire_sign": "No Open Fire Sign",
+  "block.industrially_plated.no_touching_sign": "No Touching Sign",
+  "block.industrially_plated.no_weapons_sign": "No Weapons Sign",
+  "block.industrially_plated.no_mining_sign": "No Mining Sign",
+  "block.industrially_plated.no_cutting_trees_sign": "No Cutting Trees Sign",
+  "block.industrially_plated.no_shearing_sign": "No Shearing Sign",
+  "block.industrially_plated.no_littering_sign": "No Littering Sign",
+
+  "block.industrially_plated.blank_safety_sign": "Blank Safety Sign",
+  "block.industrially_plated.arrow_sign": "Arrow Sign",
+  "block.industrially_plated.exit_sign": "Exit Sign",
+  "block.industrially_plated.walk_sign": "Walk Sign",
+  "block.industrially_plated.disabled_access_sign": "Disabled Access Sign",
+  "block.industrially_plated.stairs_sign": "Stairs Sign",
+  "block.industrially_plated.ladder_sign": "Ladder Sign",
+  "block.industrially_plated.medical_cross_sign": "Medical Cross Sign",
+
+  "block.industrially_plated.blank_instruction_sign": "Blank Instruction Sign",
+  "block.industrially_plated.generic_instruction_sign": "Generic Instruction Sign",
+  "block.industrially_plated.wear_ear_protection_sign": "Wear Ear Protection Sign",
+  "block.industrially_plated.wear_head_protection_sign": "Wear Head Protection Sign",
+  "block.industrially_plated.wear_eye_protection_sign": "Wear Eye Protection Sign",
+  "block.industrially_plated.wear_respirator_sign": "Wear Respirator Sign",
+  "block.industrially_plated.wear_safety_footwear_sign": "Wear Safety Footwear Sign",
+  "block.industrially_plated.dispose_of_trash_properly_sign": "Dispose of Trash Properly Sign",
+
+  "block.industrially_plated.fire_diamond_sign": "Fire Diamond Sign"
 }

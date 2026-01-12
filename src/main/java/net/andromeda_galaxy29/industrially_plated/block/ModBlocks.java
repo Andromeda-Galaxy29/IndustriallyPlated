@@ -158,7 +158,7 @@ public class ModBlocks {
     // Instruction signage
     public static final DeferredBlock<SignageBlock> BLANK_INSTRUCTION_SIGN = registerBlockWithItem("blank_instruction_sign",
             () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_HAZARD_SIGN.get())
-                    .mapColor(DyeColor.PINK)));
+                    .mapColor(DyeColor.BLUE)));
 
     public static final DeferredBlock<SignageBlock> GENERIC_INSTRUCTION_SIGN = registerBlockWithItem("generic_instruction_sign",
             () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_INSTRUCTION_SIGN.get())));
