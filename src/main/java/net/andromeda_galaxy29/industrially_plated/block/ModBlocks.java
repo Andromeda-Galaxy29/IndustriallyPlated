@@ -82,6 +82,50 @@ public class ModBlocks {
     public static final DeferredBlock<SignageBlock> BIOHAZARD_SIGN = registerBlockWithItem("biohazard_sign",
             () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_HAZARD_SIGN.get())));
 
+    // Prohibition signage
+    public static final DeferredBlock<SignageBlock> BLANK_PROHIBITION_SIGN = registerBlockWithItem("blank_prohibition_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_HAZARD_SIGN.get())
+                    .mapColor(DyeColor.PINK)));
+
+    public static final DeferredBlock<SignageBlock> GENERIC_PROHIBITION_SIGN = registerBlockWithItem("generic_prohibition_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_PROHIBITION_SIGN.get())));
+
+    public static final DeferredBlock<SignageBlock> NO_ENTRY_SIGN = registerBlockWithItem("no_entry_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_PROHIBITION_SIGN.get())));
+
+    public static final DeferredBlock<SignageBlock> NO_SWIMMING_SIGN = registerBlockWithItem("no_swimming_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_PROHIBITION_SIGN.get())));
+
+    public static final DeferredBlock<SignageBlock> NO_SMOKING_SIGN = registerBlockWithItem("no_smoking_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_PROHIBITION_SIGN.get())));
+
+    public static final DeferredBlock<SignageBlock> NO_EATING_SIGN = registerBlockWithItem("no_eating_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_PROHIBITION_SIGN.get())));
+
+    public static final DeferredBlock<SignageBlock> NO_DRINKING_SIGN = registerBlockWithItem("no_drinking_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_PROHIBITION_SIGN.get())));
+
+    public static final DeferredBlock<SignageBlock> NO_PETS_SIGN = registerBlockWithItem("no_pets_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_PROHIBITION_SIGN.get())));
+
+    public static final DeferredBlock<SignageBlock> NO_OPEN_FIRE_SIGN = registerBlockWithItem("no_open_fire_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_PROHIBITION_SIGN.get())));
+
+    public static final DeferredBlock<SignageBlock> NO_TOUCHING_SIGN = registerBlockWithItem("no_touching_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_PROHIBITION_SIGN.get())));
+
+    public static final DeferredBlock<SignageBlock> NO_WEAPONS_SIGN = registerBlockWithItem("no_weapons_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_PROHIBITION_SIGN.get())));
+
+    public static final DeferredBlock<SignageBlock> NO_MINING_SIGN = registerBlockWithItem("no_mining_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_PROHIBITION_SIGN.get())));
+
+    public static final DeferredBlock<SignageBlock> NO_CUTTING_TREES_SIGN = registerBlockWithItem("no_cutting_trees_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_PROHIBITION_SIGN.get())));
+
+    public static final DeferredBlock<SignageBlock> NO_SHEARING_SIGN = registerBlockWithItem("no_shearing_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_PROHIBITION_SIGN.get())));
+
     // Safety signage
     public static final DeferredBlock<SignageBlock> BLANK_SAFETY_SIGN = registerBlockWithItem("blank_safety_sign",
             () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_HAZARD_SIGN.get())

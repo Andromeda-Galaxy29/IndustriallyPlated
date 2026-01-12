@@ -16,9 +16,9 @@ public class ModCreativeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, IndustriallyPlated.MODID);
 
-    public static final Supplier<CreativeModeTab> INDUSTRIALLY_PLATED_TAB = CREATIVE_MODE_TABS.register("industrially_plated",
+    public static final Supplier<CreativeModeTab> INDUSTRIALLY_PLATED_BLOCKS_TAB = CREATIVE_MODE_TABS.register("industrially_plated_blocks",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.PLATING_BLOCKS.get(DyeColor.GRAY).get()))
-                    .title(Component.translatable("itemGroup.industrially_plated"))
+                    .title(Component.translatable("itemGroup.industrially_plated_blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
                         DyeColor[] dyeOrder = {
                                 DyeColor.WHITE, DyeColor.LIGHT_GRAY, DyeColor.GRAY, DyeColor.BLACK,
@@ -37,7 +37,13 @@ public class ModCreativeTabs {
 
                         output.accept(ModBlocks.HAZARD_STRIPE_BLOCK);
                         output.accept(ModBlocks.RADIATION_HAZARD_STRIPE_BLOCK);
+                    }).build());
 
+    public static final Supplier<CreativeModeTab> INDUSTRIALLY_PLATED_SIGNAGE_TAB = CREATIVE_MODE_TABS.register("industrially_plated_signage",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.RADIATION_HAZARD_SIGN.get()))
+                    .title(Component.translatable("itemGroup.industrially_plated_signage"))
+                    .displayItems((itemDisplayParameters, output) -> {
+                        // Hazard signage
                         output.accept(ModBlocks.BLANK_HAZARD_SIGN);
                         output.accept(ModBlocks.GENERIC_HAZARD_SIGN);
                         output.accept(ModBlocks.FALLING_HAZARD_SIGN);
@@ -48,7 +54,22 @@ public class ModCreativeTabs {
                         output.accept(ModBlocks.RADIATION_HAZARD_SIGN);
                         output.accept(ModBlocks.MAGENTA_RADIATION_HAZARD_SIGN);
                         output.accept(ModBlocks.BIOHAZARD_SIGN);
-
+                        // Prohibition signage
+                        output.accept(ModBlocks.BLANK_PROHIBITION_SIGN);
+                        output.accept(ModBlocks.GENERIC_PROHIBITION_SIGN);
+                        output.accept(ModBlocks.NO_ENTRY_SIGN);
+                        output.accept(ModBlocks.NO_SWIMMING_SIGN);
+                        output.accept(ModBlocks.NO_SMOKING_SIGN);
+                        output.accept(ModBlocks.NO_EATING_SIGN);
+                        output.accept(ModBlocks.NO_DRINKING_SIGN);
+                        output.accept(ModBlocks.NO_PETS_SIGN);
+                        output.accept(ModBlocks.NO_OPEN_FIRE_SIGN);
+                        output.accept(ModBlocks.NO_TOUCHING_SIGN);
+                        output.accept(ModBlocks.NO_WEAPONS_SIGN);
+                        output.accept(ModBlocks.NO_MINING_SIGN);
+                        output.accept(ModBlocks.NO_CUTTING_TREES_SIGN);
+                        output.accept(ModBlocks.NO_SHEARING_SIGN);
+                        // Safety signage
                         output.accept(ModBlocks.BLANK_SAFETY_SIGN);
                         output.accept(ModBlocks.ARROW_SIGN);
                         output.accept(ModBlocks.EXIT_SIGN);

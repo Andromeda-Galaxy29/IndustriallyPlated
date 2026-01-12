@@ -187,6 +187,34 @@ public class ModRecipeProvider extends RecipeProvider {
                     .save(recipeOutput, modLoc("stonecutting/" + name(hazardSign)));
         }
 
+        // Prohibition signage
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModTags.Items.PROHIBITION_SIGNAGE_MATERIALS), RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLANK_PROHIBITION_SIGN, 4)
+                .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
+                .save(recipeOutput, modLoc("stonecutting/" + name(ModBlocks.BLANK_PROHIBITION_SIGN) + "_from_plating_block"));
+
+        DeferredBlock[] prohibitionSignage = {
+                ModBlocks.BLANK_PROHIBITION_SIGN,
+                ModBlocks.GENERIC_PROHIBITION_SIGN,
+                ModBlocks.NO_ENTRY_SIGN,
+                ModBlocks.NO_SWIMMING_SIGN,
+                ModBlocks.NO_SMOKING_SIGN,
+                ModBlocks.NO_EATING_SIGN,
+                ModBlocks.NO_DRINKING_SIGN,
+                ModBlocks.NO_PETS_SIGN,
+                ModBlocks.NO_OPEN_FIRE_SIGN,
+                ModBlocks.NO_TOUCHING_SIGN,
+                ModBlocks.NO_WEAPONS_SIGN,
+                ModBlocks.NO_MINING_SIGN,
+                ModBlocks.NO_CUTTING_TREES_SIGN,
+                ModBlocks.NO_SHEARING_SIGN
+        };
+
+        for (DeferredBlock prohibitionSign : prohibitionSignage) {
+            SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModTags.Items.PROHIBITION_SIGNAGE), RecipeCategory.BUILDING_BLOCKS, prohibitionSign, 1)
+                    .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
+                    .save(recipeOutput, modLoc("stonecutting/" + name(prohibitionSign)));
+        }
+
         // Safety signage
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PLATING_BLOCKS.get(DyeColor.GREEN)), RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLANK_SAFETY_SIGN, 4)
                 .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))

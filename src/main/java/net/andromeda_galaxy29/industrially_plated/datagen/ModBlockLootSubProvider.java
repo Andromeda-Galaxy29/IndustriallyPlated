@@ -50,6 +50,21 @@ public class ModBlockLootSubProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.MAGENTA_RADIATION_HAZARD_SIGN.get());
         dropSelf(ModBlocks.BIOHAZARD_SIGN.get());
 
+        dropSelf(ModBlocks.BLANK_PROHIBITION_SIGN.get());
+        dropSelf(ModBlocks.GENERIC_PROHIBITION_SIGN.get());
+        dropSelf(ModBlocks.NO_ENTRY_SIGN.get());
+        dropSelf(ModBlocks.NO_SWIMMING_SIGN.get());
+        dropSelf(ModBlocks.NO_SMOKING_SIGN.get());
+        dropSelf(ModBlocks.NO_EATING_SIGN.get());
+        dropSelf(ModBlocks.NO_DRINKING_SIGN.get());
+        dropSelf(ModBlocks.NO_PETS_SIGN.get());
+        dropSelf(ModBlocks.NO_OPEN_FIRE_SIGN.get());
+        dropSelf(ModBlocks.NO_TOUCHING_SIGN.get());
+        dropSelf(ModBlocks.NO_WEAPONS_SIGN.get());
+        dropSelf(ModBlocks.NO_MINING_SIGN.get());
+        dropSelf(ModBlocks.NO_CUTTING_TREES_SIGN.get());
+        dropSelf(ModBlocks.NO_SHEARING_SIGN.get());
+
         dropSelf(ModBlocks.BLANK_SAFETY_SIGN.get());
         dropSelf(ModBlocks.ARROW_SIGN.get());
         dropSelf(ModBlocks.EXIT_SIGN.get());

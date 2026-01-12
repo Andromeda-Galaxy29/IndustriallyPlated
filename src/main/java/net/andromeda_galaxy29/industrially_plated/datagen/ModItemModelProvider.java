@@ -41,6 +41,21 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleBlockItem(ModBlocks.MAGENTA_RADIATION_HAZARD_SIGN.get());
         simpleBlockItem(ModBlocks.BIOHAZARD_SIGN.get());
 
+        simpleBlockItem(ModBlocks.BLANK_PROHIBITION_SIGN.get());
+        simpleBlockItem(ModBlocks.GENERIC_PROHIBITION_SIGN.get());
+        simpleBlockItem(ModBlocks.NO_ENTRY_SIGN.get());
+        simpleBlockItem(ModBlocks.NO_SWIMMING_SIGN.get());
+        simpleBlockItem(ModBlocks.NO_SMOKING_SIGN.get());
+        simpleBlockItem(ModBlocks.NO_EATING_SIGN.get());
+        simpleBlockItem(ModBlocks.NO_DRINKING_SIGN.get());
+        simpleBlockItem(ModBlocks.NO_PETS_SIGN.get());
+        simpleBlockItem(ModBlocks.NO_OPEN_FIRE_SIGN.get());
+        simpleBlockItem(ModBlocks.NO_TOUCHING_SIGN.get());
+        simpleBlockItem(ModBlocks.NO_WEAPONS_SIGN.get());
+        simpleBlockItem(ModBlocks.NO_MINING_SIGN.get());
+        simpleBlockItem(ModBlocks.NO_CUTTING_TREES_SIGN.get());
+        simpleBlockItem(ModBlocks.NO_SHEARING_SIGN.get());
+
         simpleBlockItem(ModBlocks.BLANK_SAFETY_SIGN.get());
         customBlockItem(ModBlocks.ARROW_SIGN.get(), "block/arrow_sign_right");
         simpleBlockItem(ModBlocks.EXIT_SIGN.get());

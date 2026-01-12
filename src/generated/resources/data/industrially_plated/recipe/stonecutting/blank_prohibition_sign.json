@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "industrially_plated:prohibition_signage"
+  },
+  "result": {
+    "count": 1,
+    "id": "industrially_plated:blank_prohibition_sign"
+  }
+}

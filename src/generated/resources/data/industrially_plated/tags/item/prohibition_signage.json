@@ -1,0 +1,18 @@
+{
+  "values": [
+    "industrially_plated:blank_prohibition_sign",
+    "industrially_plated:generic_prohibition_sign",
+    "industrially_plated:no_entry_sign",
+    "industrially_plated:no_swimming_sign",
+    "industrially_plated:no_smoking_sign",
+    "industrially_plated:no_eating_sign",
+    "industrially_plated:no_drinking_sign",
+    "industrially_plated:no_pets_sign",
+    "industrially_plated:no_open_fire_sign",
+    "industrially_plated:no_touching_sign",
+    "industrially_plated:no_weapons_sign",
+    "industrially_plated:no_mining_sign",
+    "industrially_plated:no_cutting_trees_sign",
+    "industrially_plated:no_shearing_sign"
+  ]
+}

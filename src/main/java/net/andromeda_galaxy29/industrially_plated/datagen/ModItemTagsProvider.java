@@ -58,6 +58,26 @@ public class ModItemTagsProvider extends ItemTagsProvider {
                 .add(ModBlocks.MAGENTA_RADIATION_HAZARD_SIGN.asItem())
                 .add(ModBlocks.BIOHAZARD_SIGN.asItem());
 
+        tag(ModTags.Items.PROHIBITION_SIGNAGE_MATERIALS)
+                .add(ModBlocks.PLATING_BLOCKS.get(DyeColor.RED).asItem())
+                .add(ModBlocks.PLATING_BLOCKS.get(DyeColor.WHITE).asItem());
+
+        tag(ModTags.Items.PROHIBITION_SIGNAGE)
+                .add(ModBlocks.BLANK_PROHIBITION_SIGN.asItem())
+                .add(ModBlocks.GENERIC_PROHIBITION_SIGN.asItem())
+                .add(ModBlocks.NO_ENTRY_SIGN.asItem())
+                .add(ModBlocks.NO_SWIMMING_SIGN.asItem())
+                .add(ModBlocks.NO_SMOKING_SIGN.asItem())
+                .add(ModBlocks.NO_EATING_SIGN.asItem())
+                .add(ModBlocks.NO_DRINKING_SIGN.asItem())
+                .add(ModBlocks.NO_PETS_SIGN.asItem())
+                .add(ModBlocks.NO_OPEN_FIRE_SIGN.asItem())
+                .add(ModBlocks.NO_TOUCHING_SIGN.asItem())
+                .add(ModBlocks.NO_WEAPONS_SIGN.asItem())
+                .add(ModBlocks.NO_MINING_SIGN.asItem())
+                .add(ModBlocks.NO_CUTTING_TREES_SIGN.asItem())
+                .add(ModBlocks.NO_SHEARING_SIGN.asItem());
+
         tag(ModTags.Items.SAFETY_SIGNAGE)
                 .add(ModBlocks.BLANK_SAFETY_SIGN.asItem())
                 .add(ModBlocks.ARROW_SIGN.asItem())

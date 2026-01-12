@@ -38,7 +38,7 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
         Block[] metalBlocks = {
                 // Stripe blocks
                 ModBlocks.HAZARD_STRIPE_BLOCK.get(),
-                // Hazard signs
+                // Hazard signage
                 ModBlocks.RADIATION_HAZARD_STRIPE_BLOCK.get(),
                 ModBlocks.BLANK_HAZARD_SIGN.get(),
                 ModBlocks.GENERIC_HAZARD_SIGN.get(),
@@ -50,7 +50,22 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
                 ModBlocks.RADIATION_HAZARD_SIGN.get(),
                 ModBlocks.MAGENTA_RADIATION_HAZARD_SIGN.get(),
                 ModBlocks.BIOHAZARD_SIGN.get(),
-                // Safety signs
+                //Prohibition signage
+                ModBlocks.BLANK_PROHIBITION_SIGN.get(),
+                ModBlocks.GENERIC_PROHIBITION_SIGN.get(),
+                ModBlocks.NO_ENTRY_SIGN.get(),
+                ModBlocks.NO_SWIMMING_SIGN.get(),
+                ModBlocks.NO_SMOKING_SIGN.get(),
+                ModBlocks.NO_EATING_SIGN.get(),
+                ModBlocks.NO_DRINKING_SIGN.get(),
+                ModBlocks.NO_PETS_SIGN.get(),
+                ModBlocks.NO_OPEN_FIRE_SIGN.get(),
+                ModBlocks.NO_TOUCHING_SIGN.get(),
+                ModBlocks.NO_WEAPONS_SIGN.get(),
+                ModBlocks.NO_MINING_SIGN.get(),
+                ModBlocks.NO_CUTTING_TREES_SIGN.get(),
+                ModBlocks.NO_SHEARING_SIGN.get(),
+                // Safety signage
                 ModBlocks.BLANK_SAFETY_SIGN.get(),
                 ModBlocks.ARROW_SIGN.get(),
                 ModBlocks.EXIT_SIGN.get(),

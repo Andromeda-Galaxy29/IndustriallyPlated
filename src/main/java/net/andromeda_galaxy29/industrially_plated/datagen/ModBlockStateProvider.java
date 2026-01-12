@@ -61,6 +61,21 @@ public class ModBlockStateProvider extends BlockStateProvider {
         signageBlock(ModBlocks.MAGENTA_RADIATION_HAZARD_SIGN);
         signageBlock(ModBlocks.BIOHAZARD_SIGN);
 
+        signageBlock(ModBlocks.BLANK_PROHIBITION_SIGN);
+        signageBlock(ModBlocks.GENERIC_PROHIBITION_SIGN);
+        signageBlock(ModBlocks.NO_ENTRY_SIGN);
+        signageBlock(ModBlocks.NO_SWIMMING_SIGN);
+        signageBlock(ModBlocks.NO_SMOKING_SIGN);
+        signageBlock(ModBlocks.NO_EATING_SIGN);
+        signageBlock(ModBlocks.NO_DRINKING_SIGN);
+        signageBlock(ModBlocks.NO_PETS_SIGN);
+        signageBlock(ModBlocks.NO_OPEN_FIRE_SIGN);
+        signageBlock(ModBlocks.NO_TOUCHING_SIGN);
+        signageBlock(ModBlocks.NO_WEAPONS_SIGN);
+        signageBlock(ModBlocks.NO_MINING_SIGN);
+        signageBlock(ModBlocks.NO_CUTTING_TREES_SIGN);
+        signageBlock(ModBlocks.NO_SHEARING_SIGN);
+
         signageBlock(ModBlocks.BLANK_SAFETY_SIGN);
         directionalSignageBlock(ModBlocks.ARROW_SIGN);
         mirrorableSignageBlock(ModBlocks.EXIT_SIGN);
