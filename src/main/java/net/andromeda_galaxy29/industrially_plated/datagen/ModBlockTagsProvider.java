@@ -52,7 +52,10 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
                 ModBlocks.BIOHAZARD_SIGN.get(),
                 // Safety signs
                 ModBlocks.BLANK_SAFETY_SIGN.get(),
-                ModBlocks.ARROW_SIGN.get()
+                ModBlocks.ARROW_SIGN.get(),
+                ModBlocks.EXIT_SIGN.get(),
+                ModBlocks.WALK_SIGN.get(),
+                ModBlocks.STAIRS_SIGN.get()
         };
 
         tag(BlockTags.MINEABLE_WITH_PICKAXE).add(metalBlocks);

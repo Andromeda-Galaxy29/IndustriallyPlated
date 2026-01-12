@@ -2,6 +2,7 @@ package net.andromeda_galaxy29.industrially_plated.block;
 
 import net.andromeda_galaxy29.industrially_plated.IndustriallyPlated;
 import net.andromeda_galaxy29.industrially_plated.block.signage.DirectionalSignageBlock;
+import net.andromeda_galaxy29.industrially_plated.block.signage.MirrorableSignageBlock;
 import net.andromeda_galaxy29.industrially_plated.block.signage.SignageBlock;
 import net.andromeda_galaxy29.industrially_plated.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -88,6 +89,15 @@ public class ModBlocks {
 
     public static final DeferredBlock<DirectionalSignageBlock> ARROW_SIGN = registerBlockWithItem("arrow_sign",
             () -> new DirectionalSignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_SAFETY_SIGN.get())));
+
+    public static final DeferredBlock<MirrorableSignageBlock> EXIT_SIGN = registerBlockWithItem("exit_sign",
+            () -> new MirrorableSignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_SAFETY_SIGN.get())));
+
+    public static final DeferredBlock<MirrorableSignageBlock> WALK_SIGN = registerBlockWithItem("walk_sign",
+            () -> new MirrorableSignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_SAFETY_SIGN.get())));
+
+    public static final DeferredBlock<MirrorableSignageBlock> STAIRS_SIGN = registerBlockWithItem("stairs_sign",
+            () -> new MirrorableSignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_SAFETY_SIGN.get())));
 
 
     public static <T extends Block> Map<DyeColor, DeferredBlock<T>> registerDyedBlocks(String nameTemplate, Function<DyeColor, T> function) {

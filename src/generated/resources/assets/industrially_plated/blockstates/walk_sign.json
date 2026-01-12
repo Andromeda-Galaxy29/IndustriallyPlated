@@ -1,0 +1,110 @@
+{
+  "variants": {
+    "face=ceiling,facing=east,mirrored=false": {
+      "model": "industrially_plated:block/walk_sign",
+      "x": -180,
+      "y": 90
+    },
+    "face=ceiling,facing=east,mirrored=true": {
+      "model": "industrially_plated:block/walk_sign_mirrored",
+      "x": -180,
+      "y": 90
+    },
+    "face=ceiling,facing=north,mirrored=false": {
+      "model": "industrially_plated:block/walk_sign",
+      "x": -180
+    },
+    "face=ceiling,facing=north,mirrored=true": {
+      "model": "industrially_plated:block/walk_sign_mirrored",
+      "x": -180
+    },
+    "face=ceiling,facing=south,mirrored=false": {
+      "model": "industrially_plated:block/walk_sign",
+      "x": -180,
+      "y": 180
+    },
+    "face=ceiling,facing=south,mirrored=true": {
+      "model": "industrially_plated:block/walk_sign_mirrored",
+      "x": -180,
+      "y": 180
+    },
+    "face=ceiling,facing=west,mirrored=false": {
+      "model": "industrially_plated:block/walk_sign",
+      "x": -180,
+      "y": 270
+    },
+    "face=ceiling,facing=west,mirrored=true": {
+      "model": "industrially_plated:block/walk_sign_mirrored",
+      "x": -180,
+      "y": 270
+    },
+    "face=floor,facing=east,mirrored=false": {
+      "model": "industrially_plated:block/walk_sign",
+      "y": 90
+    },
+    "face=floor,facing=east,mirrored=true": {
+      "model": "industrially_plated:block/walk_sign_mirrored",
+      "y": 90
+    },
+    "face=floor,facing=north,mirrored=false": {
+      "model": "industrially_plated:block/walk_sign"
+    },
+    "face=floor,facing=north,mirrored=true": {
+      "model": "industrially_plated:block/walk_sign_mirrored"
+    },
+    "face=floor,facing=south,mirrored=false": {
+      "model": "industrially_plated:block/walk_sign",
+      "y": 180
+    },
+    "face=floor,facing=south,mirrored=true": {
+      "model": "industrially_plated:block/walk_sign_mirrored",
+      "y": 180
+    },
+    "face=floor,facing=west,mirrored=false": {
+      "model": "industrially_plated:block/walk_sign",
+      "y": 270
+    },
+    "face=floor,facing=west,mirrored=true": {
+      "model": "industrially_plated:block/walk_sign_mirrored",
+      "y": 270
+    },
+    "face=wall,facing=east,mirrored=false": {
+      "model": "industrially_plated:block/walk_sign",
+      "x": -90,
+      "y": 270
+    },
+    "face=wall,facing=east,mirrored=true": {
+      "model": "industrially_plated:block/walk_sign_mirrored",
+      "x": -90,
+      "y": 270
+    },
+    "face=wall,facing=north,mirrored=false": {
+      "model": "industrially_plated:block/walk_sign",
+      "x": -90,
+      "y": 180
+    },
+    "face=wall,facing=north,mirrored=true": {
+      "model": "industrially_plated:block/walk_sign_mirrored",
+      "x": -90,
+      "y": 180
+    },
+    "face=wall,facing=south,mirrored=false": {
+      "model": "industrially_plated:block/walk_sign",
+      "x": -90
+    },
+    "face=wall,facing=south,mirrored=true": {
+      "model": "industrially_plated:block/walk_sign_mirrored",
+      "x": -90
+    },
+    "face=wall,facing=west,mirrored=false": {
+      "model": "industrially_plated:block/walk_sign",
+      "x": -90,
+      "y": 90
+    },
+    "face=wall,facing=west,mirrored=true": {
+      "model": "industrially_plated:block/walk_sign_mirrored",
+      "x": -90,
+      "y": 90
+    }
+  }
+}

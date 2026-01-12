@@ -43,6 +43,9 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleBlockItem(ModBlocks.BLANK_SAFETY_SIGN.get());
         customBlockItem(ModBlocks.ARROW_SIGN.get(), "block/arrow_sign_right");
+        simpleBlockItem(ModBlocks.EXIT_SIGN.get());
+        simpleBlockItem(ModBlocks.WALK_SIGN.get());
+        simpleBlockItem(ModBlocks.STAIRS_SIGN.get());
     }
 
     public ItemModelBuilder customBlockItem(Block block, String path) {

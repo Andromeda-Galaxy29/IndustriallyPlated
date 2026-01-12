@@ -51,6 +51,9 @@ public class ModCreativeTabs {
 
                         output.accept(ModBlocks.BLANK_SAFETY_SIGN);
                         output.accept(ModBlocks.ARROW_SIGN);
+                        output.accept(ModBlocks.EXIT_SIGN);
+                        output.accept(ModBlocks.WALK_SIGN);
+                        output.accept(ModBlocks.STAIRS_SIGN);
                     }).build());
 
     public static void register(IEventBus eventBus) {

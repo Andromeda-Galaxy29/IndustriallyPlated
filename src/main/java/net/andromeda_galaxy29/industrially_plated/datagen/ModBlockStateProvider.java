@@ -3,16 +3,14 @@ package net.andromeda_galaxy29.industrially_plated.datagen;
 import net.andromeda_galaxy29.industrially_plated.IndustriallyPlated;
 import net.andromeda_galaxy29.industrially_plated.block.ModBlocks;
 import net.andromeda_galaxy29.industrially_plated.block.signage.DirectionalSignageBlock;
+import net.andromeda_galaxy29.industrially_plated.block.signage.MirrorableSignageBlock;
 import net.andromeda_galaxy29.industrially_plated.block.signage.SignageDirection;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.WaterloggedTransparentBlock;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.properties.AttachFace;
-import net.minecraft.world.level.block.state.properties.BlockStateProperties;
-import net.minecraft.world.level.block.state.properties.DirectionProperty;
-import net.minecraft.world.level.block.state.properties.EnumProperty;
+import net.minecraft.world.level.block.state.properties.*;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.client.model.generators.ConfiguredModel;
 import net.neoforged.neoforge.client.model.generators.ModelFile;
@@ -65,6 +63,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         signageBlock(ModBlocks.BLANK_SAFETY_SIGN);
         directionalSignageBlock(ModBlocks.ARROW_SIGN);
+        mirrorableSignageBlock(ModBlocks.EXIT_SIGN);
+        mirrorableSignageBlock(ModBlocks.WALK_SIGN);
+        mirrorableSignageBlock(ModBlocks.STAIRS_SIGN);
     }
 
     private String name(DeferredBlock deferredBlock) {
@@ -91,5 +92,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
         signageBlock(deferredBlock.get(), (state) -> models().withExistingParent(
                 name(deferredBlock) + "_" + state.getValue(direction).getSerializedName(), modLoc("sign"))
                 .texture("front", modLoc("block/" + name(deferredBlock) + "_" + state.getValue(direction).getSerializedName())));
+    }
+
+    private <T extends Block> void mirrorableSignageBlock(DeferredBlock<T> deferredBlock) {
+        BooleanProperty mirrored = MirrorableSignageBlock.MIRRORED;
+        signageBlock(deferredBlock.get(), (state) -> models().withExistingParent(
+                name(deferredBlock) + (state.getValue(mirrored) ? "_mirrored" : ""), modLoc("sign"))
+                .texture("front", modLoc("block/" + name(deferredBlock) + (state.getValue(mirrored) ? "_mirrored" : ""))));
     }
 }

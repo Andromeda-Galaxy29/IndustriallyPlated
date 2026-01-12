@@ -60,6 +60,9 @@ public class ModItemTagsProvider extends ItemTagsProvider {
 
         tag(ModTags.Items.SAFETY_SIGNAGE)
                 .add(ModBlocks.BLANK_SAFETY_SIGN.asItem())
-                .add(ModBlocks.ARROW_SIGN.asItem());
+                .add(ModBlocks.ARROW_SIGN.asItem())
+                .add(ModBlocks.EXIT_SIGN.asItem())
+                .add(ModBlocks.WALK_SIGN.asItem())
+                .add(ModBlocks.STAIRS_SIGN.asItem());
     }
 }

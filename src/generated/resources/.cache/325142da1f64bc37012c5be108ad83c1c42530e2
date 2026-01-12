@@ -1,4 +1,4 @@
-// 1.21.1	2026-01-11T23:13:29.4276798	Item Models: industrially_plated
+// 1.21.1	2026-01-12T13:53:14.4578946	Item Models: industrially_plated
 b171bbde1fb4d2c314d456cac35d6c664298ef33 assets/industrially_plated/models/item/arrow_sign.json
 31c0299db3a95a9bdd8612e3196130575436e641 assets/industrially_plated/models/item/biohazard_sign.json
 dc2f80720e1c08d57fb475ffbb52b242bf8191e3 assets/industrially_plated/models/item/black_cut_plating.json
@@ -24,6 +24,7 @@ be2430d5c29a8109aff7a86ea1b044895514d696 assets/industrially_plated/models/item/
 fa952d81e3dcde11b3efd26134cc97a9d32bbf56 assets/industrially_plated/models/item/cyan_plating_block.json
 a65bda8de3cd89dbd1f22fd39462add49d5c6f6b assets/industrially_plated/models/item/cyan_plating_grate.json
 4619385a8d6086f4fcb52d1158cb584ac08b60fb assets/industrially_plated/models/item/electricity_hazard_sign.json
+e5c6d5f6f4b86d476930e5f459f5270ea565f0af assets/industrially_plated/models/item/exit_sign.json
 e9186299acdd7e6372b97c8d132aaf8835748422 assets/industrially_plated/models/item/falling_hazard_sign.json
 8af03d67da87b16a0ec25e9f02f965ce634fb5aa assets/industrially_plated/models/item/fire_hazard_sign.json
 551f416bce8d7de1998b93b589c5936b8f44ccef assets/industrially_plated/models/item/generic_hazard_sign.json
@@ -82,7 +83,9 @@ aa4f06f6558accb86ebd38a504e1f0da03f5ef5b assets/industrially_plated/models/item/
 76885c3a9b1f8254ba3eea639109ce9f09c32009 assets/industrially_plated/models/item/red_cut_plating_stairs.json
 961f350ee1a1d785f57b6fb83b39a3a6a21f8516 assets/industrially_plated/models/item/red_plating_block.json
 69bc6672da02e3ffbde30564a8307b98e6ae7d01 assets/industrially_plated/models/item/red_plating_grate.json
+09363effb955a711b9d825e7c1c3f8903ac0ac59 assets/industrially_plated/models/item/stairs_sign.json
 2ec554ada32e78dbad6dc348010ddb53df71b0d1 assets/industrially_plated/models/item/toxicity_hazard_sign.json
+f893d38f33350d0167a221a1e2311fc54f13c125 assets/industrially_plated/models/item/walk_sign.json
 90423af5d66af6f5c1512ec0199b1d0183ad3c78 assets/industrially_plated/models/item/white_cut_plating.json
 392c8ff1f1070b8368851532848a8530df51dd67 assets/industrially_plated/models/item/white_cut_plating_slab.json
 98b2e85e21989604b15dcdc4beffb60b86d6114b assets/industrially_plated/models/item/white_cut_plating_stairs.json

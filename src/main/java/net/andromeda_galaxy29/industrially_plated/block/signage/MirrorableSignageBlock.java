@@ -11,31 +11,30 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.AttachFace;
-import net.minecraft.world.level.block.state.properties.EnumProperty;
+import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.phys.BlockHitResult;
 import org.jetbrains.annotations.NotNull;
 
-public class DirectionalSignageBlock extends SignageBlock{
-    public static final EnumProperty<SignageDirection> DIRECTION =
-            EnumProperty.create("direction", SignageDirection.class);
+public class MirrorableSignageBlock extends SignageBlock {
+    public static final BooleanProperty MIRRORED = BooleanProperty.create("mirrored");
 
-    public DirectionalSignageBlock(Properties properties) {
+    public MirrorableSignageBlock(Properties properties) {
         super(properties);
         registerDefaultState(stateDefinition.any()
                 .setValue(FACING, Direction.NORTH)
                 .setValue(FACE, AttachFace.WALL)
-                .setValue(DIRECTION, SignageDirection.RIGHT));
+                .setValue(MIRRORED, false));
     }
 
     @Override
     public @NotNull InteractionResult useWithoutItem(BlockState state, Level level, BlockPos pos, Player player, BlockHitResult hitResult) {
-        level.setBlockAndUpdate(pos, state.setValue(DIRECTION, SignageDirection.values()[(state.getValue(DIRECTION).ordinal() + 1) % 8]));
+        level.setBlockAndUpdate(pos, state.setValue(MIRRORED, !state.getValue(MIRRORED)));
         level.playSound(null, pos, SoundEvents.ITEM_FRAME_ROTATE_ITEM, SoundSource.BLOCKS);
         return InteractionResult.sidedSuccess(level.isClientSide);
     }
 
     @Override
     public void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
-        builder.add(FACING, FACE, DIRECTION);
+        builder.add(FACING, FACE, MIRRORED);
     }
 }

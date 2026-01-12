@@ -194,7 +194,10 @@ public class ModRecipeProvider extends RecipeProvider {
 
         DeferredBlock[] safetySignage = {
                 ModBlocks.BLANK_SAFETY_SIGN,
-                ModBlocks.ARROW_SIGN
+                ModBlocks.ARROW_SIGN,
+                ModBlocks.EXIT_SIGN,
+                ModBlocks.WALK_SIGN,
+                ModBlocks.STAIRS_SIGN
         };
 
         for (DeferredBlock safetySign : safetySignage) {
