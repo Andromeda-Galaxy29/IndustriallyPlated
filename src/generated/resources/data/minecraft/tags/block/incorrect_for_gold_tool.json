@@ -96,6 +96,9 @@
     "industrially_plated:arrow_sign",
     "industrially_plated:exit_sign",
     "industrially_plated:walk_sign",
-    "industrially_plated:stairs_sign"
+    "industrially_plated:disabled_access_sign",
+    "industrially_plated:stairs_sign",
+    "industrially_plated:ladder_sign",
+    "industrially_plated:medical_cross_sign"
   ]
 }

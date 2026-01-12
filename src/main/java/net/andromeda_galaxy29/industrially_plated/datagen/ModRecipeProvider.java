@@ -197,7 +197,10 @@ public class ModRecipeProvider extends RecipeProvider {
                 ModBlocks.ARROW_SIGN,
                 ModBlocks.EXIT_SIGN,
                 ModBlocks.WALK_SIGN,
-                ModBlocks.STAIRS_SIGN
+                ModBlocks.DISABLED_ACCESS_SIGN,
+                ModBlocks.STAIRS_SIGN,
+                ModBlocks.LADDER_SIGN,
+                ModBlocks.MEDICAL_CROSS_SIGN
         };
 
         for (DeferredBlock safetySign : safetySignage) {

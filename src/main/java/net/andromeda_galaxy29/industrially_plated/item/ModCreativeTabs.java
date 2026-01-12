@@ -53,7 +53,10 @@ public class ModCreativeTabs {
                         output.accept(ModBlocks.ARROW_SIGN);
                         output.accept(ModBlocks.EXIT_SIGN);
                         output.accept(ModBlocks.WALK_SIGN);
+                        output.accept(ModBlocks.DISABLED_ACCESS_SIGN);
                         output.accept(ModBlocks.STAIRS_SIGN);
+                        output.accept(ModBlocks.LADDER_SIGN);
+                        output.accept(ModBlocks.MEDICAL_CROSS_SIGN);
                     }).build());
 
     public static void register(IEventBus eventBus) {

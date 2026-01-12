@@ -96,8 +96,17 @@ public class ModBlocks {
     public static final DeferredBlock<MirrorableSignageBlock> WALK_SIGN = registerBlockWithItem("walk_sign",
             () -> new MirrorableSignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_SAFETY_SIGN.get())));
 
+    public static final DeferredBlock<MirrorableSignageBlock> DISABLED_ACCESS_SIGN = registerBlockWithItem("disabled_access_sign",
+            () -> new MirrorableSignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_SAFETY_SIGN.get())));
+
     public static final DeferredBlock<MirrorableSignageBlock> STAIRS_SIGN = registerBlockWithItem("stairs_sign",
             () -> new MirrorableSignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_SAFETY_SIGN.get())));
+
+    public static final DeferredBlock<SignageBlock> LADDER_SIGN = registerBlockWithItem("ladder_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_SAFETY_SIGN.get())));
+
+    public static final DeferredBlock<SignageBlock> MEDICAL_CROSS_SIGN = registerBlockWithItem("medical_cross_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_SAFETY_SIGN.get())));
 
 
     public static <T extends Block> Map<DyeColor, DeferredBlock<T>> registerDyedBlocks(String nameTemplate, Function<DyeColor, T> function) {

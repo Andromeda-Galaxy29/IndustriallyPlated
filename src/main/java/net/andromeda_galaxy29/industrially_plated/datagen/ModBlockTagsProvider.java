@@ -55,7 +55,10 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
                 ModBlocks.ARROW_SIGN.get(),
                 ModBlocks.EXIT_SIGN.get(),
                 ModBlocks.WALK_SIGN.get(),
-                ModBlocks.STAIRS_SIGN.get()
+                ModBlocks.DISABLED_ACCESS_SIGN.get(),
+                ModBlocks.STAIRS_SIGN.get(),
+                ModBlocks.LADDER_SIGN.get(),
+                ModBlocks.MEDICAL_CROSS_SIGN.get()
         };
 
         tag(BlockTags.MINEABLE_WITH_PICKAXE).add(metalBlocks);

@@ -54,6 +54,9 @@ public class ModBlockLootSubProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.ARROW_SIGN.get());
         dropSelf(ModBlocks.EXIT_SIGN.get());
         dropSelf(ModBlocks.WALK_SIGN.get());
+        dropSelf(ModBlocks.DISABLED_ACCESS_SIGN.get());
         dropSelf(ModBlocks.STAIRS_SIGN.get());
+        dropSelf(ModBlocks.LADDER_SIGN.get());
+        dropSelf(ModBlocks.MEDICAL_CROSS_SIGN.get());
     }
 }

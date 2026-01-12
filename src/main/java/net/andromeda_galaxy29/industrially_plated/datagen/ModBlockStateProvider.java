@@ -65,7 +65,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
         directionalSignageBlock(ModBlocks.ARROW_SIGN);
         mirrorableSignageBlock(ModBlocks.EXIT_SIGN);
         mirrorableSignageBlock(ModBlocks.WALK_SIGN);
+        mirrorableSignageBlock(ModBlocks.DISABLED_ACCESS_SIGN);
         mirrorableSignageBlock(ModBlocks.STAIRS_SIGN);
+        signageBlock(ModBlocks.LADDER_SIGN);
+        signageBlock(ModBlocks.MEDICAL_CROSS_SIGN);
     }
 
     private String name(DeferredBlock deferredBlock) {

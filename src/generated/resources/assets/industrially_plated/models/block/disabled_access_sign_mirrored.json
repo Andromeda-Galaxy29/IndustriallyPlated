@@ -1,0 +1,6 @@
+{
+  "parent": "industrially_plated:block/sign",
+  "textures": {
+    "front": "industrially_plated:block/disabled_access_sign_mirrored"
+  }
+}

@@ -63,6 +63,9 @@ public class ModItemTagsProvider extends ItemTagsProvider {
                 .add(ModBlocks.ARROW_SIGN.asItem())
                 .add(ModBlocks.EXIT_SIGN.asItem())
                 .add(ModBlocks.WALK_SIGN.asItem())
-                .add(ModBlocks.STAIRS_SIGN.asItem());
+                .add(ModBlocks.DISABLED_ACCESS_SIGN.asItem())
+                .add(ModBlocks.STAIRS_SIGN.asItem())
+                .add(ModBlocks.LADDER_SIGN.asItem())
+                .add(ModBlocks.MEDICAL_CROSS_SIGN.asItem());
     }
 }
