@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "industrially_plated:cut_plating_slab_dyeing",
+  "key": {
+    "D": {
+      "tag": "c:dyes/indigo"
+    },
+    "P": {
+      "tag": "industrially_plated:cut_plating_slabs"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "PDP",
+    "PPP"
+  ],
+  "result": {
+    "count": 8,
+    "id": "industrially_plated:indigo_cut_plating_slab"
+  }
+}

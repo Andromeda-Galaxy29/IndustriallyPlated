@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "industrially_plated:plating_grate_dyeing",
+  "key": {
+    "D": {
+      "tag": "c:dyes/verdant"
+    },
+    "P": {
+      "tag": "industrially_plated:plating_grates"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "PDP",
+    "PPP"
+  ],
+  "result": {
+    "count": 8,
+    "id": "industrially_plated:verdant_plating_grate"
+  }
+}

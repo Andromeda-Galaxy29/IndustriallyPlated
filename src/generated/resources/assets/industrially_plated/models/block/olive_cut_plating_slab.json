@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "industrially_plated:block/olive_cut_plating",
+    "side": "industrially_plated:block/olive_cut_plating",
+    "top": "industrially_plated:block/olive_cut_plating"
+  }
+}

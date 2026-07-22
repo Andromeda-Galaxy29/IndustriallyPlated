@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "industrially_plated:cut_plating",
+  "key": {
+    "P": {
+      "item": "industrially_plated:teal_plating_block"
+    }
+  },
+  "pattern": [
+    "PP",
+    "PP"
+  ],
+  "result": {
+    "count": 4,
+    "id": "industrially_plated:teal_cut_plating"
+  }
+}

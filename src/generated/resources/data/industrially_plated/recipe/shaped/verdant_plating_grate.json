@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "industrially_plated:plating_grates",
+  "key": {
+    "P": {
+      "item": "industrially_plated:verdant_plating_block"
+    }
+  },
+  "pattern": [
+    " P ",
+    "P P",
+    " P "
+  ],
+  "result": {
+    "count": 4,
+    "id": "industrially_plated:verdant_plating_grate"
+  }
+}

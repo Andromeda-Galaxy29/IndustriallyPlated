@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "industrially_plated:plating_block_dyeing",
+  "key": {
+    "D": {
+      "tag": "c:dyes/indigo"
+    },
+    "P": {
+      "tag": "industrially_plated:plating_blocks"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "PDP",
+    "PPP"
+  ],
+  "result": {
+    "count": 8,
+    "id": "industrially_plated:indigo_plating_block"
+  }
+}

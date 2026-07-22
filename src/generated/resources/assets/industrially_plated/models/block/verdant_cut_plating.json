@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "industrially_plated:block/verdant_cut_plating"
+  }
+}

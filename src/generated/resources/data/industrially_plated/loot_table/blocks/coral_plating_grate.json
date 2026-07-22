@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "industrially_plated:coral_plating_grate"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "industrially_plated:blocks/coral_plating_grate"
+}

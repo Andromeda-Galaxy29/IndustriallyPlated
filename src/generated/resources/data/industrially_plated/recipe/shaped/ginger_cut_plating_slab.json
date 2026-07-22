@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "industrially_plated:cut_plating_slabs",
+  "key": {
+    "C": {
+      "item": "industrially_plated:ginger_cut_plating"
+    }
+  },
+  "pattern": [
+    "CCC"
+  ],
+  "result": {
+    "count": 6,
+    "id": "industrially_plated:ginger_cut_plating_slab"
+  }
+}

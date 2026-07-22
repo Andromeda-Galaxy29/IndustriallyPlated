@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "industrially_plated:amber_cut_plating"
+  },
+  "result": {
+    "count": 2,
+    "id": "industrially_plated:amber_cut_plating_slab"
+  }
+}

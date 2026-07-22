@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "industrially_plated:plating_block_dyeing",
+  "key": {
+    "D": {
+      "tag": "c:dyes/coral"
+    },
+    "P": {
+      "tag": "industrially_plated:plating_blocks"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "PDP",
+    "PPP"
+  ],
+  "result": {
+    "count": 8,
+    "id": "industrially_plated:coral_plating_block"
+  }
+}

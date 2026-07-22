@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "industrially_plated:rose_plating_block"
+  },
+  "result": {
+    "count": 4,
+    "id": "industrially_plated:rose_plating_grate"
+  }
+}
