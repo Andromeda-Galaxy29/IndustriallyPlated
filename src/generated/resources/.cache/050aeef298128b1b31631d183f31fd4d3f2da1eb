@@ -1,4 +1,4 @@
-// 1.21.1	2026-07-23T11:30:50.7239086	Tags for minecraft:item mod id industrially_plated
+// 1.21.1	2026-07-23T23:12:53.158144	Tags for minecraft:item mod id industrially_plated
 09fb6198b8652c881821b769672ed50039d2758f data/c/tags/item/dyed.json
 3d8a0caf5e96fbf2f8e1d04992ebf5a937f31463 data/c/tags/item/dyed/amber.json
 ad01c33de37d4a490c0a8b0bdc90d363f7b55d44 data/c/tags/item/dyed/aqua.json
@@ -36,6 +36,7 @@ cc24d770f9cf647378a2219a3331128d9bbae89b data/c/tags/item/dyed/tan.json
 928226dd33b33344731632ede986e0a2013c64d2 data/industrially_plated/tags/item/cut_plating_slabs.json
 732dc7b1953e1c91f8db404a4478ec97fb09936a data/industrially_plated/tags/item/cut_plating_stairs.json
 cf881bf5677c601a2a3b479e8e71d35e988081c6 data/industrially_plated/tags/item/fire_diamond_materials.json
+9ec17d833e3d461e3006d025090b510c48fbbaa8 data/industrially_plated/tags/item/fire_safety_signage.json
 f5ad8374e519ade56d34c86bedd330de3cfba785 data/industrially_plated/tags/item/hazard_signage.json
 d904122be3877e8afdebc73692c80e6000ad9696 data/industrially_plated/tags/item/instruction_signage.json
 8f0754356f57a7845c268818ec3f33658c045f39 data/industrially_plated/tags/item/plating_blocks.json

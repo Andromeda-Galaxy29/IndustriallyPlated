@@ -1,0 +1,6 @@
+{
+  "parent": "industrially_plated:block/sign",
+  "textures": {
+    "front": "industrially_plated:block/generic_fire_safety_sign"
+  }
+}

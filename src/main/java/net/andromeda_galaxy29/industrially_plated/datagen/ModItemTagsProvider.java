@@ -89,6 +89,19 @@ public class ModItemTagsProvider extends ItemTagsProvider {
                 .add(ModBlocks.LADDER_SIGN.asItem())
                 .add(ModBlocks.MEDICAL_CROSS_SIGN.asItem());
 
+        tag(ModTags.Items.FIRE_SAFETY_SIGNAGE)
+                .add(ModBlocks.BLANK_FIRE_SAFETY_SIGN.asItem())
+                .add(ModBlocks.GENERIC_FIRE_SAFETY_SIGN.asItem())
+                .add(ModBlocks.FIRE_SAFETY_ARROW_SIGN.asItem())
+                .add(ModBlocks.FIRE_EMERGENCY_EXIT_SIGN.asItem())
+                .add(ModBlocks.FIRE_EMERGENCY_STAIRS_SIGN.asItem())
+                .add(ModBlocks.FIRE_EMERGENCY_LADDER_SIGN.asItem())
+                .add(ModBlocks.FIRE_EMERGENCY_PHONE_SIGN.asItem())
+                .add(ModBlocks.FIRE_EXTINGUISHER_SIGN.asItem())
+                .add(ModBlocks.FIRE_HOSE_SIGN.asItem())
+                .add(ModBlocks.FIRE_HOSE_REEL_SIGN.asItem())
+                .add(ModBlocks.FIRE_ALARM_SIGN.asItem());
+
         tag(ModTags.Items.INSTRUCTION_SIGNAGE)
                 .add(ModBlocks.BLANK_INSTRUCTION_SIGN.asItem())
                 .add(ModBlocks.GENERIC_INSTRUCTION_SIGN.asItem())

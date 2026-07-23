@@ -93,6 +93,18 @@ public class ModCreativeTabs {
                         output.accept(ModBlocks.STAIRS_SIGN);
                         output.accept(ModBlocks.LADDER_SIGN);
                         output.accept(ModBlocks.MEDICAL_CROSS_SIGN);
+                        // Fire Safety Signage
+                        output.accept(ModBlocks.BLANK_FIRE_SAFETY_SIGN);
+                        output.accept(ModBlocks.GENERIC_FIRE_SAFETY_SIGN);
+                        output.accept(ModBlocks.FIRE_SAFETY_ARROW_SIGN);
+                        output.accept(ModBlocks.FIRE_EMERGENCY_EXIT_SIGN);
+                        output.accept(ModBlocks.FIRE_EMERGENCY_STAIRS_SIGN);
+                        output.accept(ModBlocks.FIRE_EMERGENCY_LADDER_SIGN);
+                        output.accept(ModBlocks.FIRE_EMERGENCY_PHONE_SIGN);
+                        output.accept(ModBlocks.FIRE_EXTINGUISHER_SIGN);
+                        output.accept(ModBlocks.FIRE_HOSE_SIGN);
+                        output.accept(ModBlocks.FIRE_HOSE_REEL_SIGN);
+                        output.accept(ModBlocks.FIRE_ALARM_SIGN);
                         // Instruction signage
                         output.accept(ModBlocks.BLANK_INSTRUCTION_SIGN);
                         output.accept(ModBlocks.GENERIC_INSTRUCTION_SIGN);

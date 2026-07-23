@@ -38,8 +38,8 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
         Block[] metalBlocks = {
                 // Stripe blocks
                 ModBlocks.HAZARD_STRIPE_BLOCK.get(),
-                // Hazard signage
                 ModBlocks.RADIATION_HAZARD_STRIPE_BLOCK.get(),
+                // Hazard signage
                 ModBlocks.BLANK_HAZARD_SIGN.get(),
                 ModBlocks.GENERIC_HAZARD_SIGN.get(),
                 ModBlocks.FALLING_HAZARD_SIGN.get(),
@@ -75,6 +75,18 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
                 ModBlocks.STAIRS_SIGN.get(),
                 ModBlocks.LADDER_SIGN.get(),
                 ModBlocks.MEDICAL_CROSS_SIGN.get(),
+                // Fire safety signage
+                ModBlocks.BLANK_FIRE_SAFETY_SIGN.get(),
+                ModBlocks.GENERIC_FIRE_SAFETY_SIGN.get(),
+                ModBlocks.FIRE_SAFETY_ARROW_SIGN.get(),
+                ModBlocks.FIRE_EMERGENCY_EXIT_SIGN.get(),
+                ModBlocks.FIRE_EMERGENCY_STAIRS_SIGN.get(),
+                ModBlocks.FIRE_EMERGENCY_LADDER_SIGN.get(),
+                ModBlocks.FIRE_EMERGENCY_PHONE_SIGN.get(),
+                ModBlocks.FIRE_EXTINGUISHER_SIGN.get(),
+                ModBlocks.FIRE_HOSE_SIGN.get(),
+                ModBlocks.FIRE_HOSE_REEL_SIGN.get(),
+                ModBlocks.FIRE_ALARM_SIGN.get(),
                 // Instruction signage
                 ModBlocks.BLANK_INSTRUCTION_SIGN.get(),
                 ModBlocks.GENERIC_INSTRUCTION_SIGN.get(),

@@ -78,6 +78,18 @@ public class ModLangProvider extends LanguageProvider {
         addBlock(ModBlocks.LADDER_SIGN, "Ladder Sign");
         addBlock(ModBlocks.MEDICAL_CROSS_SIGN, "Medical Cross Sign");
 
+        addBlock(ModBlocks.BLANK_FIRE_SAFETY_SIGN, "Blank Fire Safety Sign");
+        addBlock(ModBlocks.GENERIC_FIRE_SAFETY_SIGN, "Generic Fire Safety Sign");
+        addBlock(ModBlocks.FIRE_SAFETY_ARROW_SIGN, "Fire Safety Arrow Sign");
+        addBlock(ModBlocks.FIRE_EMERGENCY_EXIT_SIGN, "Fire Emergency Exit Sign");
+        addBlock(ModBlocks.FIRE_EMERGENCY_STAIRS_SIGN, "Fire Emergency Stairs Sign");
+        addBlock(ModBlocks.FIRE_EMERGENCY_LADDER_SIGN, "Fire Emergency Ladder Sign");
+        addBlock(ModBlocks.FIRE_EMERGENCY_PHONE_SIGN, "Fire Emergency Phone Sign");
+        addBlock(ModBlocks.FIRE_EXTINGUISHER_SIGN, "Fire Extinguisher Sign");
+        addBlock(ModBlocks.FIRE_HOSE_SIGN, "Fire Hose Sign");
+        addBlock(ModBlocks.FIRE_HOSE_REEL_SIGN, "Fire Hose Reel Sign");
+        addBlock(ModBlocks.FIRE_ALARM_SIGN, "Fire Alarm Sign");
+
         addBlock(ModBlocks.BLANK_INSTRUCTION_SIGN, "Blank Instruction Sign");
         addBlock(ModBlocks.GENERIC_INSTRUCTION_SIGN, "Generic Instruction Sign");
         addBlock(ModBlocks.WEAR_EAR_PROTECTION_SIGN, "Wear Ear Protection Sign");

@@ -1,425 +1,849 @@
 {
   "variants": {
-    "direction=down,face=ceiling,facing=east": {
+    "direction=down,face=ceiling,facing=east,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down",
       "x": -180,
       "y": 90
     },
-    "direction=down,face=ceiling,facing=north": {
+    "direction=down,face=ceiling,facing=east,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down",
+      "x": -180,
+      "y": 90
+    },
+    "direction=down,face=ceiling,facing=north,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down",
       "x": -180
     },
-    "direction=down,face=ceiling,facing=south": {
+    "direction=down,face=ceiling,facing=north,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down",
+      "x": -180
+    },
+    "direction=down,face=ceiling,facing=south,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down",
       "x": -180,
       "y": 180
     },
-    "direction=down,face=ceiling,facing=west": {
+    "direction=down,face=ceiling,facing=south,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down",
+      "x": -180,
+      "y": 180
+    },
+    "direction=down,face=ceiling,facing=west,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down",
       "x": -180,
       "y": 270
     },
-    "direction=down,face=floor,facing=east": {
+    "direction=down,face=ceiling,facing=west,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down",
+      "x": -180,
+      "y": 270
+    },
+    "direction=down,face=floor,facing=east,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down",
       "y": 90
     },
-    "direction=down,face=floor,facing=north": {
+    "direction=down,face=floor,facing=east,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down",
+      "y": 90
+    },
+    "direction=down,face=floor,facing=north,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down"
     },
-    "direction=down,face=floor,facing=south": {
+    "direction=down,face=floor,facing=north,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down"
+    },
+    "direction=down,face=floor,facing=south,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down",
       "y": 180
     },
-    "direction=down,face=floor,facing=west": {
+    "direction=down,face=floor,facing=south,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down",
+      "y": 180
+    },
+    "direction=down,face=floor,facing=west,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down",
       "y": 270
     },
-    "direction=down,face=wall,facing=east": {
+    "direction=down,face=floor,facing=west,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down",
+      "y": 270
+    },
+    "direction=down,face=wall,facing=east,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down",
       "x": -90,
       "y": 270
     },
-    "direction=down,face=wall,facing=north": {
+    "direction=down,face=wall,facing=east,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down",
+      "x": -90,
+      "y": 270
+    },
+    "direction=down,face=wall,facing=north,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down",
       "x": -90,
       "y": 180
     },
-    "direction=down,face=wall,facing=south": {
+    "direction=down,face=wall,facing=north,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down",
+      "x": -90,
+      "y": 180
+    },
+    "direction=down,face=wall,facing=south,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down",
       "x": -90
     },
-    "direction=down,face=wall,facing=west": {
+    "direction=down,face=wall,facing=south,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down",
+      "x": -90
+    },
+    "direction=down,face=wall,facing=west,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down",
       "x": -90,
       "y": 90
     },
-    "direction=down_left,face=ceiling,facing=east": {
+    "direction=down,face=wall,facing=west,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down",
+      "x": -90,
+      "y": 90
+    },
+    "direction=down_left,face=ceiling,facing=east,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down_left",
       "x": -180,
       "y": 90
     },
-    "direction=down_left,face=ceiling,facing=north": {
+    "direction=down_left,face=ceiling,facing=east,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down_left",
+      "x": -180,
+      "y": 90
+    },
+    "direction=down_left,face=ceiling,facing=north,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down_left",
       "x": -180
     },
-    "direction=down_left,face=ceiling,facing=south": {
+    "direction=down_left,face=ceiling,facing=north,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down_left",
+      "x": -180
+    },
+    "direction=down_left,face=ceiling,facing=south,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down_left",
       "x": -180,
       "y": 180
     },
-    "direction=down_left,face=ceiling,facing=west": {
+    "direction=down_left,face=ceiling,facing=south,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down_left",
+      "x": -180,
+      "y": 180
+    },
+    "direction=down_left,face=ceiling,facing=west,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down_left",
       "x": -180,
       "y": 270
     },
-    "direction=down_left,face=floor,facing=east": {
+    "direction=down_left,face=ceiling,facing=west,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down_left",
+      "x": -180,
+      "y": 270
+    },
+    "direction=down_left,face=floor,facing=east,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down_left",
       "y": 90
     },
-    "direction=down_left,face=floor,facing=north": {
+    "direction=down_left,face=floor,facing=east,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down_left",
+      "y": 90
+    },
+    "direction=down_left,face=floor,facing=north,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down_left"
     },
-    "direction=down_left,face=floor,facing=south": {
+    "direction=down_left,face=floor,facing=north,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down_left"
+    },
+    "direction=down_left,face=floor,facing=south,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down_left",
       "y": 180
     },
-    "direction=down_left,face=floor,facing=west": {
+    "direction=down_left,face=floor,facing=south,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down_left",
+      "y": 180
+    },
+    "direction=down_left,face=floor,facing=west,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down_left",
       "y": 270
     },
-    "direction=down_left,face=wall,facing=east": {
+    "direction=down_left,face=floor,facing=west,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down_left",
+      "y": 270
+    },
+    "direction=down_left,face=wall,facing=east,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down_left",
       "x": -90,
       "y": 270
     },
-    "direction=down_left,face=wall,facing=north": {
+    "direction=down_left,face=wall,facing=east,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down_left",
+      "x": -90,
+      "y": 270
+    },
+    "direction=down_left,face=wall,facing=north,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down_left",
       "x": -90,
       "y": 180
     },
-    "direction=down_left,face=wall,facing=south": {
+    "direction=down_left,face=wall,facing=north,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down_left",
+      "x": -90,
+      "y": 180
+    },
+    "direction=down_left,face=wall,facing=south,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down_left",
       "x": -90
     },
-    "direction=down_left,face=wall,facing=west": {
+    "direction=down_left,face=wall,facing=south,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down_left",
+      "x": -90
+    },
+    "direction=down_left,face=wall,facing=west,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down_left",
       "x": -90,
       "y": 90
     },
-    "direction=down_right,face=ceiling,facing=east": {
+    "direction=down_left,face=wall,facing=west,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down_left",
+      "x": -90,
+      "y": 90
+    },
+    "direction=down_right,face=ceiling,facing=east,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down_right",
       "x": -180,
       "y": 90
     },
-    "direction=down_right,face=ceiling,facing=north": {
+    "direction=down_right,face=ceiling,facing=east,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down_right",
+      "x": -180,
+      "y": 90
+    },
+    "direction=down_right,face=ceiling,facing=north,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down_right",
       "x": -180
     },
-    "direction=down_right,face=ceiling,facing=south": {
+    "direction=down_right,face=ceiling,facing=north,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down_right",
+      "x": -180
+    },
+    "direction=down_right,face=ceiling,facing=south,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down_right",
       "x": -180,
       "y": 180
     },
-    "direction=down_right,face=ceiling,facing=west": {
+    "direction=down_right,face=ceiling,facing=south,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down_right",
+      "x": -180,
+      "y": 180
+    },
+    "direction=down_right,face=ceiling,facing=west,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down_right",
       "x": -180,
       "y": 270
     },
-    "direction=down_right,face=floor,facing=east": {
+    "direction=down_right,face=ceiling,facing=west,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down_right",
+      "x": -180,
+      "y": 270
+    },
+    "direction=down_right,face=floor,facing=east,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down_right",
       "y": 90
     },
-    "direction=down_right,face=floor,facing=north": {
+    "direction=down_right,face=floor,facing=east,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down_right",
+      "y": 90
+    },
+    "direction=down_right,face=floor,facing=north,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down_right"
     },
-    "direction=down_right,face=floor,facing=south": {
+    "direction=down_right,face=floor,facing=north,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down_right"
+    },
+    "direction=down_right,face=floor,facing=south,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down_right",
       "y": 180
     },
-    "direction=down_right,face=floor,facing=west": {
+    "direction=down_right,face=floor,facing=south,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down_right",
+      "y": 180
+    },
+    "direction=down_right,face=floor,facing=west,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down_right",
       "y": 270
     },
-    "direction=down_right,face=wall,facing=east": {
+    "direction=down_right,face=floor,facing=west,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down_right",
+      "y": 270
+    },
+    "direction=down_right,face=wall,facing=east,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down_right",
       "x": -90,
       "y": 270
     },
-    "direction=down_right,face=wall,facing=north": {
+    "direction=down_right,face=wall,facing=east,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down_right",
+      "x": -90,
+      "y": 270
+    },
+    "direction=down_right,face=wall,facing=north,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down_right",
       "x": -90,
       "y": 180
     },
-    "direction=down_right,face=wall,facing=south": {
+    "direction=down_right,face=wall,facing=north,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down_right",
+      "x": -90,
+      "y": 180
+    },
+    "direction=down_right,face=wall,facing=south,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down_right",
       "x": -90
     },
-    "direction=down_right,face=wall,facing=west": {
+    "direction=down_right,face=wall,facing=south,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down_right",
+      "x": -90
+    },
+    "direction=down_right,face=wall,facing=west,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_down_right",
       "x": -90,
       "y": 90
     },
-    "direction=left,face=ceiling,facing=east": {
+    "direction=down_right,face=wall,facing=west,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_down_right",
+      "x": -90,
+      "y": 90
+    },
+    "direction=left,face=ceiling,facing=east,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_left",
       "x": -180,
       "y": 90
     },
-    "direction=left,face=ceiling,facing=north": {
+    "direction=left,face=ceiling,facing=east,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_left",
+      "x": -180,
+      "y": 90
+    },
+    "direction=left,face=ceiling,facing=north,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_left",
       "x": -180
     },
-    "direction=left,face=ceiling,facing=south": {
+    "direction=left,face=ceiling,facing=north,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_left",
+      "x": -180
+    },
+    "direction=left,face=ceiling,facing=south,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_left",
       "x": -180,
       "y": 180
     },
-    "direction=left,face=ceiling,facing=west": {
+    "direction=left,face=ceiling,facing=south,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_left",
+      "x": -180,
+      "y": 180
+    },
+    "direction=left,face=ceiling,facing=west,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_left",
       "x": -180,
       "y": 270
     },
-    "direction=left,face=floor,facing=east": {
+    "direction=left,face=ceiling,facing=west,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_left",
+      "x": -180,
+      "y": 270
+    },
+    "direction=left,face=floor,facing=east,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_left",
       "y": 90
     },
-    "direction=left,face=floor,facing=north": {
+    "direction=left,face=floor,facing=east,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_left",
+      "y": 90
+    },
+    "direction=left,face=floor,facing=north,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_left"
     },
-    "direction=left,face=floor,facing=south": {
+    "direction=left,face=floor,facing=north,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_left"
+    },
+    "direction=left,face=floor,facing=south,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_left",
       "y": 180
     },
-    "direction=left,face=floor,facing=west": {
+    "direction=left,face=floor,facing=south,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_left",
+      "y": 180
+    },
+    "direction=left,face=floor,facing=west,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_left",
       "y": 270
     },
-    "direction=left,face=wall,facing=east": {
+    "direction=left,face=floor,facing=west,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_left",
+      "y": 270
+    },
+    "direction=left,face=wall,facing=east,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_left",
       "x": -90,
       "y": 270
     },
-    "direction=left,face=wall,facing=north": {
+    "direction=left,face=wall,facing=east,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_left",
+      "x": -90,
+      "y": 270
+    },
+    "direction=left,face=wall,facing=north,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_left",
       "x": -90,
       "y": 180
     },
-    "direction=left,face=wall,facing=south": {
+    "direction=left,face=wall,facing=north,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_left",
+      "x": -90,
+      "y": 180
+    },
+    "direction=left,face=wall,facing=south,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_left",
       "x": -90
     },
-    "direction=left,face=wall,facing=west": {
+    "direction=left,face=wall,facing=south,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_left",
+      "x": -90
+    },
+    "direction=left,face=wall,facing=west,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_left",
       "x": -90,
       "y": 90
     },
-    "direction=right,face=ceiling,facing=east": {
+    "direction=left,face=wall,facing=west,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_left",
+      "x": -90,
+      "y": 90
+    },
+    "direction=right,face=ceiling,facing=east,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_right",
       "x": -180,
       "y": 90
     },
-    "direction=right,face=ceiling,facing=north": {
+    "direction=right,face=ceiling,facing=east,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_right",
+      "x": -180,
+      "y": 90
+    },
+    "direction=right,face=ceiling,facing=north,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_right",
       "x": -180
     },
-    "direction=right,face=ceiling,facing=south": {
+    "direction=right,face=ceiling,facing=north,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_right",
+      "x": -180
+    },
+    "direction=right,face=ceiling,facing=south,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_right",
       "x": -180,
       "y": 180
     },
-    "direction=right,face=ceiling,facing=west": {
+    "direction=right,face=ceiling,facing=south,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_right",
+      "x": -180,
+      "y": 180
+    },
+    "direction=right,face=ceiling,facing=west,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_right",
       "x": -180,
       "y": 270
     },
-    "direction=right,face=floor,facing=east": {
+    "direction=right,face=ceiling,facing=west,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_right",
+      "x": -180,
+      "y": 270
+    },
+    "direction=right,face=floor,facing=east,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_right",
       "y": 90
     },
-    "direction=right,face=floor,facing=north": {
+    "direction=right,face=floor,facing=east,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_right",
+      "y": 90
+    },
+    "direction=right,face=floor,facing=north,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_right"
     },
-    "direction=right,face=floor,facing=south": {
+    "direction=right,face=floor,facing=north,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_right"
+    },
+    "direction=right,face=floor,facing=south,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_right",
       "y": 180
     },
-    "direction=right,face=floor,facing=west": {
+    "direction=right,face=floor,facing=south,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_right",
+      "y": 180
+    },
+    "direction=right,face=floor,facing=west,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_right",
       "y": 270
     },
-    "direction=right,face=wall,facing=east": {
+    "direction=right,face=floor,facing=west,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_right",
+      "y": 270
+    },
+    "direction=right,face=wall,facing=east,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_right",
       "x": -90,
       "y": 270
     },
-    "direction=right,face=wall,facing=north": {
+    "direction=right,face=wall,facing=east,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_right",
+      "x": -90,
+      "y": 270
+    },
+    "direction=right,face=wall,facing=north,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_right",
       "x": -90,
       "y": 180
     },
-    "direction=right,face=wall,facing=south": {
+    "direction=right,face=wall,facing=north,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_right",
+      "x": -90,
+      "y": 180
+    },
+    "direction=right,face=wall,facing=south,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_right",
       "x": -90
     },
-    "direction=right,face=wall,facing=west": {
+    "direction=right,face=wall,facing=south,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_right",
+      "x": -90
+    },
+    "direction=right,face=wall,facing=west,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_right",
       "x": -90,
       "y": 90
     },
-    "direction=up,face=ceiling,facing=east": {
+    "direction=right,face=wall,facing=west,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_right",
+      "x": -90,
+      "y": 90
+    },
+    "direction=up,face=ceiling,facing=east,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_up",
       "x": -180,
       "y": 90
     },
-    "direction=up,face=ceiling,facing=north": {
+    "direction=up,face=ceiling,facing=east,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_up",
+      "x": -180,
+      "y": 90
+    },
+    "direction=up,face=ceiling,facing=north,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_up",
       "x": -180
     },
-    "direction=up,face=ceiling,facing=south": {
+    "direction=up,face=ceiling,facing=north,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_up",
+      "x": -180
+    },
+    "direction=up,face=ceiling,facing=south,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_up",
       "x": -180,
       "y": 180
     },
-    "direction=up,face=ceiling,facing=west": {
+    "direction=up,face=ceiling,facing=south,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_up",
+      "x": -180,
+      "y": 180
+    },
+    "direction=up,face=ceiling,facing=west,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_up",
       "x": -180,
       "y": 270
     },
-    "direction=up,face=floor,facing=east": {
+    "direction=up,face=ceiling,facing=west,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_up",
+      "x": -180,
+      "y": 270
+    },
+    "direction=up,face=floor,facing=east,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_up",
       "y": 90
     },
-    "direction=up,face=floor,facing=north": {
+    "direction=up,face=floor,facing=east,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_up",
+      "y": 90
+    },
+    "direction=up,face=floor,facing=north,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_up"
     },
-    "direction=up,face=floor,facing=south": {
+    "direction=up,face=floor,facing=north,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_up"
+    },
+    "direction=up,face=floor,facing=south,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_up",
       "y": 180
     },
-    "direction=up,face=floor,facing=west": {
+    "direction=up,face=floor,facing=south,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_up",
+      "y": 180
+    },
+    "direction=up,face=floor,facing=west,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_up",
       "y": 270
     },
-    "direction=up,face=wall,facing=east": {
+    "direction=up,face=floor,facing=west,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_up",
+      "y": 270
+    },
+    "direction=up,face=wall,facing=east,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_up",
       "x": -90,
       "y": 270
     },
-    "direction=up,face=wall,facing=north": {
+    "direction=up,face=wall,facing=east,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_up",
+      "x": -90,
+      "y": 270
+    },
+    "direction=up,face=wall,facing=north,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_up",
       "x": -90,
       "y": 180
     },
-    "direction=up,face=wall,facing=south": {
+    "direction=up,face=wall,facing=north,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_up",
+      "x": -90,
+      "y": 180
+    },
+    "direction=up,face=wall,facing=south,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_up",
       "x": -90
     },
-    "direction=up,face=wall,facing=west": {
+    "direction=up,face=wall,facing=south,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_up",
+      "x": -90
+    },
+    "direction=up,face=wall,facing=west,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_up",
       "x": -90,
       "y": 90
     },
-    "direction=up_left,face=ceiling,facing=east": {
+    "direction=up,face=wall,facing=west,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_up",
+      "x": -90,
+      "y": 90
+    },
+    "direction=up_left,face=ceiling,facing=east,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_up_left",
       "x": -180,
       "y": 90
     },
-    "direction=up_left,face=ceiling,facing=north": {
+    "direction=up_left,face=ceiling,facing=east,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_up_left",
+      "x": -180,
+      "y": 90
+    },
+    "direction=up_left,face=ceiling,facing=north,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_up_left",
       "x": -180
     },
-    "direction=up_left,face=ceiling,facing=south": {
+    "direction=up_left,face=ceiling,facing=north,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_up_left",
+      "x": -180
+    },
+    "direction=up_left,face=ceiling,facing=south,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_up_left",
       "x": -180,
       "y": 180
     },
-    "direction=up_left,face=ceiling,facing=west": {
+    "direction=up_left,face=ceiling,facing=south,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_up_left",
+      "x": -180,
+      "y": 180
+    },
+    "direction=up_left,face=ceiling,facing=west,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_up_left",
       "x": -180,
       "y": 270
     },
-    "direction=up_left,face=floor,facing=east": {
+    "direction=up_left,face=ceiling,facing=west,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_up_left",
+      "x": -180,
+      "y": 270
+    },
+    "direction=up_left,face=floor,facing=east,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_up_left",
       "y": 90
     },
-    "direction=up_left,face=floor,facing=north": {
+    "direction=up_left,face=floor,facing=east,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_up_left",
+      "y": 90
+    },
+    "direction=up_left,face=floor,facing=north,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_up_left"
     },
-    "direction=up_left,face=floor,facing=south": {
+    "direction=up_left,face=floor,facing=north,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_up_left"
+    },
+    "direction=up_left,face=floor,facing=south,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_up_left",
       "y": 180
     },
-    "direction=up_left,face=floor,facing=west": {
+    "direction=up_left,face=floor,facing=south,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_up_left",
+      "y": 180
+    },
+    "direction=up_left,face=floor,facing=west,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_up_left",
       "y": 270
     },
-    "direction=up_left,face=wall,facing=east": {
+    "direction=up_left,face=floor,facing=west,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_up_left",
+      "y": 270
+    },
+    "direction=up_left,face=wall,facing=east,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_up_left",
       "x": -90,
       "y": 270
     },
-    "direction=up_left,face=wall,facing=north": {
+    "direction=up_left,face=wall,facing=east,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_up_left",
+      "x": -90,
+      "y": 270
+    },
+    "direction=up_left,face=wall,facing=north,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_up_left",
       "x": -90,
       "y": 180
     },
-    "direction=up_left,face=wall,facing=south": {
+    "direction=up_left,face=wall,facing=north,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_up_left",
+      "x": -90,
+      "y": 180
+    },
+    "direction=up_left,face=wall,facing=south,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_up_left",
       "x": -90
     },
-    "direction=up_left,face=wall,facing=west": {
+    "direction=up_left,face=wall,facing=south,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_up_left",
+      "x": -90
+    },
+    "direction=up_left,face=wall,facing=west,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_up_left",
       "x": -90,
       "y": 90
     },
-    "direction=up_right,face=ceiling,facing=east": {
+    "direction=up_left,face=wall,facing=west,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_up_left",
+      "x": -90,
+      "y": 90
+    },
+    "direction=up_right,face=ceiling,facing=east,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_up_right",
       "x": -180,
       "y": 90
     },
-    "direction=up_right,face=ceiling,facing=north": {
+    "direction=up_right,face=ceiling,facing=east,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_up_right",
+      "x": -180,
+      "y": 90
+    },
+    "direction=up_right,face=ceiling,facing=north,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_up_right",
       "x": -180
     },
-    "direction=up_right,face=ceiling,facing=south": {
+    "direction=up_right,face=ceiling,facing=north,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_up_right",
+      "x": -180
+    },
+    "direction=up_right,face=ceiling,facing=south,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_up_right",
       "x": -180,
       "y": 180
     },
-    "direction=up_right,face=ceiling,facing=west": {
+    "direction=up_right,face=ceiling,facing=south,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_up_right",
+      "x": -180,
+      "y": 180
+    },
+    "direction=up_right,face=ceiling,facing=west,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_up_right",
       "x": -180,
       "y": 270
     },
-    "direction=up_right,face=floor,facing=east": {
+    "direction=up_right,face=ceiling,facing=west,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_up_right",
+      "x": -180,
+      "y": 270
+    },
+    "direction=up_right,face=floor,facing=east,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_up_right",
       "y": 90
     },
-    "direction=up_right,face=floor,facing=north": {
+    "direction=up_right,face=floor,facing=east,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_up_right",
+      "y": 90
+    },
+    "direction=up_right,face=floor,facing=north,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_up_right"
     },
-    "direction=up_right,face=floor,facing=south": {
+    "direction=up_right,face=floor,facing=north,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_up_right"
+    },
+    "direction=up_right,face=floor,facing=south,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_up_right",
       "y": 180
     },
-    "direction=up_right,face=floor,facing=west": {
+    "direction=up_right,face=floor,facing=south,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_up_right",
+      "y": 180
+    },
+    "direction=up_right,face=floor,facing=west,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_up_right",
       "y": 270
     },
-    "direction=up_right,face=wall,facing=east": {
+    "direction=up_right,face=floor,facing=west,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_up_right",
+      "y": 270
+    },
+    "direction=up_right,face=wall,facing=east,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_up_right",
       "x": -90,
       "y": 270
     },
-    "direction=up_right,face=wall,facing=north": {
+    "direction=up_right,face=wall,facing=east,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_up_right",
+      "x": -90,
+      "y": 270
+    },
+    "direction=up_right,face=wall,facing=north,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_up_right",
       "x": -90,
       "y": 180
     },
-    "direction=up_right,face=wall,facing=south": {
+    "direction=up_right,face=wall,facing=north,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_up_right",
+      "x": -90,
+      "y": 180
+    },
+    "direction=up_right,face=wall,facing=south,waxed=false": {
       "model": "industrially_plated:block/arrow_sign_up_right",
       "x": -90
     },
-    "direction=up_right,face=wall,facing=west": {
+    "direction=up_right,face=wall,facing=south,waxed=true": {
+      "model": "industrially_plated:block/arrow_sign_up_right",
+      "x": -90
+    },
+    "direction=up_right,face=wall,facing=west,waxed=false": {
+      "model": "industrially_plated:block/arrow_sign_up_right",
+      "x": -90,
+      "y": 90
+    },
+    "direction=up_right,face=wall,facing=west,waxed=true": {
       "model": "industrially_plated:block/arrow_sign_up_right",
       "x": -90,
       "y": 90

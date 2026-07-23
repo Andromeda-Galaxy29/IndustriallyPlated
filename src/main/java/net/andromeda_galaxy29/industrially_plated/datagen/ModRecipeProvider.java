@@ -238,6 +238,31 @@ public class ModRecipeProvider extends RecipeProvider {
                     .save(recipeOutput, modLoc("stonecutting/" + name(safetySign)));
         }
 
+        // Fire safety signage
+        SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PLATING_BLOCKS.get(DyeColor.RED)), RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLANK_FIRE_SAFETY_SIGN, 4)
+                .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
+                .save(recipeOutput, modLoc("stonecutting/" + name(ModBlocks.BLANK_FIRE_SAFETY_SIGN) + "_from_plating_block"));
+
+        DeferredBlock[] fireSafetySignage = {
+                ModBlocks.BLANK_FIRE_SAFETY_SIGN,
+                ModBlocks.GENERIC_FIRE_SAFETY_SIGN,
+                ModBlocks.FIRE_SAFETY_ARROW_SIGN,
+                ModBlocks.FIRE_EMERGENCY_EXIT_SIGN,
+                ModBlocks.FIRE_EMERGENCY_STAIRS_SIGN,
+                ModBlocks.FIRE_EMERGENCY_LADDER_SIGN,
+                ModBlocks.FIRE_EMERGENCY_PHONE_SIGN,
+                ModBlocks.FIRE_EXTINGUISHER_SIGN,
+                ModBlocks.FIRE_HOSE_SIGN,
+                ModBlocks.FIRE_HOSE_REEL_SIGN,
+                ModBlocks.FIRE_ALARM_SIGN
+        };
+
+        for (DeferredBlock fireSafetySign : fireSafetySignage) {
+            SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModTags.Items.FIRE_SAFETY_SIGNAGE), RecipeCategory.BUILDING_BLOCKS, fireSafetySign, 1)
+                    .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))
+                    .save(recipeOutput, modLoc("stonecutting/" + name(fireSafetySign)));
+        }
+
         // Instruction signage
         SingleItemRecipeBuilder.stonecutting(Ingredient.of(ModBlocks.PLATING_BLOCKS.get(DyeColor.BLUE)), RecipeCategory.BUILDING_BLOCKS, ModBlocks.BLANK_INSTRUCTION_SIGN, 4)
                 .unlockedBy("has_gray_plating_block", has(grayPlatingBlock))

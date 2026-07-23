@@ -75,6 +75,18 @@ public class ModBlockLootSubProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.LADDER_SIGN.get());
         dropSelf(ModBlocks.MEDICAL_CROSS_SIGN.get());
 
+        dropSelf(ModBlocks.BLANK_FIRE_SAFETY_SIGN.get());
+        dropSelf(ModBlocks.GENERIC_FIRE_SAFETY_SIGN.get());
+        dropSelf(ModBlocks.FIRE_SAFETY_ARROW_SIGN.get());
+        dropSelf(ModBlocks.FIRE_EMERGENCY_EXIT_SIGN.get());
+        dropSelf(ModBlocks.FIRE_EMERGENCY_STAIRS_SIGN.get());
+        dropSelf(ModBlocks.FIRE_EMERGENCY_LADDER_SIGN.get());
+        dropSelf(ModBlocks.FIRE_EMERGENCY_PHONE_SIGN.get());
+        dropSelf(ModBlocks.FIRE_EXTINGUISHER_SIGN.get());
+        dropSelf(ModBlocks.FIRE_HOSE_SIGN.get());
+        dropSelf(ModBlocks.FIRE_HOSE_REEL_SIGN.get());
+        dropSelf(ModBlocks.FIRE_ALARM_SIGN.get());
+
         dropSelf(ModBlocks.BLANK_INSTRUCTION_SIGN.get());
         dropSelf(ModBlocks.GENERIC_INSTRUCTION_SIGN.get());
         dropSelf(ModBlocks.WEAR_EAR_PROTECTION_SIGN.get());

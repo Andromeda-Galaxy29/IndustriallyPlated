@@ -66,6 +66,18 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleBlockItem(ModBlocks.LADDER_SIGN.get());
         simpleBlockItem(ModBlocks.MEDICAL_CROSS_SIGN.get());
 
+        simpleBlockItem(ModBlocks.BLANK_FIRE_SAFETY_SIGN.get());
+        simpleBlockItem(ModBlocks.GENERIC_FIRE_SAFETY_SIGN.get());
+        customBlockItem(ModBlocks.FIRE_SAFETY_ARROW_SIGN.get(), "block/fire_safety_arrow_sign_right");
+        simpleBlockItem(ModBlocks.FIRE_EMERGENCY_EXIT_SIGN.get());
+        simpleBlockItem(ModBlocks.FIRE_EMERGENCY_STAIRS_SIGN.get());
+        simpleBlockItem(ModBlocks.FIRE_EMERGENCY_LADDER_SIGN.get());
+        simpleBlockItem(ModBlocks.FIRE_EMERGENCY_PHONE_SIGN.get());
+        simpleBlockItem(ModBlocks.FIRE_EXTINGUISHER_SIGN.get());
+        simpleBlockItem(ModBlocks.FIRE_HOSE_SIGN.get());
+        simpleBlockItem(ModBlocks.FIRE_HOSE_REEL_SIGN.get());
+        simpleBlockItem(ModBlocks.FIRE_ALARM_SIGN.get());
+
         simpleBlockItem(ModBlocks.BLANK_INSTRUCTION_SIGN.get());
         simpleBlockItem(ModBlocks.GENERIC_INSTRUCTION_SIGN.get());
         simpleBlockItem(ModBlocks.WEAR_EAR_PROTECTION_SIGN.get());

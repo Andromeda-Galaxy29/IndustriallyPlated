@@ -155,6 +155,41 @@ public class ModBlocks {
     public static final DeferredBlock<SignageBlock> MEDICAL_CROSS_SIGN = registerBlockWithItem("medical_cross_sign",
             () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_SAFETY_SIGN.get())));
 
+    // Fire safety signage
+    public static final DeferredBlock<SignageBlock> BLANK_FIRE_SAFETY_SIGN = registerBlockWithItem("blank_fire_safety_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_HAZARD_SIGN.get())
+                    .mapColor(DyeColor.RED)));
+
+    public static final DeferredBlock<SignageBlock> GENERIC_FIRE_SAFETY_SIGN = registerBlockWithItem("generic_fire_safety_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_FIRE_SAFETY_SIGN.get())));
+
+    public static final DeferredBlock<DirectionalSignageBlock> FIRE_SAFETY_ARROW_SIGN = registerBlockWithItem("fire_safety_arrow_sign",
+            () -> new DirectionalSignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_FIRE_SAFETY_SIGN.get())));
+
+    public static final DeferredBlock<MirrorableSignageBlock> FIRE_EMERGENCY_EXIT_SIGN = registerBlockWithItem("fire_emergency_exit_sign",
+            () -> new MirrorableSignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_FIRE_SAFETY_SIGN.get())));
+
+    public static final DeferredBlock<MirrorableSignageBlock> FIRE_EMERGENCY_STAIRS_SIGN = registerBlockWithItem("fire_emergency_stairs_sign",
+            () -> new MirrorableSignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_FIRE_SAFETY_SIGN.get())));
+
+    public static final DeferredBlock<SignageBlock> FIRE_EMERGENCY_LADDER_SIGN = registerBlockWithItem("fire_emergency_ladder_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_FIRE_SAFETY_SIGN.get())));
+
+    public static final DeferredBlock<SignageBlock> FIRE_EMERGENCY_PHONE_SIGN = registerBlockWithItem("fire_emergency_phone_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_FIRE_SAFETY_SIGN.get())));
+
+    public static final DeferredBlock<SignageBlock> FIRE_EXTINGUISHER_SIGN = registerBlockWithItem("fire_extinguisher_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_FIRE_SAFETY_SIGN.get())));
+
+    public static final DeferredBlock<SignageBlock> FIRE_HOSE_SIGN = registerBlockWithItem("fire_hose_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_FIRE_SAFETY_SIGN.get())));
+
+    public static final DeferredBlock<SignageBlock> FIRE_HOSE_REEL_SIGN = registerBlockWithItem("fire_hose_reel_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_FIRE_SAFETY_SIGN.get())));
+
+    public static final DeferredBlock<SignageBlock> FIRE_ALARM_SIGN = registerBlockWithItem("fire_alarm_sign",
+            () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_FIRE_SAFETY_SIGN.get())));
+
     // Instruction signage
     public static final DeferredBlock<SignageBlock> BLANK_INSTRUCTION_SIGN = registerBlockWithItem("blank_instruction_sign",
             () -> new SignageBlock(BlockBehaviour.Properties.ofFullCopy(BLANK_HAZARD_SIGN.get())

@@ -86,6 +86,18 @@ public class ModBlockStateProvider extends BlockStateProvider {
         signageBlock(ModBlocks.LADDER_SIGN);
         signageBlock(ModBlocks.MEDICAL_CROSS_SIGN);
 
+        signageBlock(ModBlocks.BLANK_FIRE_SAFETY_SIGN);
+        signageBlock(ModBlocks.GENERIC_FIRE_SAFETY_SIGN);
+        directionalSignageBlock(ModBlocks.FIRE_SAFETY_ARROW_SIGN);
+        mirrorableSignageBlock(ModBlocks.FIRE_EMERGENCY_EXIT_SIGN);
+        mirrorableSignageBlock(ModBlocks.FIRE_EMERGENCY_STAIRS_SIGN);
+        signageBlock(ModBlocks.FIRE_EMERGENCY_LADDER_SIGN);
+        signageBlock(ModBlocks.FIRE_EMERGENCY_PHONE_SIGN);
+        signageBlock(ModBlocks.FIRE_EXTINGUISHER_SIGN);
+        signageBlock(ModBlocks.FIRE_HOSE_SIGN);
+        signageBlock(ModBlocks.FIRE_HOSE_REEL_SIGN);
+        signageBlock(ModBlocks.FIRE_ALARM_SIGN);
+
         signageBlock(ModBlocks.BLANK_INSTRUCTION_SIGN);
         signageBlock(ModBlocks.GENERIC_INSTRUCTION_SIGN);
         signageBlock(ModBlocks.WEAR_EAR_PROTECTION_SIGN);
