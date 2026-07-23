@@ -4,6 +4,7 @@ import net.andromeda_galaxy29.industrially_plated.IndustriallyPlated;
 import net.andromeda_galaxy29.industrially_plated.block.ModBlocks;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.level.block.Block;
@@ -21,18 +22,20 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
     @Override
     protected void addTags(HolderLookup.@NotNull Provider lookupProvider) {
         for (DyeColor color : DyeColor.values()) {
-            Block[] platingBlocks = {
-                    ModBlocks.PLATING_BLOCKS.get(color).get(),
-                    ModBlocks.PLATING_GRATES.get(color).get(),
-                    ModBlocks.CUT_PLATING.get(color).get(),
-                    ModBlocks.CUT_PLATING_STAIRS.get(color).get(),
-                    ModBlocks.CUT_PLATING_SLABS.get(color).get()
+            ResourceLocation[] platingBlocks = {
+                    ModBlocks.PLATING_BLOCKS.get(color).getId(),
+                    ModBlocks.PLATING_GRATES.get(color).getId(),
+                    ModBlocks.CUT_PLATING.get(color).getId(),
+                    ModBlocks.CUT_PLATING_STAIRS.get(color).getId(),
+                    ModBlocks.CUT_PLATING_SLABS.get(color).getId()
             };
 
-            tag(BlockTags.MINEABLE_WITH_PICKAXE).add(platingBlocks);
-            tag(BlockTags.NEEDS_STONE_TOOL).add(platingBlocks);
-            tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL).add(platingBlocks);
-            tag(BlockTags.INCORRECT_FOR_GOLD_TOOL).add(platingBlocks);
+            for (ResourceLocation block : platingBlocks) {
+                tag(BlockTags.MINEABLE_WITH_PICKAXE).addOptional(block);
+                tag(BlockTags.NEEDS_STONE_TOOL).addOptional(block);
+                tag(BlockTags.INCORRECT_FOR_WOODEN_TOOL).addOptional(block);
+                tag(BlockTags.INCORRECT_FOR_GOLD_TOOL).addOptional(block);
+            }
         }
 
         Block[] metalBlocks = {
