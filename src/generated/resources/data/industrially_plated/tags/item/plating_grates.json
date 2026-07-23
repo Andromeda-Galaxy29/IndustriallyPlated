@@ -1,36 +1,132 @@
 {
   "values": [
-    "industrially_plated:white_plating_grate",
-    "industrially_plated:orange_plating_grate",
-    "industrially_plated:magenta_plating_grate",
-    "industrially_plated:light_blue_plating_grate",
-    "industrially_plated:yellow_plating_grate",
-    "industrially_plated:lime_plating_grate",
-    "industrially_plated:pink_plating_grate",
-    "industrially_plated:gray_plating_grate",
-    "industrially_plated:light_gray_plating_grate",
-    "industrially_plated:cyan_plating_grate",
-    "industrially_plated:purple_plating_grate",
-    "industrially_plated:blue_plating_grate",
-    "industrially_plated:brown_plating_grate",
-    "industrially_plated:green_plating_grate",
-    "industrially_plated:red_plating_grate",
-    "industrially_plated:black_plating_grate",
-    "industrially_plated:maroon_plating_grate",
-    "industrially_plated:rose_plating_grate",
-    "industrially_plated:coral_plating_grate",
-    "industrially_plated:indigo_plating_grate",
-    "industrially_plated:navy_plating_grate",
-    "industrially_plated:slate_plating_grate",
-    "industrially_plated:olive_plating_grate",
-    "industrially_plated:amber_plating_grate",
-    "industrially_plated:beige_plating_grate",
-    "industrially_plated:teal_plating_grate",
-    "industrially_plated:mint_plating_grate",
-    "industrially_plated:aqua_plating_grate",
-    "industrially_plated:verdant_plating_grate",
-    "industrially_plated:forest_plating_grate",
-    "industrially_plated:ginger_plating_grate",
-    "industrially_plated:tan_plating_grate"
+    {
+      "id": "industrially_plated:white_plating_grate",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:orange_plating_grate",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:magenta_plating_grate",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:light_blue_plating_grate",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:yellow_plating_grate",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:lime_plating_grate",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:pink_plating_grate",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:gray_plating_grate",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:light_gray_plating_grate",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:cyan_plating_grate",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:purple_plating_grate",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:blue_plating_grate",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:brown_plating_grate",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:green_plating_grate",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:red_plating_grate",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:black_plating_grate",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:maroon_plating_grate",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:rose_plating_grate",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:coral_plating_grate",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:indigo_plating_grate",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:navy_plating_grate",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:slate_plating_grate",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:olive_plating_grate",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:amber_plating_grate",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:beige_plating_grate",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:teal_plating_grate",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:mint_plating_grate",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:aqua_plating_grate",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:verdant_plating_grate",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:forest_plating_grate",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:ginger_plating_grate",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:tan_plating_grate",
+      "required": false
+    }
   ]
 }

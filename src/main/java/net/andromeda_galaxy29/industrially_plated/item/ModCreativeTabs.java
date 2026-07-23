@@ -1,5 +1,6 @@
 package net.andromeda_galaxy29.industrially_plated.item;
 
+import com.ninni.dye_depot.registry.DDDyes;
 import net.andromeda_galaxy29.industrially_plated.IndustriallyPlated;
 import net.andromeda_galaxy29.industrially_plated.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
@@ -26,6 +27,19 @@ public class ModCreativeTabs {
                                 DyeColor.LIME, DyeColor.GREEN, DyeColor.CYAN, DyeColor.LIGHT_BLUE,
                                 DyeColor.BLUE, DyeColor.PURPLE, DyeColor.MAGENTA, DyeColor.PINK
                         };
+
+                        if (IndustriallyPlated.DYE_DEPOT) {
+                            dyeOrder = new DyeColor[]{
+                                    DyeColor.WHITE, DyeColor.LIGHT_GRAY, DyeColor.GRAY, DyeColor.BLACK,
+                                    DyeColor.BROWN, DDDyes.MAROON.get(), DDDyes.ROSE.get(), DyeColor.RED,
+                                    DDDyes.CORAL.get(), DDDyes.GINGER.get(), DyeColor.ORANGE, DDDyes.TAN.get(),
+                                    DDDyes.BEIGE.get(), DyeColor.YELLOW, DDDyes.AMBER.get(), DDDyes.OLIVE.get(),
+                                    DyeColor.LIME, DDDyes.FOREST.get(), DyeColor.GREEN, DDDyes.VERDANT.get(),
+                                    DDDyes.TEAL.get(), DyeColor.CYAN, DDDyes.MINT.get(), DDDyes.AQUA.get(),
+                                    DyeColor.LIGHT_BLUE, DyeColor.BLUE, DDDyes.SLATE.get(), DDDyes.NAVY.get(),
+                                    DDDyes.INDIGO.get(), DyeColor.PURPLE, DyeColor.MAGENTA, DyeColor.PINK
+                            };
+                        }
 
                         for (DyeColor color : dyeOrder) {
                             output.accept(ModBlocks.PLATING_BLOCKS.get(color));

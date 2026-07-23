@@ -1,4 +1,4 @@
-// 1.21.1	2026-07-23T00:57:39.4072459	Tags for minecraft:item mod id industrially_plated
+// 1.21.1	2026-07-23T11:30:50.7239086	Tags for minecraft:item mod id industrially_plated
 09fb6198b8652c881821b769672ed50039d2758f data/c/tags/item/dyed.json
 3d8a0caf5e96fbf2f8e1d04992ebf5a937f31463 data/c/tags/item/dyed/amber.json
 ad01c33de37d4a490c0a8b0bdc90d363f7b55d44 data/c/tags/item/dyed/aqua.json
@@ -32,14 +32,14 @@ cc24d770f9cf647378a2219a3331128d9bbae89b data/c/tags/item/dyed/tan.json
 48044c393a59ee82cf1f6f07b98c36b893a88812 data/c/tags/item/dyed/verdant.json
 9babbd7ba8d99fd011c717b78f463c168e33b2a1 data/c/tags/item/dyed/white.json
 5f700d407e120f54c045668f193cf45a8245ee12 data/c/tags/item/dyed/yellow.json
-17429c01c7df738d8d2b5b7bf73ed3b440229fe0 data/industrially_plated/tags/item/cut_plating.json
-4fd3b597b994a71d465a8a2a2aac690db66b8c27 data/industrially_plated/tags/item/cut_plating_slabs.json
-9f49ff37fe4b09872baca6fbb0155db3238a1cde data/industrially_plated/tags/item/cut_plating_stairs.json
+732de7b55e50c57b68f04fe4161468405303fe30 data/industrially_plated/tags/item/cut_plating.json
+928226dd33b33344731632ede986e0a2013c64d2 data/industrially_plated/tags/item/cut_plating_slabs.json
+732dc7b1953e1c91f8db404a4478ec97fb09936a data/industrially_plated/tags/item/cut_plating_stairs.json
 cf881bf5677c601a2a3b479e8e71d35e988081c6 data/industrially_plated/tags/item/fire_diamond_materials.json
 f5ad8374e519ade56d34c86bedd330de3cfba785 data/industrially_plated/tags/item/hazard_signage.json
 d904122be3877e8afdebc73692c80e6000ad9696 data/industrially_plated/tags/item/instruction_signage.json
-ac90e823516091caa9168e783a88a3dbf4ded40a data/industrially_plated/tags/item/plating_blocks.json
-f7b0b44f5e1c30ea1703cbb3a7c3c4cd464a2457 data/industrially_plated/tags/item/plating_grates.json
+8f0754356f57a7845c268818ec3f33658c045f39 data/industrially_plated/tags/item/plating_blocks.json
+07963e3e0892adf7e92b6eb94b022238f3797ed7 data/industrially_plated/tags/item/plating_grates.json
 323f775414a1cc1ccf13553ec0c3619de36ccfad data/industrially_plated/tags/item/prohibition_signage.json
 25599a2ee90ed140810a8664c1531186c06a935f data/industrially_plated/tags/item/prohibition_signage_materials.json
 2fa1dc9849f046347278cf9db5b537703b225477 data/industrially_plated/tags/item/safety_signage.json

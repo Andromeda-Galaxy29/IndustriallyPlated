@@ -1,36 +1,132 @@
 {
   "values": [
-    "industrially_plated:white_cut_plating_stairs",
-    "industrially_plated:orange_cut_plating_stairs",
-    "industrially_plated:magenta_cut_plating_stairs",
-    "industrially_plated:light_blue_cut_plating_stairs",
-    "industrially_plated:yellow_cut_plating_stairs",
-    "industrially_plated:lime_cut_plating_stairs",
-    "industrially_plated:pink_cut_plating_stairs",
-    "industrially_plated:gray_cut_plating_stairs",
-    "industrially_plated:light_gray_cut_plating_stairs",
-    "industrially_plated:cyan_cut_plating_stairs",
-    "industrially_plated:purple_cut_plating_stairs",
-    "industrially_plated:blue_cut_plating_stairs",
-    "industrially_plated:brown_cut_plating_stairs",
-    "industrially_plated:green_cut_plating_stairs",
-    "industrially_plated:red_cut_plating_stairs",
-    "industrially_plated:black_cut_plating_stairs",
-    "industrially_plated:maroon_cut_plating_stairs",
-    "industrially_plated:rose_cut_plating_stairs",
-    "industrially_plated:coral_cut_plating_stairs",
-    "industrially_plated:indigo_cut_plating_stairs",
-    "industrially_plated:navy_cut_plating_stairs",
-    "industrially_plated:slate_cut_plating_stairs",
-    "industrially_plated:olive_cut_plating_stairs",
-    "industrially_plated:amber_cut_plating_stairs",
-    "industrially_plated:beige_cut_plating_stairs",
-    "industrially_plated:teal_cut_plating_stairs",
-    "industrially_plated:mint_cut_plating_stairs",
-    "industrially_plated:aqua_cut_plating_stairs",
-    "industrially_plated:verdant_cut_plating_stairs",
-    "industrially_plated:forest_cut_plating_stairs",
-    "industrially_plated:ginger_cut_plating_stairs",
-    "industrially_plated:tan_cut_plating_stairs"
+    {
+      "id": "industrially_plated:white_cut_plating_stairs",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:orange_cut_plating_stairs",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:magenta_cut_plating_stairs",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:light_blue_cut_plating_stairs",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:yellow_cut_plating_stairs",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:lime_cut_plating_stairs",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:pink_cut_plating_stairs",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:gray_cut_plating_stairs",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:light_gray_cut_plating_stairs",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:cyan_cut_plating_stairs",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:purple_cut_plating_stairs",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:blue_cut_plating_stairs",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:brown_cut_plating_stairs",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:green_cut_plating_stairs",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:red_cut_plating_stairs",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:black_cut_plating_stairs",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:maroon_cut_plating_stairs",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:rose_cut_plating_stairs",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:coral_cut_plating_stairs",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:indigo_cut_plating_stairs",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:navy_cut_plating_stairs",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:slate_cut_plating_stairs",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:olive_cut_plating_stairs",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:amber_cut_plating_stairs",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:beige_cut_plating_stairs",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:teal_cut_plating_stairs",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:mint_cut_plating_stairs",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:aqua_cut_plating_stairs",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:verdant_cut_plating_stairs",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:forest_cut_plating_stairs",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:ginger_cut_plating_stairs",
+      "required": false
+    },
+    {
+      "id": "industrially_plated:tan_cut_plating_stairs",
+      "required": false
+    }
   ]
 }

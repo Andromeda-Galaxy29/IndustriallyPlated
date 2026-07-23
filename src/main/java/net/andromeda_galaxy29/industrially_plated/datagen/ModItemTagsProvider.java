@@ -39,11 +39,11 @@ public class ModItemTagsProvider extends ItemTagsProvider {
                     .add(ModBlocks.CUT_PLATING_STAIRS.get(color).asItem())
                     .add(ModBlocks.CUT_PLATING_SLABS.get(color).asItem());
 
-            tag(ModTags.Items.PLATING_BLOCKS).add(ModBlocks.PLATING_BLOCKS.get(color).asItem());
-            tag(ModTags.Items.PLATING_GRATES).add(ModBlocks.PLATING_GRATES.get(color).asItem());
-            tag(ModTags.Items.CUT_PLATING).add(ModBlocks.CUT_PLATING.get(color).asItem());
-            tag(ModTags.Items.CUT_PLATING_STAIRS).add(ModBlocks.CUT_PLATING_STAIRS.get(color).asItem());
-            tag(ModTags.Items.CUT_PLATING_SLABS).add(ModBlocks.CUT_PLATING_SLABS.get(color).asItem());
+            tag(ModTags.Items.PLATING_BLOCKS).addOptional(ModBlocks.PLATING_BLOCKS.get(color).getId());
+            tag(ModTags.Items.PLATING_GRATES).addOptional(ModBlocks.PLATING_GRATES.get(color).getId());
+            tag(ModTags.Items.CUT_PLATING).addOptional(ModBlocks.CUT_PLATING.get(color).getId());
+            tag(ModTags.Items.CUT_PLATING_STAIRS).addOptional(ModBlocks.CUT_PLATING_STAIRS.get(color).getId());
+            tag(ModTags.Items.CUT_PLATING_SLABS).addOptional(ModBlocks.CUT_PLATING_SLABS.get(color).getId());
         }
 
         tag(ModTags.Items.HAZARD_SIGNAGE)
