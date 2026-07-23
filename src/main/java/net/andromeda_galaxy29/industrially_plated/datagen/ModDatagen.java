@@ -35,6 +35,8 @@ public class ModDatagen {
                 ), lookupProvider)
         );
 
+        generator.addProvider(event.includeClient(), new ModLangProvider(packOutput));
+
         ModBlockTagsProvider modBlockTagsProvider = new ModBlockTagsProvider(packOutput, lookupProvider, existingFileHelper);
         event.getGenerator().addProvider(event.includeServer(), modBlockTagsProvider);
         event.getGenerator().addProvider(event.includeServer(), new ModItemTagsProvider(packOutput, lookupProvider, modBlockTagsProvider.contentsGetter(), existingFileHelper));

@@ -19,7 +19,7 @@ public class ModCreativeTabs {
 
     public static final Supplier<CreativeModeTab> INDUSTRIALLY_PLATED_BLOCKS_TAB = CREATIVE_MODE_TABS.register("industrially_plated_blocks",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.PLATING_BLOCKS.get(DyeColor.GRAY).get()))
-                    .title(Component.translatable("itemGroup.industrially_plated_blocks"))
+                    .title(Component.translatable("itemGroup.industrially_plated.blocks"))
                     .displayItems((itemDisplayParameters, output) -> {
                         DyeColor[] dyeOrder = {
                                 DyeColor.WHITE, DyeColor.LIGHT_GRAY, DyeColor.GRAY, DyeColor.BLACK,
@@ -55,7 +55,7 @@ public class ModCreativeTabs {
 
     public static final Supplier<CreativeModeTab> INDUSTRIALLY_PLATED_SIGNAGE_TAB = CREATIVE_MODE_TABS.register("industrially_plated_signage",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.RADIATION_HAZARD_SIGN.get()))
-                    .title(Component.translatable("itemGroup.industrially_plated_signage"))
+                    .title(Component.translatable("itemGroup.industrially_plated.signage"))
                     .displayItems((itemDisplayParameters, output) -> {
                         // Hazard signage
                         output.accept(ModBlocks.BLANK_HAZARD_SIGN);
