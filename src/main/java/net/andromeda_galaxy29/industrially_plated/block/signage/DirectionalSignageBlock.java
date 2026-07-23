@@ -23,7 +23,16 @@ public class DirectionalSignageBlock extends ConfigurableSignageBlock{
 
     @Override
     public @NotNull InteractionResult config(BlockState state, Level level, BlockPos pos, Player player, BlockHitResult hitResult) {
-        level.setBlockAndUpdate(pos, state.setValue(DIRECTION, SignageDirection.values()[(state.getValue(DIRECTION).ordinal() + 1) % 8]));
+        if (!player.isShiftKeyDown()) {
+            int i = (state.getValue(DIRECTION).ordinal() + 1) % SignageDirection.values().length;
+            level.setBlockAndUpdate(pos, state.setValue(DIRECTION, SignageDirection.values()[i]));
+        } else {
+            int i = state.getValue(DIRECTION).ordinal() - 1;
+            if (i < 0) {
+                i += SignageDirection.values().length;
+            }
+            level.setBlockAndUpdate(pos, state.setValue(DIRECTION, SignageDirection.values()[i]));
+        }
         return InteractionResult.sidedSuccess(level.isClientSide);
     }
 
