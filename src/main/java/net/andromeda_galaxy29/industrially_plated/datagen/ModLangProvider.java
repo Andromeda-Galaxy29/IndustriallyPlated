@@ -15,8 +15,16 @@ public class ModLangProvider extends LanguageProvider {
 
     @Override
     protected void addTranslations() {
+        addTooltipTranslations();
         addTabTranslations();
         addBlockTranslations();
+    }
+
+    private void addTooltipTranslations() {
+        add("tooltip.industrially_plated.mirror", "- Right click to mirror");
+        add("tooltip.industrially_plated.rotate_cw", "- Right click to rotate clockwise");
+        add("tooltip.industrially_plated.rotate_ccw", "- Crouch + right click to rotate counter-clockwise");
+        add("tooltip.industrially_plated.wax", "- Can be waxed to lock the current state. Use axe to unlock");
     }
 
     private void addTabTranslations() {

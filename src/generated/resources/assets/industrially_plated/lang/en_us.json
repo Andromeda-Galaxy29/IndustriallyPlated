@@ -215,5 +215,9 @@
   "block.industrially_plated.yellow_plating_block": "Yellow Plating Block",
   "block.industrially_plated.yellow_plating_grate": "Yellow Plating Grate",
   "itemGroup.industrially_plated.blocks": "Industrially Plated: Blocks",
-  "itemGroup.industrially_plated.signage": "Industrially Plated: Signage"
+  "itemGroup.industrially_plated.signage": "Industrially Plated: Signage",
+  "tooltip.industrially_plated.mirror": "- Right click to mirror",
+  "tooltip.industrially_plated.rotate_ccw": "- Crouch + right click to rotate counter-clockwise",
+  "tooltip.industrially_plated.rotate_cw": "- Right click to rotate clockwise",
+  "tooltip.industrially_plated.wax": "- Can be waxed to lock the current state. Use axe to unlock"
 }
